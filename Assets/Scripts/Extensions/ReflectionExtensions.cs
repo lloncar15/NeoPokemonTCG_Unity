@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace UnityExtensions {
+namespace GimGim.UnityExtensions {
     public static class ReflectionExtensions {
         static readonly Dictionary<Type, string> TypeDisplayNames = new() {
             { typeof(int), "int" },

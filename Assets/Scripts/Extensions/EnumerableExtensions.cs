@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace UnityExtensions {
+namespace GimGim.UnityExtensions {
     public static class EnumerableExtensions {
         /// <summary>
         /// Performs an action on each element in the sequence.

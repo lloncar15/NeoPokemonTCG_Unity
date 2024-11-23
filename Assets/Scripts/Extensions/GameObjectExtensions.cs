@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Linq;
 
-namespace UnityExtensions
+namespace GimGim.UnityExtensions
 {
     public static class GameObjectExtensions {
         /// <summary>

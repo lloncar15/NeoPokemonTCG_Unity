@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace UnityExtensions {
+namespace GimGim.UnityExtensions {
     public static class ListExtensions { 
         static Random _rng;
         

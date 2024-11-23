@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnityExtensions
+namespace GimGim.UnityExtensions
 {
     public static class Vector2Extensions {
         /// <summary>

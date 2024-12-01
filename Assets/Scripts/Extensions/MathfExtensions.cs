@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GimGim.UnityExtensions {
+namespace GimGim.Extensions {
     public class MathfExtensions : MonoBehaviour {
         
         /// <summary>

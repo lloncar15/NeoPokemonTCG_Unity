@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace GimGim.UnityExtensions
+namespace GimGim.Extensions
 {
     public static class TransformExtensions {
         /// <summary>

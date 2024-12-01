@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GimGim.UnityExtensions {
+namespace GimGim.Extensions {
     public static class Vector3Extensions {
            /// <summary>
         /// Sets any x y z values of a Vector3

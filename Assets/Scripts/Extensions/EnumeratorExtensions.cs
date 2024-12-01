@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace GimGim.UnityExtensions {
+namespace GimGim.Extensions {
     public static class EnumeratorExtensions {
         /// <summary>
         /// Converts an IEnumerator<T> to an IEnumerable<T>.

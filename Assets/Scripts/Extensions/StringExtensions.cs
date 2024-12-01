@@ -1,6 +1,6 @@
 using System;
 
-namespace GimGim.UnityExtensions {
+namespace GimGim.Extensions {
     public static class StringExtensions {
         
         /// <summary>

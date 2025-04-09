@@ -1,4 +1,4 @@
-namespace GimGim.Models {
+namespace GimGim.Model {
     public class Set {
         private string _id;
         private string _name;

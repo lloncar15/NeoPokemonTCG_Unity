@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace GimGim.Models {
+namespace GimGim.Model {
     public class Match {
         public const int PlayerCount = 2;
         

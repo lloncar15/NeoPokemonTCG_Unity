@@ -1,4 +1,4 @@
-namespace GimGim.Models {
+namespace GimGim.Enums {
     public enum Rarity {
         Common,
         Uncommon,

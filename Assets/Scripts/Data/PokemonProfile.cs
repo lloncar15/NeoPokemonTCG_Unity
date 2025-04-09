@@ -1,7 +1,8 @@
 using System.Collections.Generic;
+using GimGim.Enums;
 
-namespace GimGim.Models {
-    public class Pokemon : Card {
+namespace GimGim.Data {
+    public class PokemonProfile : CardProfile {
         private int _hp;
         private List<EnergyType> _types = new List<EnergyType>();
         private List<string> _evolvesFrom = new List<string>();

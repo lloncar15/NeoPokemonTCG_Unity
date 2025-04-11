@@ -1,12 +1,12 @@
 using GimGim.Serialization;
 
 namespace GimGim.Data {
+    
     public class Profile : ISerializable {
-        public virtual bool Encode() {
-            return false;
+        public virtual void Encode(IEncoder encoder) {
         }
 
-        public virtual bool Decode() {
+        public virtual bool Decode(IDecoder decoder) {
             return false;
         }
     }

@@ -1,6 +1,8 @@
+using System.Security;
+
 namespace GimGim.Serialization {
     public interface ISerializable {
-        public bool Encode();
-        public bool Decode();
+        void Encode(IEncoder coder);
+        bool Decode(IDecoder coder);
     }
 }

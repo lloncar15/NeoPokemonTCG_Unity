@@ -14,13 +14,12 @@ namespace GimGim.Data {
         private Rarity _rarity;
 
 
-        public override bool Encode() {
-            base.Encode();
-            return false;
+        public override void Encode(IEncoder encoder) {
+            base.Encode(encoder);
         }
 
-        public override bool Decode() {
-            base.Decode();
+        public override bool Decode(IDecoder decoder) {
+            base.Decode(decoder);
             return false;
         }
     }

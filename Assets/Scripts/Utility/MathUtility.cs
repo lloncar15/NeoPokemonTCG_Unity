@@ -1,7 +1,7 @@
 using System;
 
 namespace GimGim.Utility {
-    public static class MathUtilities {
+    public static class MathUtility {
         public static bool ApproximatelyEquals(this float a, float b, float epsilon = float.Epsilon) {
             return Math.Abs(a - b) < epsilon;
         }

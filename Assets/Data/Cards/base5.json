@@ -1,6 +1,6 @@
 [
   {
-    "id": "base5-1",
+    "id": "5001",
     "name": "Dark Alakazam",
     "supertype": "Pokemon",
     "subtypes": [
@@ -55,7 +55,7 @@
     }
   },
   {
-    "id": "base5-2",
+    "id": "5002",
     "name": "Dark Arbok",
     "supertype": "Pokemon",
     "subtypes": [
@@ -108,7 +108,7 @@
     }
   },
   {
-    "id": "base5-3",
+    "id": "5003",
     "name": "Dark Blastoise",
     "supertype": "Pokemon",
     "subtypes": [
@@ -161,7 +161,7 @@
     }
   },
   {
-    "id": "base5-4",
+    "id": "5004",
     "name": "Dark Charizard",
     "supertype": "Pokemon",
     "subtypes": [
@@ -219,7 +219,7 @@
     }
   },
   {
-    "id": "base5-5",
+    "id": "5005",
     "name": "Dark Dragonite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -270,7 +270,7 @@
     }
   },
   {
-    "id": "base5-6",
+    "id": "5006",
     "name": "Dark Dugtrio",
     "supertype": "Pokemon",
     "subtypes": [
@@ -325,7 +325,7 @@
     }
   },
   {
-    "id": "base5-7",
+    "id": "5007",
     "name": "Dark Golbat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -378,7 +378,7 @@
     }
   },
   {
-    "id": "base5-8",
+    "id": "5008",
     "name": "Dark Gyarados",
     "supertype": "Pokemon",
     "subtypes": [
@@ -434,7 +434,7 @@
     }
   },
   {
-    "id": "base5-9",
+    "id": "5009",
     "name": "Dark Hypno",
     "supertype": "Pokemon",
     "subtypes": [
@@ -486,7 +486,7 @@
     }
   },
   {
-    "id": "base5-10",
+    "id": "5010",
     "name": "Dark Machamp",
     "supertype": "Pokemon",
     "subtypes": [
@@ -541,7 +541,7 @@
     }
   },
   {
-    "id": "base5-11",
+    "id": "5011",
     "name": "Dark Magneton",
     "supertype": "Pokemon",
     "subtypes": [
@@ -596,7 +596,7 @@
     }
   },
   {
-    "id": "base5-12",
+    "id": "5012",
     "name": "Dark Slowbro",
     "supertype": "Pokemon",
     "subtypes": [
@@ -645,7 +645,7 @@
     }
   },
   {
-    "id": "base5-13",
+    "id": "5013",
     "name": "Dark Vileplume",
     "supertype": "Pokemon",
     "subtypes": [
@@ -695,7 +695,7 @@
     }
   },
   {
-    "id": "base5-14",
+    "id": "5014",
     "name": "Dark Weezing",
     "supertype": "Pokemon",
     "subtypes": [
@@ -747,7 +747,7 @@
     }
   },
   {
-    "id": "base5-15",
+    "id": "5015",
     "name": "Here Comes Team Rocket!",
     "supertype": "Trainer",
     "rules": [
@@ -761,7 +761,7 @@
     }
   },
   {
-    "id": "base5-16",
+    "id": "5016",
     "name": "Rocket's Sneak Attack",
     "supertype": "Trainer",
     "rules": [
@@ -775,7 +775,7 @@
     }
   },
   {
-    "id": "base5-17",
+    "id": "5017",
     "name": "Rainbow Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -792,7 +792,7 @@
     }
   },
   {
-    "id": "base5-18",
+    "id": "5018",
     "name": "Dark Alakazam",
     "supertype": "Pokemon",
     "subtypes": [
@@ -847,7 +847,7 @@
     }
   },
   {
-    "id": "base5-19",
+    "id": "5019",
     "name": "Dark Arbok",
     "supertype": "Pokemon",
     "subtypes": [
@@ -900,7 +900,7 @@
     }
   },
   {
-    "id": "base5-20",
+    "id": "5020",
     "name": "Dark Blastoise",
     "supertype": "Pokemon",
     "subtypes": [
@@ -953,7 +953,7 @@
     }
   },
   {
-    "id": "base5-21",
+    "id": "5021",
     "name": "Dark Charizard",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1011,7 +1011,7 @@
     }
   },
   {
-    "id": "base5-22",
+    "id": "5022",
     "name": "Dark Dragonite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1062,7 +1062,7 @@
     }
   },
   {
-    "id": "base5-23",
+    "id": "5023",
     "name": "Dark Dugtrio",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1117,7 +1117,7 @@
     }
   },
   {
-    "id": "base5-24",
+    "id": "5024",
     "name": "Dark Golbat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1170,7 +1170,7 @@
     }
   },
   {
-    "id": "base5-25",
+    "id": "5025",
     "name": "Dark Gyarados",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1226,7 +1226,7 @@
     }
   },
   {
-    "id": "base5-26",
+    "id": "5026",
     "name": "Dark Hypno",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1278,7 +1278,7 @@
     }
   },
   {
-    "id": "base5-27",
+    "id": "5027",
     "name": "Dark Machamp",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1333,7 +1333,7 @@
     }
   },
   {
-    "id": "base5-28",
+    "id": "5028",
     "name": "Dark Magneton",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1388,7 +1388,7 @@
     }
   },
   {
-    "id": "base5-29",
+    "id": "5029",
     "name": "Dark Slowbro",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1437,7 +1437,7 @@
     }
   },
   {
-    "id": "base5-30",
+    "id": "5030",
     "name": "Dark Vileplume",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1487,7 +1487,7 @@
     }
   },
   {
-    "id": "base5-31",
+    "id": "5031",
     "name": "Dark Weezing",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1539,7 +1539,7 @@
     }
   },
   {
-    "id": "base5-32",
+    "id": "5032",
     "name": "Dark Charmeleon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1595,7 +1595,7 @@
     }
   },
   {
-    "id": "base5-33",
+    "id": "5033",
     "name": "Dark Dragonair",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1648,7 +1648,7 @@
     }
   },
   {
-    "id": "base5-34",
+    "id": "5034",
     "name": "Dark Electrode",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1698,7 +1698,7 @@
     }
   },
   {
-    "id": "base5-35",
+    "id": "5035",
     "name": "Dark Flareon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1748,7 +1748,7 @@
     }
   },
   {
-    "id": "base5-36",
+    "id": "5036",
     "name": "Dark Gloom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1801,7 +1801,7 @@
     }
   },
   {
-    "id": "base5-37",
+    "id": "5037",
     "name": "Dark Golduck",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1853,7 +1853,7 @@
     }
   },
   {
-    "id": "base5-38",
+    "id": "5038",
     "name": "Dark Jolteon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1904,7 +1904,7 @@
     }
   },
   {
-    "id": "base5-39",
+    "id": "5039",
     "name": "Dark Kadabra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1956,7 +1956,7 @@
     }
   },
   {
-    "id": "base5-40",
+    "id": "5040",
     "name": "Dark Machoke",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2013,7 +2013,7 @@
     }
   },
   {
-    "id": "base5-41",
+    "id": "5041",
     "name": "Dark Muk",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2062,7 +2062,7 @@
     }
   },
   {
-    "id": "base5-42",
+    "id": "5042",
     "name": "Dark Persian",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2114,7 +2114,7 @@
     }
   },
   {
-    "id": "base5-43",
+    "id": "5043",
     "name": "Dark Primeape",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2162,7 +2162,7 @@
     }
   },
   {
-    "id": "base5-44",
+    "id": "5044",
     "name": "Dark Rapidash",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2209,7 +2209,7 @@
     }
   },
   {
-    "id": "base5-45",
+    "id": "5045",
     "name": "Dark Vaporeon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2262,7 +2262,7 @@
     }
   },
   {
-    "id": "base5-46",
+    "id": "5046",
     "name": "Dark Wartortle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2315,7 +2315,7 @@
     }
   },
   {
-    "id": "base5-47",
+    "id": "5047",
     "name": "Magikarp",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2368,7 +2368,7 @@
     }
   },
   {
-    "id": "base5-48",
+    "id": "5048",
     "name": "Porygon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2423,7 +2423,7 @@
     }
   },
   {
-    "id": "base5-49",
+    "id": "5049",
     "name": "Abra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2474,7 +2474,7 @@
     }
   },
   {
-    "id": "base5-50",
+    "id": "5050",
     "name": "Charmander",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2523,7 +2523,7 @@
     }
   },
   {
-    "id": "base5-51",
+    "id": "5051",
     "name": "Dark Raticate",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2581,7 +2581,7 @@
     }
   },
   {
-    "id": "base5-52",
+    "id": "5052",
     "name": "Diglett",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2635,7 +2635,7 @@
     }
   },
   {
-    "id": "base5-53",
+    "id": "5053",
     "name": "Dratini",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2678,7 +2678,7 @@
     }
   },
   {
-    "id": "base5-54",
+    "id": "5054",
     "name": "Drowzee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2728,7 +2728,7 @@
     }
   },
   {
-    "id": "base5-55",
+    "id": "5055",
     "name": "Eevee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2793,7 +2793,7 @@
     }
   },
   {
-    "id": "base5-56",
+    "id": "5056",
     "name": "Ekans",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2845,7 +2845,7 @@
     }
   },
   {
-    "id": "base5-57",
+    "id": "5057",
     "name": "Grimer",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2897,7 +2897,7 @@
     }
   },
   {
-    "id": "base5-58",
+    "id": "5058",
     "name": "Koffing",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2949,7 +2949,7 @@
     }
   },
   {
-    "id": "base5-59",
+    "id": "5059",
     "name": "Machop",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3003,7 +3003,7 @@
     }
   },
   {
-    "id": "base5-60",
+    "id": "5060",
     "name": "Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3056,7 +3056,7 @@
     }
   },
   {
-    "id": "base5-61",
+    "id": "5061",
     "name": "Mankey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3104,7 +3104,7 @@
     }
   },
   {
-    "id": "base5-62",
+    "id": "5062",
     "name": "Meowth",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3153,7 +3153,7 @@
     }
   },
   {
-    "id": "base5-63",
+    "id": "5063",
     "name": "Oddish",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3204,7 +3204,7 @@
     }
   },
   {
-    "id": "base5-64",
+    "id": "5064",
     "name": "Ponyta",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3247,7 +3247,7 @@
     }
   },
   {
-    "id": "base5-65",
+    "id": "5065",
     "name": "Psyduck",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3299,7 +3299,7 @@
     }
   },
   {
-    "id": "base5-66",
+    "id": "5066",
     "name": "Rattata",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3350,7 +3350,7 @@
     }
   },
   {
-    "id": "base5-67",
+    "id": "5067",
     "name": "Slowpoke",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3402,7 +3402,7 @@
     }
   },
   {
-    "id": "base5-68",
+    "id": "5068",
     "name": "Squirtle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3445,7 +3445,7 @@
     }
   },
   {
-    "id": "base5-69",
+    "id": "5069",
     "name": "Voltorb",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3487,7 +3487,7 @@
     }
   },
   {
-    "id": "base5-70",
+    "id": "5070",
     "name": "Zubat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3541,7 +3541,7 @@
     }
   },
   {
-    "id": "base5-71",
+    "id": "5071",
     "name": "Here Comes Team Rocket!",
     "supertype": "Trainer",
     "rules": [
@@ -3555,7 +3555,7 @@
     }
   },
   {
-    "id": "base5-72",
+    "id": "5072",
     "name": "Rocket's Sneak Attack",
     "supertype": "Trainer",
     "rules": [
@@ -3569,7 +3569,7 @@
     }
   },
   {
-    "id": "base5-73",
+    "id": "5073",
     "name": "The Boss's Way",
     "supertype": "Trainer",
     "rules": [
@@ -3583,7 +3583,7 @@
     }
   },
   {
-    "id": "base5-74",
+    "id": "5074",
     "name": "Challenge!",
     "supertype": "Trainer",
     "rules": [
@@ -3597,7 +3597,7 @@
     }
   },
   {
-    "id": "base5-75",
+    "id": "5075",
     "name": "Digger",
     "supertype": "Trainer",
     "subtypes": [
@@ -3614,7 +3614,7 @@
     }
   },
   {
-    "id": "base5-76",
+    "id": "5076",
     "name": "Imposter Oak's Revenge",
     "supertype": "Trainer",
     "rules": [
@@ -3628,7 +3628,7 @@
     }
   },
   {
-    "id": "base5-77",
+    "id": "5077",
     "name": "Nightly Garbage Run",
     "supertype": "Trainer",
     "subtypes": [
@@ -3645,7 +3645,7 @@
     }
   },
   {
-    "id": "base5-78",
+    "id": "5078",
     "name": "Goop Gas Attack",
     "supertype": "Trainer",
     "rules": [
@@ -3659,7 +3659,7 @@
     }
   },
   {
-    "id": "base5-79",
+    "id": "5079",
     "name": "Sleep!",
     "supertype": "Trainer",
     "subtypes": [
@@ -3676,7 +3676,7 @@
     }
   },
   {
-    "id": "base5-80",
+    "id": "5080",
     "name": "Rainbow Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3693,7 +3693,7 @@
     }
   },
   {
-    "id": "base5-81",
+    "id": "5081",
     "name": "Full Heal Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3711,7 +3711,7 @@
     }
   },
   {
-    "id": "base5-82",
+    "id": "5082",
     "name": "Potion Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3729,7 +3729,7 @@
     }
   },
   {
-    "id": "base5-83",
+    "id": "5083",
     "name": "Dark Raichu",
     "supertype": "Pokemon",
     "subtypes": [

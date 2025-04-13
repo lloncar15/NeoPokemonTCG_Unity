@@ -1,6 +1,6 @@
 [
   {
-    "id": "gym1-1",
+    "id": "7001",
     "name": "Blaine's Moltres",
     "supertype": "Pokemon",
     "subtypes": [
@@ -45,7 +45,7 @@
     }
   },
   {
-    "id": "gym1-2",
+    "id": "7002",
     "name": "Brock's Rhydon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -106,7 +106,7 @@
     }
   },
   {
-    "id": "gym1-3",
+    "id": "7003",
     "name": "Erika's Clefable",
     "supertype": "Pokemon",
     "subtypes": [
@@ -164,7 +164,7 @@
     }
   },
   {
-    "id": "gym1-4",
+    "id": "7004",
     "name": "Erika's Dragonair",
     "supertype": "Pokemon",
     "subtypes": [
@@ -222,7 +222,7 @@
     }
   },
   {
-    "id": "gym1-5",
+    "id": "7005",
     "name": "Erika's Vileplume",
     "supertype": "Pokemon",
     "subtypes": [
@@ -272,7 +272,7 @@
     }
   },
   {
-    "id": "gym1-6",
+    "id": "7006",
     "name": "Lt. Surge's Electabuzz",
     "supertype": "Pokemon",
     "subtypes": [
@@ -324,7 +324,7 @@
     }
   },
   {
-    "id": "gym1-7",
+    "id": "7007",
     "name": "Lt. Surge's Fearow",
     "supertype": "Pokemon",
     "subtypes": [
@@ -378,7 +378,7 @@
     }
   },
   {
-    "id": "gym1-8",
+    "id": "7008",
     "name": "Lt. Surge's Magneton",
     "supertype": "Pokemon",
     "subtypes": [
@@ -432,7 +432,7 @@
     }
   },
   {
-    "id": "gym1-9",
+    "id": "7009",
     "name": "Misty's Seadra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -486,7 +486,7 @@
     }
   },
   {
-    "id": "gym1-10",
+    "id": "7010",
     "name": "Misty's Tentacruel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -532,7 +532,7 @@
     }
   },
   {
-    "id": "gym1-11",
+    "id": "7011",
     "name": "Rocket's Hitmonchan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -582,7 +582,7 @@
     }
   },
   {
-    "id": "gym1-12",
+    "id": "7012",
     "name": "Rocket's Moltres",
     "supertype": "Pokemon",
     "subtypes": [
@@ -631,7 +631,7 @@
     }
   },
   {
-    "id": "gym1-13",
+    "id": "7013",
     "name": "Rocket's Scyther",
     "supertype": "Pokemon",
     "subtypes": [
@@ -690,7 +690,7 @@
     }
   },
   {
-    "id": "gym1-14",
+    "id": "7014",
     "name": "Sabrina's Gengar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -741,7 +741,7 @@
     }
   },
   {
-    "id": "gym1-15",
+    "id": "7015",
     "name": "Brock",
     "supertype": "Trainer",
     "rules": [
@@ -755,7 +755,7 @@
     }
   },
   {
-    "id": "gym1-16",
+    "id": "7016",
     "name": "Erika",
     "supertype": "Trainer",
     "rules": [
@@ -769,7 +769,7 @@
     }
   },
   {
-    "id": "gym1-17",
+    "id": "7017",
     "name": "Lt. Surge",
     "supertype": "Trainer",
     "rules": [
@@ -783,7 +783,7 @@
     }
   },
   {
-    "id": "gym1-18",
+    "id": "7018",
     "name": "Misty",
     "supertype": "Trainer",
     "rules": [
@@ -797,7 +797,7 @@
     }
   },
   {
-    "id": "gym1-19",
+    "id": "7019",
     "name": "The Rocket's Trap",
     "supertype": "Trainer",
     "rules": [
@@ -811,7 +811,7 @@
     }
   },
   {
-    "id": "gym1-20",
+    "id": "7020",
     "name": "Brock's Golem",
     "supertype": "Pokemon",
     "subtypes": [
@@ -868,7 +868,7 @@
     }
   },
   {
-    "id": "gym1-21",
+    "id": "7021",
     "name": "Brock's Onix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -923,7 +923,7 @@
     }
   },
   {
-    "id": "gym1-22",
+    "id": "7022",
     "name": "Brock's Rhyhorn",
     "supertype": "Pokemon",
     "subtypes": [
@@ -984,7 +984,7 @@
     }
   },
   {
-    "id": "gym1-23",
+    "id": "7023",
     "name": "Brock's Sandslash",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1041,7 +1041,7 @@
     }
   },
   {
-    "id": "gym1-24",
+    "id": "7024",
     "name": "Brock's Zubat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1095,7 +1095,7 @@
     }
   },
   {
-    "id": "gym1-25",
+    "id": "7025",
     "name": "Erika's Clefairy",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1153,7 +1153,7 @@
     }
   },
   {
-    "id": "gym1-26",
+    "id": "7026",
     "name": "Erika's Victreebel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1203,7 +1203,7 @@
     }
   },
   {
-    "id": "gym1-27",
+    "id": "7027",
     "name": "Lt. Surge's Electabuzz",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1256,7 +1256,7 @@
     }
   },
   {
-    "id": "gym1-28",
+    "id": "7028",
     "name": "Lt. Surge's Raichu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1310,7 +1310,7 @@
     }
   },
   {
-    "id": "gym1-29",
+    "id": "7029",
     "name": "Misty's Cloyster",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1360,7 +1360,7 @@
     }
   },
   {
-    "id": "gym1-30",
+    "id": "7030",
     "name": "Misty's Goldeen",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1398,7 +1398,7 @@
     }
   },
   {
-    "id": "gym1-31",
+    "id": "7031",
     "name": "Misty's Poliwrath",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1443,7 +1443,7 @@
     }
   },
   {
-    "id": "gym1-32",
+    "id": "7032",
     "name": "Misty's Tentacool",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1491,7 +1491,7 @@
     }
   },
   {
-    "id": "gym1-33",
+    "id": "7033",
     "name": "Rocket's Snorlax",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1548,7 +1548,7 @@
     }
   },
   {
-    "id": "gym1-34",
+    "id": "7034",
     "name": "Sabrina's Venomoth",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1599,7 +1599,7 @@
     }
   },
   {
-    "id": "gym1-35",
+    "id": "7035",
     "name": "Blaine's Growlithe",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1651,7 +1651,7 @@
     }
   },
   {
-    "id": "gym1-36",
+    "id": "7036",
     "name": "Blaine's Kangaskhan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1709,7 +1709,7 @@
     }
   },
   {
-    "id": "gym1-37",
+    "id": "7037",
     "name": "Blaine's Magmar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1763,7 +1763,7 @@
     }
   },
   {
-    "id": "gym1-38",
+    "id": "7038",
     "name": "Brock's Geodude",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1815,7 +1815,7 @@
     }
   },
   {
-    "id": "gym1-39",
+    "id": "7039",
     "name": "Brock's Golbat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1875,7 +1875,7 @@
     }
   },
   {
-    "id": "gym1-40",
+    "id": "7040",
     "name": "Brock's Graveler",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1921,7 +1921,7 @@
     }
   },
   {
-    "id": "gym1-41",
+    "id": "7041",
     "name": "Brock's Lickitung",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1983,7 +1983,7 @@
     }
   },
   {
-    "id": "gym1-42",
+    "id": "7042",
     "name": "Erika's Dratini",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2033,7 +2033,7 @@
     }
   },
   {
-    "id": "gym1-43",
+    "id": "7043",
     "name": "Erika's Exeggcute",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2085,7 +2085,7 @@
     }
   },
   {
-    "id": "gym1-44",
+    "id": "7044",
     "name": "Erika's Exeggutor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2137,7 +2137,7 @@
     }
   },
   {
-    "id": "gym1-45",
+    "id": "7045",
     "name": "Erika's Gloom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2192,7 +2192,7 @@
     }
   },
   {
-    "id": "gym1-46",
+    "id": "7046",
     "name": "Erika's Gloom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2248,7 +2248,7 @@
     }
   },
   {
-    "id": "gym1-47",
+    "id": "7047",
     "name": "Erika's Oddish",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2298,7 +2298,7 @@
     }
   },
   {
-    "id": "gym1-48",
+    "id": "7048",
     "name": "Erika's Weepinbell",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2351,7 +2351,7 @@
     }
   },
   {
-    "id": "gym1-49",
+    "id": "7049",
     "name": "Erika's Weepinbell",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2407,7 +2407,7 @@
     }
   },
   {
-    "id": "gym1-50",
+    "id": "7050",
     "name": "Lt. Surge's Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2455,7 +2455,7 @@
     }
   },
   {
-    "id": "gym1-51",
+    "id": "7051",
     "name": "Lt. Surge's Raticate",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2501,7 +2501,7 @@
     }
   },
   {
-    "id": "gym1-52",
+    "id": "7052",
     "name": "Lt. Surge's Spearow",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2545,7 +2545,7 @@
     }
   },
   {
-    "id": "gym1-53",
+    "id": "7053",
     "name": "Misty's Poliwhirl",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2602,7 +2602,7 @@
     }
   },
   {
-    "id": "gym1-54",
+    "id": "7054",
     "name": "Misty's Psyduck",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2653,7 +2653,7 @@
     }
   },
   {
-    "id": "gym1-55",
+    "id": "7055",
     "name": "Misty's Seaking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2703,7 +2703,7 @@
     }
   },
   {
-    "id": "gym1-56",
+    "id": "7056",
     "name": "Misty's Starmie",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2755,7 +2755,7 @@
     }
   },
   {
-    "id": "gym1-57",
+    "id": "7057",
     "name": "Misty's Tentacool",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2798,7 +2798,7 @@
     }
   },
   {
-    "id": "gym1-58",
+    "id": "7058",
     "name": "Sabrina's Haunter",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2838,7 +2838,7 @@
     }
   },
   {
-    "id": "gym1-59",
+    "id": "7059",
     "name": "Sabrina's Jynx",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2887,7 +2887,7 @@
     }
   },
   {
-    "id": "gym1-60",
+    "id": "7060",
     "name": "Sabrina's Slowbro",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2939,7 +2939,7 @@
     }
   },
   {
-    "id": "gym1-61",
+    "id": "7061",
     "name": "Blaine's Charmander",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2991,7 +2991,7 @@
     }
   },
   {
-    "id": "gym1-62",
+    "id": "7062",
     "name": "Blaine's Growlithe",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3034,7 +3034,7 @@
     }
   },
   {
-    "id": "gym1-63",
+    "id": "7063",
     "name": "Blaine's Ponyta",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3073,7 +3073,7 @@
     }
   },
   {
-    "id": "gym1-64",
+    "id": "7064",
     "name": "Blaine's Tauros",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3130,7 +3130,7 @@
     }
   },
   {
-    "id": "gym1-65",
+    "id": "7065",
     "name": "Blaine's Vulpix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3181,7 +3181,7 @@
     }
   },
   {
-    "id": "gym1-66",
+    "id": "7066",
     "name": "Brock's Geodude",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3233,7 +3233,7 @@
     }
   },
   {
-    "id": "gym1-67",
+    "id": "7067",
     "name": "Brock's Mankey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3280,7 +3280,7 @@
     }
   },
   {
-    "id": "gym1-68",
+    "id": "7068",
     "name": "Brock's Mankey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3328,7 +3328,7 @@
     }
   },
   {
-    "id": "gym1-69",
+    "id": "7069",
     "name": "Brock's Onix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3383,7 +3383,7 @@
     }
   },
   {
-    "id": "gym1-70",
+    "id": "7070",
     "name": "Brock's Rhyhorn",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3434,7 +3434,7 @@
     }
   },
   {
-    "id": "gym1-71",
+    "id": "7071",
     "name": "Brock's Sandshrew",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3492,7 +3492,7 @@
     }
   },
   {
-    "id": "gym1-72",
+    "id": "7072",
     "name": "Brock's Sandshrew",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3541,7 +3541,7 @@
     }
   },
   {
-    "id": "gym1-73",
+    "id": "7073",
     "name": "Brock's Vulpix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3593,7 +3593,7 @@
     }
   },
   {
-    "id": "gym1-74",
+    "id": "7074",
     "name": "Brock's Zubat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3647,7 +3647,7 @@
     }
   },
   {
-    "id": "gym1-75",
+    "id": "7075",
     "name": "Erika's Bellsprout",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3699,7 +3699,7 @@
     }
   },
   {
-    "id": "gym1-76",
+    "id": "7076",
     "name": "Erika's Bellsprout",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3741,7 +3741,7 @@
     }
   },
   {
-    "id": "gym1-77",
+    "id": "7077",
     "name": "Erika's Exeggcute",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3793,7 +3793,7 @@
     }
   },
   {
-    "id": "gym1-78",
+    "id": "7078",
     "name": "Erika's Oddish",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3845,7 +3845,7 @@
     }
   },
   {
-    "id": "gym1-79",
+    "id": "7079",
     "name": "Erika's Tangela",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3899,7 +3899,7 @@
     }
   },
   {
-    "id": "gym1-80",
+    "id": "7080",
     "name": "Lt. Surge's Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3951,7 +3951,7 @@
     }
   },
   {
-    "id": "gym1-81",
+    "id": "7081",
     "name": "Lt. Surge's Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4003,7 +4003,7 @@
     }
   },
   {
-    "id": "gym1-82",
+    "id": "7082",
     "name": "Lt. Surge's Rattata",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4061,7 +4061,7 @@
     }
   },
   {
-    "id": "gym1-83",
+    "id": "7083",
     "name": "Lt. Surge's Spearow",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4115,7 +4115,7 @@
     }
   },
   {
-    "id": "gym1-84",
+    "id": "7084",
     "name": "Lt. Surge's Voltorb",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4167,7 +4167,7 @@
     }
   },
   {
-    "id": "gym1-85",
+    "id": "7085",
     "name": "Misty's Goldeen",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4218,7 +4218,7 @@
     }
   },
   {
-    "id": "gym1-86",
+    "id": "7086",
     "name": "Misty's Horsea",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4266,7 +4266,7 @@
     }
   },
   {
-    "id": "gym1-87",
+    "id": "7087",
     "name": "Misty's Poliwag",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4318,7 +4318,7 @@
     }
   },
   {
-    "id": "gym1-88",
+    "id": "7088",
     "name": "Misty's Seel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4361,7 +4361,7 @@
     }
   },
   {
-    "id": "gym1-89",
+    "id": "7089",
     "name": "Misty's Shellder",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4413,7 +4413,7 @@
     }
   },
   {
-    "id": "gym1-90",
+    "id": "7090",
     "name": "Misty's Staryu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4456,7 +4456,7 @@
     }
   },
   {
-    "id": "gym1-91",
+    "id": "7091",
     "name": "Sabrina's Abra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4494,7 +4494,7 @@
     }
   },
   {
-    "id": "gym1-92",
+    "id": "7092",
     "name": "Sabrina's Drowzee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4546,7 +4546,7 @@
     }
   },
   {
-    "id": "gym1-93",
+    "id": "7093",
     "name": "Sabrina's Gastly",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4589,7 +4589,7 @@
     }
   },
   {
-    "id": "gym1-94",
+    "id": "7094",
     "name": "Sabrina's Mr. Mime",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4638,7 +4638,7 @@
     }
   },
   {
-    "id": "gym1-95",
+    "id": "7095",
     "name": "Sabrina's Slowpoke",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4682,7 +4682,7 @@
     }
   },
   {
-    "id": "gym1-96",
+    "id": "7096",
     "name": "Sabrina's Venonat",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4734,7 +4734,7 @@
     }
   },
   {
-    "id": "gym1-97",
+    "id": "7097",
     "name": "Blaine's Quiz #1",
     "supertype": "Trainer",
     "rules": [
@@ -4748,7 +4748,7 @@
     }
   },
   {
-    "id": "gym1-98",
+    "id": "7098",
     "name": "Brock",
     "supertype": "Trainer",
     "rules": [
@@ -4762,7 +4762,7 @@
     }
   },
   {
-    "id": "gym1-99",
+    "id": "7099",
     "name": "Charity",
     "supertype": "Trainer",
     "rules": [
@@ -4776,7 +4776,7 @@
     }
   },
   {
-    "id": "gym1-100",
+    "id": "7100",
     "name": "Erika",
     "supertype": "Trainer",
     "rules": [
@@ -4790,7 +4790,7 @@
     }
   },
   {
-    "id": "gym1-101",
+    "id": "7101",
     "name": "Lt. Surge",
     "supertype": "Trainer",
     "rules": [
@@ -4804,7 +4804,7 @@
     }
   },
   {
-    "id": "gym1-102",
+    "id": "7102",
     "name": "Misty",
     "supertype": "Trainer",
     "rules": [
@@ -4818,7 +4818,7 @@
     }
   },
   {
-    "id": "gym1-103",
+    "id": "7103",
     "name": "No Removal Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -4836,7 +4836,7 @@
     }
   },
   {
-    "id": "gym1-104",
+    "id": "7104",
     "name": "The Rocket's Training Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -4854,7 +4854,7 @@
     }
   },
   {
-    "id": "gym1-105",
+    "id": "7105",
     "name": "Blaine's Last Resort",
     "supertype": "Trainer",
     "rules": [
@@ -4868,7 +4868,7 @@
     }
   },
   {
-    "id": "gym1-106",
+    "id": "7106",
     "name": "Brock's Training Method",
     "supertype": "Trainer",
     "rules": [
@@ -4882,7 +4882,7 @@
     }
   },
   {
-    "id": "gym1-107",
+    "id": "7107",
     "name": "Celadon City Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -4900,7 +4900,7 @@
     }
   },
   {
-    "id": "gym1-108",
+    "id": "7108",
     "name": "Cerulean City Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -4918,7 +4918,7 @@
     }
   },
   {
-    "id": "gym1-109",
+    "id": "7109",
     "name": "Erika's Maids",
     "supertype": "Trainer",
     "rules": [
@@ -4932,7 +4932,7 @@
     }
   },
   {
-    "id": "gym1-110",
+    "id": "7110",
     "name": "Erika's Perfume",
     "supertype": "Trainer",
     "rules": [
@@ -4946,7 +4946,7 @@
     }
   },
   {
-    "id": "gym1-111",
+    "id": "7111",
     "name": "Good Manners",
     "supertype": "Trainer",
     "rules": [
@@ -4960,7 +4960,7 @@
     }
   },
   {
-    "id": "gym1-112",
+    "id": "7112",
     "name": "Lt. Surge's Treaty",
     "supertype": "Trainer",
     "rules": [
@@ -4974,7 +4974,7 @@
     }
   },
   {
-    "id": "gym1-113",
+    "id": "7113",
     "name": "Minion of Team Rocket",
     "supertype": "Trainer",
     "rules": [
@@ -4988,7 +4988,7 @@
     }
   },
   {
-    "id": "gym1-114",
+    "id": "7114",
     "name": "Misty's Wrath",
     "supertype": "Trainer",
     "rules": [
@@ -5002,7 +5002,7 @@
     }
   },
   {
-    "id": "gym1-115",
+    "id": "7115",
     "name": "Pewter City Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -5020,7 +5020,7 @@
     }
   },
   {
-    "id": "gym1-116",
+    "id": "7116",
     "name": "Recall",
     "supertype": "Trainer",
     "rules": [
@@ -5034,7 +5034,7 @@
     }
   },
   {
-    "id": "gym1-117",
+    "id": "7117",
     "name": "Sabrina's ESP",
     "supertype": "Trainer",
     "rules": [
@@ -5048,7 +5048,7 @@
     }
   },
   {
-    "id": "gym1-118",
+    "id": "7118",
     "name": "Secret Mission",
     "supertype": "Trainer",
     "rules": [
@@ -5062,7 +5062,7 @@
     }
   },
   {
-    "id": "gym1-119",
+    "id": "7119",
     "name": "Tickling Machine",
     "supertype": "Trainer",
     "subtypes": [
@@ -5079,7 +5079,7 @@
     }
   },
   {
-    "id": "gym1-120",
+    "id": "7120",
     "name": "Vermilion City Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -5097,7 +5097,7 @@
     }
   },
   {
-    "id": "gym1-121",
+    "id": "7121",
     "name": "Blaine's Gamble",
     "supertype": "Trainer",
     "rules": [
@@ -5111,7 +5111,7 @@
     }
   },
   {
-    "id": "gym1-122",
+    "id": "7122",
     "name": "Energy Flow",
     "supertype": "Trainer",
     "rules": [
@@ -5125,7 +5125,7 @@
     }
   },
   {
-    "id": "gym1-123",
+    "id": "7123",
     "name": "Misty's Duel",
     "supertype": "Trainer",
     "rules": [
@@ -5139,7 +5139,7 @@
     }
   },
   {
-    "id": "gym1-124",
+    "id": "7124",
     "name": "Narrow Gym",
     "supertype": "Trainer",
     "subtypes": [
@@ -5157,7 +5157,7 @@
     }
   },
   {
-    "id": "gym1-125",
+    "id": "7125",
     "name": "Sabrina's Gaze",
     "supertype": "Trainer",
     "rules": [
@@ -5171,7 +5171,7 @@
     }
   },
   {
-    "id": "gym1-126",
+    "id": "7126",
     "name": "Trash Exchange",
     "supertype": "Trainer",
     "rules": [
@@ -5185,7 +5185,7 @@
     }
   },
   {
-    "id": "gym1-127",
+    "id": "7127",
     "name": "Fighting Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -5198,7 +5198,7 @@
     }
   },
   {
-    "id": "gym1-128",
+    "id": "7128",
     "name": "Fire Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -5211,7 +5211,7 @@
     }
   },
   {
-    "id": "gym1-129",
+    "id": "7129",
     "name": "Grass Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -5224,7 +5224,7 @@
     }
   },
   {
-    "id": "gym1-130",
+    "id": "7130",
     "name": "Lightning Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -5237,7 +5237,7 @@
     }
   },
   {
-    "id": "gym1-131",
+    "id": "7131",
     "name": "Psychic Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -5250,7 +5250,7 @@
     }
   },
   {
-    "id": "gym1-132",
+    "id": "7132",
     "name": "Water Energy",
     "supertype": "Energy",
     "subtypes": [

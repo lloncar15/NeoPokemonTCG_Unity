@@ -1,6 +1,6 @@
 [
   {
-    "id": "ecard2-1",
+    "id": "14001",
     "name": "Ampharos",
     "supertype": "Pokemon",
     "subtypes": [
@@ -52,7 +52,7 @@
     }
   },
   {
-    "id": "ecard2-2",
+    "id": "14002",
     "name": "Arcanine",
     "supertype": "Pokemon",
     "subtypes": [
@@ -103,7 +103,7 @@
     }
   },
   {
-    "id": "ecard2-3",
+    "id": "14003",
     "name": "Ariados",
     "supertype": "Pokemon",
     "subtypes": [
@@ -147,7 +147,7 @@
     }
   },
   {
-    "id": "ecard2-4",
+    "id": "14004",
     "name": "Azumarill",
     "supertype": "Pokemon",
     "subtypes": [
@@ -196,7 +196,7 @@
     }
   },
   {
-    "id": "ecard2-5",
+    "id": "14005",
     "name": "Bellossom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -252,7 +252,7 @@
     }
   },
   {
-    "id": "ecard2-6",
+    "id": "14006",
     "name": "Blissey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -302,7 +302,7 @@
     }
   },
   {
-    "id": "ecard2-7",
+    "id": "14007",
     "name": "Donphan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -360,7 +360,7 @@
     }
   },
   {
-    "id": "ecard2-8",
+    "id": "14008",
     "name": "Electrode",
     "supertype": "Pokemon",
     "subtypes": [
@@ -408,7 +408,7 @@
     }
   },
   {
-    "id": "ecard2-9",
+    "id": "14009",
     "name": "Elekid",
     "supertype": "Pokemon",
     "subtypes": [
@@ -447,7 +447,7 @@
     }
   },
   {
-    "id": "ecard2-10",
+    "id": "14010",
     "name": "Entei",
     "supertype": "Pokemon",
     "subtypes": [
@@ -495,7 +495,7 @@
     }
   },
   {
-    "id": "ecard2-11",
+    "id": "14011",
     "name": "Espeon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -540,7 +540,7 @@
     }
   },
   {
-    "id": "ecard2-12",
+    "id": "14012",
     "name": "Exeggutor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -589,7 +589,7 @@
     }
   },
   {
-    "id": "ecard2-13",
+    "id": "14013",
     "name": "Exeggutor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -640,7 +640,7 @@
     }
   },
   {
-    "id": "ecard2-14",
+    "id": "14014",
     "name": "Houndoom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -691,7 +691,7 @@
     }
   },
   {
-    "id": "ecard2-15",
+    "id": "14015",
     "name": "Houndoom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -749,7 +749,7 @@
     }
   },
   {
-    "id": "ecard2-16",
+    "id": "14016",
     "name": "Hypno",
     "supertype": "Pokemon",
     "subtypes": [
@@ -798,7 +798,7 @@
     }
   },
   {
-    "id": "ecard2-17",
+    "id": "14017",
     "name": "Jumpluff",
     "supertype": "Pokemon",
     "subtypes": [
@@ -847,7 +847,7 @@
     }
   },
   {
-    "id": "ecard2-18",
+    "id": "14018",
     "name": "Jynx",
     "supertype": "Pokemon",
     "subtypes": [
@@ -899,7 +899,7 @@
     }
   },
   {
-    "id": "ecard2-19",
+    "id": "14019",
     "name": "Kingdra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -951,7 +951,7 @@
     }
   },
   {
-    "id": "ecard2-20",
+    "id": "14020",
     "name": "Lanturn",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1002,7 +1002,7 @@
     }
   },
   {
-    "id": "ecard2-21",
+    "id": "14021",
     "name": "Lanturn",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1050,7 +1050,7 @@
     }
   },
   {
-    "id": "ecard2-22",
+    "id": "14022",
     "name": "Magneton",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1109,7 +1109,7 @@
     }
   },
   {
-    "id": "ecard2-23",
+    "id": "14023",
     "name": "Muk",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1157,7 +1157,7 @@
     }
   },
   {
-    "id": "ecard2-24",
+    "id": "14024",
     "name": "Nidoking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1215,7 +1215,7 @@
     }
   },
   {
-    "id": "ecard2-25",
+    "id": "14025",
     "name": "Ninetales",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1266,7 +1266,7 @@
     }
   },
   {
-    "id": "ecard2-26",
+    "id": "14026",
     "name": "Octillery",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1316,7 +1316,7 @@
     }
   },
   {
-    "id": "ecard2-27",
+    "id": "14027",
     "name": "Parasect",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1366,7 +1366,7 @@
     }
   },
   {
-    "id": "ecard2-28",
+    "id": "14028",
     "name": "Porygon2",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1417,7 +1417,7 @@
     }
   },
   {
-    "id": "ecard2-29",
+    "id": "14029",
     "name": "Primeape",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1469,7 +1469,7 @@
     }
   },
   {
-    "id": "ecard2-30",
+    "id": "14030",
     "name": "Quagsire",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1522,7 +1522,7 @@
     }
   },
   {
-    "id": "ecard2-31",
+    "id": "14031",
     "name": "Rapidash",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1570,7 +1570,7 @@
     }
   },
   {
-    "id": "ecard2-32",
+    "id": "14032",
     "name": "Scizor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1630,7 +1630,7 @@
     }
   },
   {
-    "id": "ecard2-33",
+    "id": "14033",
     "name": "Slowbro",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1679,7 +1679,7 @@
     }
   },
   {
-    "id": "ecard2-34",
+    "id": "14034",
     "name": "Slowking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1730,7 +1730,7 @@
     }
   },
   {
-    "id": "ecard2-35",
+    "id": "14035",
     "name": "Steelix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1792,7 +1792,7 @@
     }
   },
   {
-    "id": "ecard2-36",
+    "id": "14036",
     "name": "Sudowoodo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1841,7 +1841,7 @@
     }
   },
   {
-    "id": "ecard2-37",
+    "id": "14037",
     "name": "Suicune",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1889,7 +1889,7 @@
     }
   },
   {
-    "id": "ecard2-38",
+    "id": "14038",
     "name": "Tentacruel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1933,7 +1933,7 @@
     }
   },
   {
-    "id": "ecard2-39",
+    "id": "14039",
     "name": "Togetic",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1989,7 +1989,7 @@
     }
   },
   {
-    "id": "ecard2-40",
+    "id": "14040",
     "name": "Tyranitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2061,7 +2061,7 @@
     }
   },
   {
-    "id": "ecard2-41",
+    "id": "14041",
     "name": "Umbreon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2116,7 +2116,7 @@
     }
   },
   {
-    "id": "ecard2-42",
+    "id": "14042",
     "name": "Victreebel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2166,7 +2166,7 @@
     }
   },
   {
-    "id": "ecard2-43",
+    "id": "14043",
     "name": "Vileplume",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2218,7 +2218,7 @@
     }
   },
   {
-    "id": "ecard2-44",
+    "id": "14044",
     "name": "Zapdos",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2283,7 +2283,7 @@
     }
   },
   {
-    "id": "ecard2-45",
+    "id": "14045",
     "name": "Bellsprout",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2326,7 +2326,7 @@
     }
   },
   {
-    "id": "ecard2-46",
+    "id": "14046",
     "name": "Dodrio",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2382,7 +2382,7 @@
     }
   },
   {
-    "id": "ecard2-47",
+    "id": "14047",
     "name": "Flaaffy",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2436,7 +2436,7 @@
     }
   },
   {
-    "id": "ecard2-48",
+    "id": "14048",
     "name": "Furret",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2484,7 +2484,7 @@
     }
   },
   {
-    "id": "ecard2-49",
+    "id": "14049",
     "name": "Gloom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2537,7 +2537,7 @@
     }
   },
   {
-    "id": "ecard2-50",
+    "id": "14050",
     "name": "Golduck",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2589,7 +2589,7 @@
     }
   },
   {
-    "id": "ecard2-51",
+    "id": "14051",
     "name": "Growlithe",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2632,7 +2632,7 @@
     }
   },
   {
-    "id": "ecard2-52",
+    "id": "14052",
     "name": "Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2690,7 +2690,7 @@
     }
   },
   {
-    "id": "ecard2-53",
+    "id": "14053",
     "name": "Marill",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2742,7 +2742,7 @@
     }
   },
   {
-    "id": "ecard2-54",
+    "id": "14054",
     "name": "Marowak",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2800,7 +2800,7 @@
     }
   },
   {
-    "id": "ecard2-55",
+    "id": "14055",
     "name": "Nidorino",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2854,7 +2854,7 @@
     }
   },
   {
-    "id": "ecard2-56",
+    "id": "14056",
     "name": "Pupitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2899,7 +2899,7 @@
     }
   },
   {
-    "id": "ecard2-57",
+    "id": "14057",
     "name": "Scyther",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2952,7 +2952,7 @@
     }
   },
   {
-    "id": "ecard2-58",
+    "id": "14058",
     "name": "Seadra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3006,7 +3006,7 @@
     }
   },
   {
-    "id": "ecard2-59",
+    "id": "14059",
     "name": "Seaking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3058,7 +3058,7 @@
     }
   },
   {
-    "id": "ecard2-60",
+    "id": "14060",
     "name": "Skiploom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3114,7 +3114,7 @@
     }
   },
   {
-    "id": "ecard2-61",
+    "id": "14061",
     "name": "Smoochum",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3153,7 +3153,7 @@
     }
   },
   {
-    "id": "ecard2-62",
+    "id": "14062",
     "name": "Spinarak",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3205,7 +3205,7 @@
     }
   },
   {
-    "id": "ecard2-63",
+    "id": "14063",
     "name": "Tyrogue",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3246,7 +3246,7 @@
     }
   },
   {
-    "id": "ecard2-64",
+    "id": "14064",
     "name": "Voltorb",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3298,7 +3298,7 @@
     }
   },
   {
-    "id": "ecard2-65",
+    "id": "14065",
     "name": "Weepinbell",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3351,7 +3351,7 @@
     }
   },
   {
-    "id": "ecard2-66",
+    "id": "14066",
     "name": "Wooper",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3402,7 +3402,7 @@
     }
   },
   {
-    "id": "ecard2-67",
+    "id": "14067",
     "name": "Aipom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3454,7 +3454,7 @@
     }
   },
   {
-    "id": "ecard2-68",
+    "id": "14068",
     "name": "Bellsprout",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3505,7 +3505,7 @@
     }
   },
   {
-    "id": "ecard2-69",
+    "id": "14069",
     "name": "Chansey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3559,7 +3559,7 @@
     }
   },
   {
-    "id": "ecard2-70",
+    "id": "14070",
     "name": "Chinchou",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3611,7 +3611,7 @@
     }
   },
   {
-    "id": "ecard2-71",
+    "id": "14071",
     "name": "Chinchou",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3663,7 +3663,7 @@
     }
   },
   {
-    "id": "ecard2-72",
+    "id": "14072",
     "name": "Cubone",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3720,7 +3720,7 @@
     }
   },
   {
-    "id": "ecard2-73",
+    "id": "14073",
     "name": "Doduo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3778,7 +3778,7 @@
     }
   },
   {
-    "id": "ecard2-74",
+    "id": "14074",
     "name": "Drowzee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3830,7 +3830,7 @@
     }
   },
   {
-    "id": "ecard2-75",
+    "id": "14075",
     "name": "Eevee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3888,7 +3888,7 @@
     }
   },
   {
-    "id": "ecard2-76",
+    "id": "14076",
     "name": "Exeggcute",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3939,7 +3939,7 @@
     }
   },
   {
-    "id": "ecard2-77",
+    "id": "14077",
     "name": "Exeggcute",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3990,7 +3990,7 @@
     }
   },
   {
-    "id": "ecard2-78",
+    "id": "14078",
     "name": "Goldeen",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4032,7 +4032,7 @@
     }
   },
   {
-    "id": "ecard2-79",
+    "id": "14079",
     "name": "Grimer",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4074,7 +4074,7 @@
     }
   },
   {
-    "id": "ecard2-80",
+    "id": "14080",
     "name": "Growlithe",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4125,7 +4125,7 @@
     }
   },
   {
-    "id": "ecard2-81",
+    "id": "14081",
     "name": "Hitmonchan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4177,7 +4177,7 @@
     }
   },
   {
-    "id": "ecard2-82",
+    "id": "14082",
     "name": "Hitmontop",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4228,7 +4228,7 @@
     }
   },
   {
-    "id": "ecard2-83",
+    "id": "14083",
     "name": "Hoppip",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4283,7 +4283,7 @@
     }
   },
   {
-    "id": "ecard2-84",
+    "id": "14084",
     "name": "Horsea",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4325,7 +4325,7 @@
     }
   },
   {
-    "id": "ecard2-85",
+    "id": "14085",
     "name": "Horsea",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4368,7 +4368,7 @@
     }
   },
   {
-    "id": "ecard2-86",
+    "id": "14086",
     "name": "Houndour",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4420,7 +4420,7 @@
     }
   },
   {
-    "id": "ecard2-87",
+    "id": "14087",
     "name": "Houndour",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4469,7 +4469,7 @@
     }
   },
   {
-    "id": "ecard2-88",
+    "id": "14088",
     "name": "Kangaskhan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4521,7 +4521,7 @@
     }
   },
   {
-    "id": "ecard2-89",
+    "id": "14089",
     "name": "Larvitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4572,7 +4572,7 @@
     }
   },
   {
-    "id": "ecard2-90",
+    "id": "14090",
     "name": "Lickitung",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4627,7 +4627,7 @@
     }
   },
   {
-    "id": "ecard2-91",
+    "id": "14091",
     "name": "Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4677,7 +4677,7 @@
     }
   },
   {
-    "id": "ecard2-92",
+    "id": "14092",
     "name": "Mankey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4729,7 +4729,7 @@
     }
   },
   {
-    "id": "ecard2-93",
+    "id": "14093",
     "name": "Mareep",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4781,7 +4781,7 @@
     }
   },
   {
-    "id": "ecard2-94",
+    "id": "14094",
     "name": "Miltank",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4831,7 +4831,7 @@
     }
   },
   {
-    "id": "ecard2-95",
+    "id": "14095",
     "name": "Mr. Mime",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4878,7 +4878,7 @@
     }
   },
   {
-    "id": "ecard2-96",
+    "id": "14096",
     "name": "Nidoran m",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4930,7 +4930,7 @@
     }
   },
   {
-    "id": "ecard2-97",
+    "id": "14097",
     "name": "Oddish",
     "supertype": "Pokemon",
     "subtypes": [
@@ -4982,7 +4982,7 @@
     }
   },
   {
-    "id": "ecard2-98",
+    "id": "14098",
     "name": "Onix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5026,7 +5026,7 @@
     }
   },
   {
-    "id": "ecard2-99",
+    "id": "14099",
     "name": "Paras",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5078,7 +5078,7 @@
     }
   },
   {
-    "id": "ecard2-100",
+    "id": "14100",
     "name": "Phanpy",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5136,7 +5136,7 @@
     }
   },
   {
-    "id": "ecard2-101",
+    "id": "14101",
     "name": "Pinsir",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5187,7 +5187,7 @@
     }
   },
   {
-    "id": "ecard2-102",
+    "id": "14102",
     "name": "Ponyta",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5239,7 +5239,7 @@
     }
   },
   {
-    "id": "ecard2-103",
+    "id": "14103",
     "name": "Porygon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5290,7 +5290,7 @@
     }
   },
   {
-    "id": "ecard2-104",
+    "id": "14104",
     "name": "Psyduck",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5342,7 +5342,7 @@
     }
   },
   {
-    "id": "ecard2-105",
+    "id": "14105",
     "name": "Remoraid",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5384,7 +5384,7 @@
     }
   },
   {
-    "id": "ecard2-106",
+    "id": "14106",
     "name": "Scyther",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5442,7 +5442,7 @@
     }
   },
   {
-    "id": "ecard2-107",
+    "id": "14107",
     "name": "Sentret",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5493,7 +5493,7 @@
     }
   },
   {
-    "id": "ecard2-108",
+    "id": "14108",
     "name": "Slowpoke",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5546,7 +5546,7 @@
     }
   },
   {
-    "id": "ecard2-109",
+    "id": "14109",
     "name": "Smeargle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5595,7 +5595,7 @@
     }
   },
   {
-    "id": "ecard2-110",
+    "id": "14110",
     "name": "Sneasel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5653,7 +5653,7 @@
     }
   },
   {
-    "id": "ecard2-111",
+    "id": "14111",
     "name": "Spinarak",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5695,7 +5695,7 @@
     }
   },
   {
-    "id": "ecard2-112",
+    "id": "14112",
     "name": "Tangela",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5756,7 +5756,7 @@
     }
   },
   {
-    "id": "ecard2-113",
+    "id": "14113",
     "name": "Tentacool",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5807,7 +5807,7 @@
     }
   },
   {
-    "id": "ecard2-114",
+    "id": "14114",
     "name": "Togepi",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5858,7 +5858,7 @@
     }
   },
   {
-    "id": "ecard2-115",
+    "id": "14115",
     "name": "Voltorb",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5900,7 +5900,7 @@
     }
   },
   {
-    "id": "ecard2-116",
+    "id": "14116",
     "name": "Vulpix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5942,7 +5942,7 @@
     }
   },
   {
-    "id": "ecard2-117",
+    "id": "14117",
     "name": "Wooper",
     "supertype": "Pokemon",
     "subtypes": [
@@ -5994,7 +5994,7 @@
     }
   },
   {
-    "id": "ecard2-118",
+    "id": "14118",
     "name": "Apricorn Forest",
     "supertype": "Trainer",
     "subtypes": [
@@ -6012,7 +6012,7 @@
     }
   },
   {
-    "id": "ecard2-119",
+    "id": "14119",
     "name": "Darkness Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6040,7 +6040,7 @@
     }
   },
   {
-    "id": "ecard2-120",
+    "id": "14120",
     "name": "Energy Switch",
     "supertype": "Trainer",
     "rules": [
@@ -6054,7 +6054,7 @@
     }
   },
   {
-    "id": "ecard2-121",
+    "id": "14121",
     "name": "Fighting Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6082,7 +6082,7 @@
     }
   },
   {
-    "id": "ecard2-122",
+    "id": "14122",
     "name": "Fire Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6110,7 +6110,7 @@
     }
   },
   {
-    "id": "ecard2-123",
+    "id": "14123",
     "name": "Forest Guardian",
     "supertype": "Trainer",
     "subtypes": [
@@ -6128,7 +6128,7 @@
     }
   },
   {
-    "id": "ecard2-124",
+    "id": "14124",
     "name": "Grass Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6156,7 +6156,7 @@
     }
   },
   {
-    "id": "ecard2-125",
+    "id": "14125",
     "name": "Healing Berry",
     "supertype": "Trainer",
     "subtypes": [
@@ -6174,7 +6174,7 @@
     }
   },
   {
-    "id": "ecard2-126",
+    "id": "14126",
     "name": "Juggler",
     "supertype": "Trainer",
     "subtypes": [
@@ -6192,7 +6192,7 @@
     }
   },
   {
-    "id": "ecard2-127",
+    "id": "14127",
     "name": "Lightning Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6220,7 +6220,7 @@
     }
   },
   {
-    "id": "ecard2-128",
+    "id": "14128",
     "name": "Memory Berry",
     "supertype": "Trainer",
     "subtypes": [
@@ -6238,7 +6238,7 @@
     }
   },
   {
-    "id": "ecard2-129",
+    "id": "14129",
     "name": "Metal Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6266,7 +6266,7 @@
     }
   },
   {
-    "id": "ecard2-130",
+    "id": "14130",
     "name": "Pokemon Fan Club",
     "supertype": "Trainer",
     "subtypes": [
@@ -6284,7 +6284,7 @@
     }
   },
   {
-    "id": "ecard2-131",
+    "id": "14131",
     "name": "Pokemon Park",
     "supertype": "Trainer",
     "subtypes": [
@@ -6302,7 +6302,7 @@
     }
   },
   {
-    "id": "ecard2-132",
+    "id": "14132",
     "name": "Psychic Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6330,7 +6330,7 @@
     }
   },
   {
-    "id": "ecard2-133",
+    "id": "14133",
     "name": "Seer",
     "supertype": "Trainer",
     "subtypes": [
@@ -6348,7 +6348,7 @@
     }
   },
   {
-    "id": "ecard2-134",
+    "id": "14134",
     "name": "Super Energy Removal 2",
     "supertype": "Trainer",
     "rules": [
@@ -6362,7 +6362,7 @@
     }
   },
   {
-    "id": "ecard2-135",
+    "id": "14135",
     "name": "Time Shard",
     "supertype": "Trainer",
     "subtypes": [
@@ -6380,7 +6380,7 @@
     }
   },
   {
-    "id": "ecard2-136",
+    "id": "14136",
     "name": "Town Volunteers",
     "supertype": "Trainer",
     "subtypes": [
@@ -6398,7 +6398,7 @@
     }
   },
   {
-    "id": "ecard2-137",
+    "id": "14137",
     "name": "Traveling Salesman",
     "supertype": "Trainer",
     "subtypes": [
@@ -6416,7 +6416,7 @@
     }
   },
   {
-    "id": "ecard2-138",
+    "id": "14138",
     "name": "Undersea Ruins",
     "supertype": "Trainer",
     "subtypes": [
@@ -6434,7 +6434,7 @@
     }
   },
   {
-    "id": "ecard2-139",
+    "id": "14139",
     "name": "Power Plant",
     "supertype": "Trainer",
     "subtypes": [
@@ -6452,7 +6452,7 @@
     }
   },
   {
-    "id": "ecard2-140",
+    "id": "14140",
     "name": "Water Cube 01",
     "supertype": "Trainer",
     "subtypes": [
@@ -6480,7 +6480,7 @@
     }
   },
   {
-    "id": "ecard2-141",
+    "id": "14141",
     "name": "Weakness Guard",
     "supertype": "Trainer",
     "rules": [
@@ -6495,7 +6495,7 @@
     }
   },
   {
-    "id": "ecard2-142",
+    "id": "14142",
     "name": "Darkness Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -6512,7 +6512,7 @@
     }
   },
   {
-    "id": "ecard2-143",
+    "id": "14143",
     "name": "Metal Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -6529,7 +6529,7 @@
     }
   },
   {
-    "id": "ecard2-144",
+    "id": "14144",
     "name": "Rainbow Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -6546,7 +6546,7 @@
     }
   },
   {
-    "id": "ecard2-145",
+    "id": "14145",
     "name": "Boost Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -6563,7 +6563,7 @@
     }
   },
   {
-    "id": "ecard2-146",
+    "id": "14146",
     "name": "Crystal Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -6580,7 +6580,7 @@
     }
   },
   {
-    "id": "ecard2-147",
+    "id": "14147",
     "name": "Warp Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -6597,7 +6597,7 @@
     }
   },
   {
-    "id": "ecard2-148",
+    "id": "14148",
     "name": "Kingdra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6660,7 +6660,7 @@
     }
   },
   {
-    "id": "ecard2-149",
+    "id": "14149",
     "name": "Lugia",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6721,7 +6721,7 @@
     }
   },
   {
-    "id": "ecard2-150",
+    "id": "14150",
     "name": "Nidoking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6784,7 +6784,7 @@
     }
   },
   {
-    "id": "ecard2-H1",
+    "id": "14151",
     "name": "Ampharos",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6836,7 +6836,7 @@
     }
   },
   {
-    "id": "ecard2-H2",
+    "id": "14152",
     "name": "Arcanine",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6887,7 +6887,7 @@
     }
   },
   {
-    "id": "ecard2-H3",
+    "id": "14153",
     "name": "Ariados",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6931,7 +6931,7 @@
     }
   },
   {
-    "id": "ecard2-H4",
+    "id": "14154",
     "name": "Azumarill",
     "supertype": "Pokemon",
     "subtypes": [
@@ -6980,7 +6980,7 @@
     }
   },
   {
-    "id": "ecard2-H5",
+    "id": "14155",
     "name": "Bellossom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7036,7 +7036,7 @@
     }
   },
   {
-    "id": "ecard2-H6",
+    "id": "14156",
     "name": "Blissey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7086,7 +7086,7 @@
     }
   },
   {
-    "id": "ecard2-H7",
+    "id": "14157",
     "name": "Electrode",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7134,7 +7134,7 @@
     }
   },
   {
-    "id": "ecard2-H8",
+    "id": "14158",
     "name": "Entei",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7182,7 +7182,7 @@
     }
   },
   {
-    "id": "ecard2-H9",
+    "id": "14159",
     "name": "Espeon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7227,7 +7227,7 @@
     }
   },
   {
-    "id": "ecard2-H10",
+    "id": "14160",
     "name": "Exeggutor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7276,7 +7276,7 @@
     }
   },
   {
-    "id": "ecard2-H11",
+    "id": "14161",
     "name": "Houndoom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7334,7 +7334,7 @@
     }
   },
   {
-    "id": "ecard2-H12",
+    "id": "14162",
     "name": "Hypno",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7383,7 +7383,7 @@
     }
   },
   {
-    "id": "ecard2-H13",
+    "id": "14163",
     "name": "Jumpluff",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7432,7 +7432,7 @@
     }
   },
   {
-    "id": "ecard2-H14",
+    "id": "14164",
     "name": "Kingdra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7484,7 +7484,7 @@
     }
   },
   {
-    "id": "ecard2-H15",
+    "id": "14165",
     "name": "Lanturn",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7532,7 +7532,7 @@
     }
   },
   {
-    "id": "ecard2-H16",
+    "id": "14166",
     "name": "Magneton",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7591,7 +7591,7 @@
     }
   },
   {
-    "id": "ecard2-H17",
+    "id": "14167",
     "name": "Muk",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7639,7 +7639,7 @@
     }
   },
   {
-    "id": "ecard2-H18",
+    "id": "14168",
     "name": "Nidoking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7697,7 +7697,7 @@
     }
   },
   {
-    "id": "ecard2-H19",
+    "id": "14169",
     "name": "Ninetales",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7748,7 +7748,7 @@
     }
   },
   {
-    "id": "ecard2-H20",
+    "id": "14170",
     "name": "Octillery",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7798,7 +7798,7 @@
     }
   },
   {
-    "id": "ecard2-H21",
+    "id": "14171",
     "name": "Scizor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7858,7 +7858,7 @@
     }
   },
   {
-    "id": "ecard2-H22",
+    "id": "14172",
     "name": "Slowking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7909,7 +7909,7 @@
     }
   },
   {
-    "id": "ecard2-H23",
+    "id": "14173",
     "name": "Steelix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -7971,7 +7971,7 @@
     }
   },
   {
-    "id": "ecard2-H24",
+    "id": "14174",
     "name": "Sudowoodo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8020,7 +8020,7 @@
     }
   },
   {
-    "id": "ecard2-H25",
+    "id": "14175",
     "name": "Suicune",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8068,7 +8068,7 @@
     }
   },
   {
-    "id": "ecard2-H26",
+    "id": "14176",
     "name": "Tentacruel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8112,7 +8112,7 @@
     }
   },
   {
-    "id": "ecard2-H27",
+    "id": "14177",
     "name": "Togetic",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8168,7 +8168,7 @@
     }
   },
   {
-    "id": "ecard2-H28",
+    "id": "14178",
     "name": "Tyranitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8240,7 +8240,7 @@
     }
   },
   {
-    "id": "ecard2-H29",
+    "id": "14179",
     "name": "Umbreon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8295,7 +8295,7 @@
     }
   },
   {
-    "id": "ecard2-H30",
+    "id": "14180",
     "name": "Victreebel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8345,7 +8345,7 @@
     }
   },
   {
-    "id": "ecard2-H31",
+    "id": "14181",
     "name": "Vileplume",
     "supertype": "Pokemon",
     "subtypes": [
@@ -8397,7 +8397,7 @@
     }
   },
   {
-    "id": "ecard2-H32",
+    "id": "14182",
     "name": "Zapdos",
     "supertype": "Pokemon",
     "subtypes": [

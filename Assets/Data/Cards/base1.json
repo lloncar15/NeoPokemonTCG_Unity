@@ -1,6 +1,6 @@
 [
   {
-    "id": "base1-1",
+    "id": "1001",
     "name": "Alakazam",
     "supertype": "Pokemon",
     "subtypes": [
@@ -51,7 +51,7 @@
     }
   },
   {
-    "id": "base1-2",
+    "id": "1002",
     "name": "Blastoise",
     "supertype": "Pokemon",
     "subtypes": [
@@ -102,7 +102,7 @@
     }
   },
   {
-    "id": "base1-3",
+    "id": "1003",
     "name": "Chansey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -163,7 +163,7 @@
     }
   },
   {
-    "id": "base1-4",
+    "id": "1004",
     "name": "Charizard",
     "supertype": "Pokemon",
     "subtypes": [
@@ -221,7 +221,7 @@
     }
   },
   {
-    "id": "base1-5",
+    "id": "1005",
     "name": "Clefairy",
     "supertype": "Pokemon",
     "subtypes": [
@@ -280,7 +280,7 @@
     }
   },
   {
-    "id": "base1-6",
+    "id": "1006",
     "name": "Gyarados",
     "supertype": "Pokemon",
     "subtypes": [
@@ -342,7 +342,7 @@
     }
   },
   {
-    "id": "base1-7",
+    "id": "1007",
     "name": "Hitmonchan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -393,7 +393,7 @@
     }
   },
   {
-    "id": "base1-8",
+    "id": "1008",
     "name": "Machamp",
     "supertype": "Pokemon",
     "subtypes": [
@@ -445,7 +445,7 @@
     }
   },
   {
-    "id": "base1-9",
+    "id": "1009",
     "name": "Magneton",
     "supertype": "Pokemon",
     "subtypes": [
@@ -502,7 +502,7 @@
     }
   },
   {
-    "id": "base1-10",
+    "id": "1010",
     "name": "Mewtwo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -554,7 +554,7 @@
     }
   },
   {
-    "id": "base1-11",
+    "id": "1011",
     "name": "Nidoking",
     "supertype": "Pokemon",
     "subtypes": [
@@ -609,7 +609,7 @@
     }
   },
   {
-    "id": "base1-12",
+    "id": "1012",
     "name": "Ninetales",
     "supertype": "Pokemon",
     "subtypes": [
@@ -662,7 +662,7 @@
     }
   },
   {
-    "id": "base1-13",
+    "id": "1013",
     "name": "Poliwrath",
     "supertype": "Pokemon",
     "subtypes": [
@@ -718,7 +718,7 @@
     }
   },
   {
-    "id": "base1-14",
+    "id": "1014",
     "name": "Raichu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -772,7 +772,7 @@
     }
   },
   {
-    "id": "base1-15",
+    "id": "1015",
     "name": "Venusaur",
     "supertype": "Pokemon",
     "subtypes": [
@@ -823,7 +823,7 @@
     }
   },
   {
-    "id": "base1-16",
+    "id": "1016",
     "name": "Zapdos",
     "supertype": "Pokemon",
     "subtypes": [
@@ -879,7 +879,7 @@
     }
   },
   {
-    "id": "base1-17",
+    "id": "1017",
     "name": "Beedrill",
     "supertype": "Pokemon",
     "subtypes": [
@@ -934,7 +934,7 @@
     }
   },
   {
-    "id": "base1-18",
+    "id": "1018",
     "name": "Dragonair",
     "supertype": "Pokemon",
     "subtypes": [
@@ -992,7 +992,7 @@
     }
   },
   {
-    "id": "base1-19",
+    "id": "1019",
     "name": "Dugtrio",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1053,7 +1053,7 @@
     }
   },
   {
-    "id": "base1-20",
+    "id": "1020",
     "name": "Electabuzz",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1106,7 +1106,7 @@
     }
   },
   {
-    "id": "base1-21",
+    "id": "1021",
     "name": "Electrode",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1155,7 +1155,7 @@
     }
   },
   {
-    "id": "base1-22",
+    "id": "1022",
     "name": "Pidgeotto",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1216,7 +1216,7 @@
     }
   },
   {
-    "id": "base1-23",
+    "id": "1023",
     "name": "Arcanine",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1272,7 +1272,7 @@
     }
   },
   {
-    "id": "base1-24",
+    "id": "1024",
     "name": "Charmeleon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1328,7 +1328,7 @@
     }
   },
   {
-    "id": "base1-25",
+    "id": "1025",
     "name": "Dewgong",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1384,7 +1384,7 @@
     }
   },
   {
-    "id": "base1-26",
+    "id": "1026",
     "name": "Dratini",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1426,7 +1426,7 @@
     }
   },
   {
-    "id": "base1-27",
+    "id": "1027",
     "name": "Farfetch'd",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1485,7 +1485,7 @@
     }
   },
   {
-    "id": "base1-28",
+    "id": "1028",
     "name": "Growlithe",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1528,7 +1528,7 @@
     }
   },
   {
-    "id": "base1-29",
+    "id": "1029",
     "name": "Haunter",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1581,7 +1581,7 @@
     }
   },
   {
-    "id": "base1-30",
+    "id": "1030",
     "name": "Ivysaur",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1637,7 +1637,7 @@
     }
   },
   {
-    "id": "base1-31",
+    "id": "1031",
     "name": "Jynx",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1688,7 +1688,7 @@
     }
   },
   {
-    "id": "base1-32",
+    "id": "1032",
     "name": "Kadabra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1745,7 +1745,7 @@
     }
   },
   {
-    "id": "base1-33",
+    "id": "1033",
     "name": "Kakuna",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1800,7 +1800,7 @@
     }
   },
   {
-    "id": "base1-34",
+    "id": "1034",
     "name": "Machoke",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1859,7 +1859,7 @@
     }
   },
   {
-    "id": "base1-35",
+    "id": "1035",
     "name": "Magikarp",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1910,7 +1910,7 @@
     }
   },
   {
-    "id": "base1-36",
+    "id": "1036",
     "name": "Magmar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1965,7 +1965,7 @@
     }
   },
   {
-    "id": "base1-37",
+    "id": "1037",
     "name": "Nidorino",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2022,7 +2022,7 @@
     }
   },
   {
-    "id": "base1-38",
+    "id": "1038",
     "name": "Poliwhirl",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2078,7 +2078,7 @@
     }
   },
   {
-    "id": "base1-39",
+    "id": "1039",
     "name": "Porygon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2136,7 +2136,7 @@
     }
   },
   {
-    "id": "base1-40",
+    "id": "1040",
     "name": "Raticate",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2193,7 +2193,7 @@
     }
   },
   {
-    "id": "base1-41",
+    "id": "1041",
     "name": "Seel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2235,7 +2235,7 @@
     }
   },
   {
-    "id": "base1-42",
+    "id": "1042",
     "name": "Wartortle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2290,7 +2290,7 @@
     }
   },
   {
-    "id": "base1-43",
+    "id": "1043",
     "name": "Abra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2328,7 +2328,7 @@
     }
   },
   {
-    "id": "base1-44",
+    "id": "1044",
     "name": "Bulbasaur",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2371,7 +2371,7 @@
     }
   },
   {
-    "id": "base1-45",
+    "id": "1045",
     "name": "Caterpie",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2413,7 +2413,7 @@
     }
   },
   {
-    "id": "base1-46",
+    "id": "1046",
     "name": "Charmander",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2465,7 +2465,7 @@
     }
   },
   {
-    "id": "base1-47",
+    "id": "1047",
     "name": "Diglett",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2519,7 +2519,7 @@
     }
   },
   {
-    "id": "base1-48",
+    "id": "1048",
     "name": "Doduo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2563,7 +2563,7 @@
     }
   },
   {
-    "id": "base1-49",
+    "id": "1049",
     "name": "Drowzee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2615,7 +2615,7 @@
     }
   },
   {
-    "id": "base1-50",
+    "id": "1050",
     "name": "Gastly",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2663,7 +2663,7 @@
     }
   },
   {
-    "id": "base1-51",
+    "id": "1051",
     "name": "Koffing",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2706,7 +2706,7 @@
     }
   },
   {
-    "id": "base1-52",
+    "id": "1052",
     "name": "Machop",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2748,7 +2748,7 @@
     }
   },
   {
-    "id": "base1-53",
+    "id": "1053",
     "name": "Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2800,7 +2800,7 @@
     }
   },
   {
-    "id": "base1-54",
+    "id": "1054",
     "name": "Metapod",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2855,7 +2855,7 @@
     }
   },
   {
-    "id": "base1-55",
+    "id": "1055",
     "name": "Nidoran m",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2897,7 +2897,7 @@
     }
   },
   {
-    "id": "base1-56",
+    "id": "1056",
     "name": "Onix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2951,7 +2951,7 @@
     }
   },
   {
-    "id": "base1-57",
+    "id": "1057",
     "name": "Pidgey",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3000,7 +3000,7 @@
     }
   },
   {
-    "id": "base1-58",
+    "id": "1058",
     "name": "Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3052,7 +3052,7 @@
     }
   },
   {
-    "id": "base1-59",
+    "id": "1059",
     "name": "Poliwag",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3094,7 +3094,7 @@
     }
   },
   {
-    "id": "base1-60",
+    "id": "1060",
     "name": "Ponyta",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3147,7 +3147,7 @@
     }
   },
   {
-    "id": "base1-61",
+    "id": "1061",
     "name": "Rattata",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3191,7 +3191,7 @@
     }
   },
   {
-    "id": "base1-62",
+    "id": "1062",
     "name": "Sandshrew",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3239,7 +3239,7 @@
     }
   },
   {
-    "id": "base1-63",
+    "id": "1063",
     "name": "Squirtle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3291,7 +3291,7 @@
     }
   },
   {
-    "id": "base1-64",
+    "id": "1064",
     "name": "Starmie",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3343,7 +3343,7 @@
     }
   },
   {
-    "id": "base1-65",
+    "id": "1065",
     "name": "Staryu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3385,7 +3385,7 @@
     }
   },
   {
-    "id": "base1-66",
+    "id": "1066",
     "name": "Tangela",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3440,7 +3440,7 @@
     }
   },
   {
-    "id": "base1-67",
+    "id": "1067",
     "name": "Voltorb",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3482,7 +3482,7 @@
     }
   },
   {
-    "id": "base1-68",
+    "id": "1068",
     "name": "Vulpix",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3525,7 +3525,7 @@
     }
   },
   {
-    "id": "base1-69",
+    "id": "1069",
     "name": "Weedle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3567,7 +3567,7 @@
     }
   },
   {
-    "id": "base1-70",
+    "id": "1070",
     "name": "Clefairy Doll",
     "supertype": "Trainer",
     "hp": "10",
@@ -3582,7 +3582,7 @@
     }
   },
   {
-    "id": "base1-71",
+    "id": "1071",
     "name": "Computer Search",
     "supertype": "Trainer",
     "rules": [
@@ -3596,7 +3596,7 @@
     }
   },
   {
-    "id": "base1-72",
+    "id": "1072",
     "name": "Devolution Spray",
     "supertype": "Trainer",
     "rules": [
@@ -3610,7 +3610,7 @@
     }
   },
   {
-    "id": "base1-73",
+    "id": "1073",
     "name": "Impostor Professor Oak",
     "supertype": "Trainer",
     "rules": [
@@ -3624,7 +3624,7 @@
     }
   },
   {
-    "id": "base1-74",
+    "id": "1074",
     "name": "Item Finder",
     "supertype": "Trainer",
     "rules": [
@@ -3638,7 +3638,7 @@
     }
   },
   {
-    "id": "base1-75",
+    "id": "1075",
     "name": "Lass",
     "supertype": "Trainer",
     "rules": [
@@ -3652,7 +3652,7 @@
     }
   },
   {
-    "id": "base1-76",
+    "id": "1076",
     "name": "Pokemon Breeder",
     "supertype": "Trainer",
     "rules": [
@@ -3666,7 +3666,7 @@
     }
   },
   {
-    "id": "base1-77",
+    "id": "1077",
     "name": "Pokemon Trader",
     "supertype": "Trainer",
     "rules": [
@@ -3680,7 +3680,7 @@
     }
   },
   {
-    "id": "base1-78",
+    "id": "1078",
     "name": "Scoop Up",
     "supertype": "Trainer",
     "rules": [
@@ -3694,7 +3694,7 @@
     }
   },
   {
-    "id": "base1-79",
+    "id": "1079",
     "name": "Super Energy Removal",
     "supertype": "Trainer",
     "rules": [
@@ -3708,7 +3708,7 @@
     }
   },
   {
-    "id": "base1-80",
+    "id": "1080",
     "name": "Defender",
     "supertype": "Trainer",
     "rules": [
@@ -3722,7 +3722,7 @@
     }
   },
   {
-    "id": "base1-81",
+    "id": "1081",
     "name": "Energy Retrieval",
     "supertype": "Trainer",
     "rules": [
@@ -3736,7 +3736,7 @@
     }
   },
   {
-    "id": "base1-82",
+    "id": "1082",
     "name": "Full Heal",
     "supertype": "Trainer",
     "rules": [
@@ -3750,7 +3750,7 @@
     }
   },
   {
-    "id": "base1-83",
+    "id": "1083",
     "name": "Maintenance",
     "supertype": "Trainer",
     "rules": [
@@ -3764,7 +3764,7 @@
     }
   },
   {
-    "id": "base1-84",
+    "id": "1084",
     "name": "PlusPower",
     "supertype": "Trainer",
     "rules": [
@@ -3778,7 +3778,7 @@
     }
   },
   {
-    "id": "base1-85",
+    "id": "1085",
     "name": "Pokemon Center",
     "supertype": "Trainer",
     "rules": [
@@ -3792,7 +3792,7 @@
     }
   },
   {
-    "id": "base1-86",
+    "id": "1086",
     "name": "Pokemon Flute",
     "supertype": "Trainer",
     "rules": [
@@ -3806,7 +3806,7 @@
     }
   },
   {
-    "id": "base1-87",
+    "id": "1087",
     "name": "Pokedex",
     "supertype": "Trainer",
     "rules": [
@@ -3820,7 +3820,7 @@
     }
   },
   {
-    "id": "base1-88",
+    "id": "1088",
     "name": "Professor Oak",
     "supertype": "Trainer",
     "rules": [
@@ -3834,7 +3834,7 @@
     }
   },
   {
-    "id": "base1-89",
+    "id": "1089",
     "name": "Revive",
     "supertype": "Trainer",
     "rules": [
@@ -3848,7 +3848,7 @@
     }
   },
   {
-    "id": "base1-90",
+    "id": "1090",
     "name": "Super Potion",
     "supertype": "Trainer",
     "rules": [
@@ -3862,7 +3862,7 @@
     }
   },
   {
-    "id": "base1-91",
+    "id": "1091",
     "name": "Bill",
     "supertype": "Trainer",
     "rules": [
@@ -3876,7 +3876,7 @@
     }
   },
   {
-    "id": "base1-92",
+    "id": "1092",
     "name": "Energy Removal",
     "supertype": "Trainer",
     "rules": [
@@ -3890,7 +3890,7 @@
     }
   },
   {
-    "id": "base1-93",
+    "id": "1093",
     "name": "Gust of Wind",
     "supertype": "Trainer",
     "rules": [
@@ -3904,7 +3904,7 @@
     }
   },
   {
-    "id": "base1-94",
+    "id": "1094",
     "name": "Potion",
     "supertype": "Trainer",
     "rules": [
@@ -3918,7 +3918,7 @@
     }
   },
   {
-    "id": "base1-95",
+    "id": "1095",
     "name": "Switch",
     "supertype": "Trainer",
     "rules": [
@@ -3932,7 +3932,7 @@
     }
   },
   {
-    "id": "base1-96",
+    "id": "1096",
     "name": "Double Colorless Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3949,7 +3949,7 @@
     }
   },
   {
-    "id": "base1-97",
+    "id": "1097",
     "name": "Fighting Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3962,7 +3962,7 @@
     }
   },
   {
-    "id": "base1-98",
+    "id": "1098",
     "name": "Fire Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3975,7 +3975,7 @@
     }
   },
   {
-    "id": "base1-99",
+    "id": "1099",
     "name": "Grass Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -3988,7 +3988,7 @@
     }
   },
   {
-    "id": "base1-100",
+    "id": "1100",
     "name": "Lightning Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -4001,7 +4001,7 @@
     }
   },
   {
-    "id": "base1-101",
+    "id": "1101",
     "name": "Psychic Energy",
     "supertype": "Energy",
     "subtypes": [
@@ -4014,7 +4014,7 @@
     }
   },
   {
-    "id": "base1-102",
+    "id": "1102",
     "name": "Water Energy",
     "supertype": "Energy",
     "subtypes": [

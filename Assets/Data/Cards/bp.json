@@ -1,6 +1,6 @@
 [
   {
-    "id": "bp-1",
+    "id": "17001",
     "name": "Electabuzz",
     "supertype": "Pokemon",
     "subtypes": [
@@ -53,7 +53,7 @@
     }
   },
   {
-    "id": "bp-2",
+    "id": "17002",
     "name": "Hitmonchan",
     "supertype": "Pokemon",
     "subtypes": [
@@ -104,7 +104,7 @@
     }
   },
   {
-    "id": "bp-3",
+    "id": "17003",
     "name": "Professor Elm",
     "supertype": "Trainer",
     "rules": [
@@ -118,7 +118,7 @@
     }
   },
   {
-    "id": "bp-4",
+    "id": "17004",
     "name": "Rocket's Scizor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -175,7 +175,7 @@
     }
   },
   {
-    "id": "bp-5",
+    "id": "17005",
     "name": "Rocket's Sneasel",
     "supertype": "Pokemon",
     "subtypes": [
@@ -230,7 +230,7 @@
     }
   },
   {
-    "id": "bp-6",
+    "id": "17006",
     "name": "Dark Ivysaur",
     "supertype": "Pokemon",
     "subtypes": [
@@ -282,7 +282,7 @@
     }
   },
   {
-    "id": "bp-7",
+    "id": "17007",
     "name": "Dark Venusaur",
     "supertype": "Pokemon",
     "subtypes": [
@@ -325,7 +325,7 @@
     }
   },
   {
-    "id": "bp-8",
+    "id": "17008",
     "name": "Rocket's Mewtwo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -387,7 +387,7 @@
     }
   },
   {
-    "id": "bp-9",
+    "id": "17009",
     "name": "Rocket's Hitmonchan",
     "supertype": "Pokemon",
     "subtypes": [

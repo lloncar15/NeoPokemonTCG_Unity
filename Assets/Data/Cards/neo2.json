@@ -1,6 +1,6 @@
 [
   {
-    "id": "neo2-1",
+    "id": "10001",
     "name": "Espeon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -48,7 +48,7 @@
     }
   },
   {
-    "id": "neo2-2",
+    "id": "10002",
     "name": "Forretress",
     "supertype": "Pokemon",
     "subtypes": [
@@ -105,7 +105,7 @@
     }
   },
   {
-    "id": "neo2-3",
+    "id": "10003",
     "name": "Hitmontop",
     "supertype": "Pokemon",
     "subtypes": [
@@ -155,7 +155,7 @@
     }
   },
   {
-    "id": "neo2-4",
+    "id": "10004",
     "name": "Houndoom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -208,7 +208,7 @@
     }
   },
   {
-    "id": "neo2-5",
+    "id": "10005",
     "name": "Houndour",
     "supertype": "Pokemon",
     "subtypes": [
@@ -260,7 +260,7 @@
     }
   },
   {
-    "id": "neo2-6",
+    "id": "10006",
     "name": "Kabutops",
     "supertype": "Pokemon",
     "subtypes": [
@@ -310,7 +310,7 @@
     }
   },
   {
-    "id": "neo2-7",
+    "id": "10007",
     "name": "Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -368,7 +368,7 @@
     }
   },
   {
-    "id": "neo2-8",
+    "id": "10008",
     "name": "Politoed",
     "supertype": "Pokemon",
     "subtypes": [
@@ -420,7 +420,7 @@
     }
   },
   {
-    "id": "neo2-9",
+    "id": "10009",
     "name": "Poliwrath",
     "supertype": "Pokemon",
     "subtypes": [
@@ -474,7 +474,7 @@
     }
   },
   {
-    "id": "neo2-10",
+    "id": "10010",
     "name": "Scizor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -532,7 +532,7 @@
     }
   },
   {
-    "id": "neo2-11",
+    "id": "10011",
     "name": "Smeargle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -578,7 +578,7 @@
     }
   },
   {
-    "id": "neo2-12",
+    "id": "10012",
     "name": "Tyranitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -634,7 +634,7 @@
     }
   },
   {
-    "id": "neo2-13",
+    "id": "10013",
     "name": "Umbreon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -686,7 +686,7 @@
     }
   },
   {
-    "id": "neo2-14",
+    "id": "10014",
     "name": "Unown [A]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -735,7 +735,7 @@
     }
   },
   {
-    "id": "neo2-15",
+    "id": "10015",
     "name": "Ursaring",
     "supertype": "Pokemon",
     "subtypes": [
@@ -796,7 +796,7 @@
     }
   },
   {
-    "id": "neo2-16",
+    "id": "10016",
     "name": "Wobbuffet",
     "supertype": "Pokemon",
     "subtypes": [
@@ -837,7 +837,7 @@
     }
   },
   {
-    "id": "neo2-17",
+    "id": "10017",
     "name": "Yanma",
     "supertype": "Pokemon",
     "subtypes": [
@@ -892,7 +892,7 @@
     }
   },
   {
-    "id": "neo2-18",
+    "id": "10018",
     "name": "Beedrill",
     "supertype": "Pokemon",
     "subtypes": [
@@ -945,7 +945,7 @@
     }
   },
   {
-    "id": "neo2-19",
+    "id": "10019",
     "name": "Butterfree",
     "supertype": "Pokemon",
     "subtypes": [
@@ -999,7 +999,7 @@
     }
   },
   {
-    "id": "neo2-20",
+    "id": "10020",
     "name": "Espeon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1051,7 +1051,7 @@
     }
   },
   {
-    "id": "neo2-21",
+    "id": "10021",
     "name": "Forretress",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1108,7 +1108,7 @@
     }
   },
   {
-    "id": "neo2-22",
+    "id": "10022",
     "name": "Hitmontop",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1158,7 +1158,7 @@
     }
   },
   {
-    "id": "neo2-23",
+    "id": "10023",
     "name": "Houndoom",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1211,7 +1211,7 @@
     }
   },
   {
-    "id": "neo2-24",
+    "id": "10024",
     "name": "Houndour",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1263,7 +1263,7 @@
     }
   },
   {
-    "id": "neo2-25",
+    "id": "10025",
     "name": "Kabutops",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1313,7 +1313,7 @@
     }
   },
   {
-    "id": "neo2-26",
+    "id": "10026",
     "name": "Magnemite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1371,7 +1371,7 @@
     }
   },
   {
-    "id": "neo2-27",
+    "id": "10027",
     "name": "Politoed",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1423,7 +1423,7 @@
     }
   },
   {
-    "id": "neo2-28",
+    "id": "10028",
     "name": "Poliwrath",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1477,7 +1477,7 @@
     }
   },
   {
-    "id": "neo2-29",
+    "id": "10029",
     "name": "Scizor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1535,7 +1535,7 @@
     }
   },
   {
-    "id": "neo2-30",
+    "id": "10030",
     "name": "Smeargle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1581,7 +1581,7 @@
     }
   },
   {
-    "id": "neo2-31",
+    "id": "10031",
     "name": "Tyranitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1637,7 +1637,7 @@
     }
   },
   {
-    "id": "neo2-32",
+    "id": "10032",
     "name": "Umbreon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1689,7 +1689,7 @@
     }
   },
   {
-    "id": "neo2-33",
+    "id": "10033",
     "name": "Unown [A]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1738,7 +1738,7 @@
     }
   },
   {
-    "id": "neo2-34",
+    "id": "10034",
     "name": "Ursaring",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1799,7 +1799,7 @@
     }
   },
   {
-    "id": "neo2-35",
+    "id": "10035",
     "name": "Wobbuffet",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1840,7 +1840,7 @@
     }
   },
   {
-    "id": "neo2-36",
+    "id": "10036",
     "name": "Yanma",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1895,7 +1895,7 @@
     }
   },
   {
-    "id": "neo2-37",
+    "id": "10037",
     "name": "Corsola",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1947,7 +1947,7 @@
     }
   },
   {
-    "id": "neo2-38",
+    "id": "10038",
     "name": "Eevee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2009,7 +2009,7 @@
     }
   },
   {
-    "id": "neo2-39",
+    "id": "10039",
     "name": "Houndour",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2061,7 +2061,7 @@
     }
   },
   {
-    "id": "neo2-40",
+    "id": "10040",
     "name": "Igglybuff",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2092,7 +2092,7 @@
     }
   },
   {
-    "id": "neo2-41",
+    "id": "10041",
     "name": "Kakuna",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2137,7 +2137,7 @@
     }
   },
   {
-    "id": "neo2-42",
+    "id": "10042",
     "name": "Metapod",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2192,7 +2192,7 @@
     }
   },
   {
-    "id": "neo2-43",
+    "id": "10043",
     "name": "Omastar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2244,7 +2244,7 @@
     }
   },
   {
-    "id": "neo2-44",
+    "id": "10044",
     "name": "Poliwhirl",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2299,7 +2299,7 @@
     }
   },
   {
-    "id": "neo2-45",
+    "id": "10045",
     "name": "Pupitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2359,7 +2359,7 @@
     }
   },
   {
-    "id": "neo2-46",
+    "id": "10046",
     "name": "Scyther",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2408,7 +2408,7 @@
     }
   },
   {
-    "id": "neo2-47",
+    "id": "10047",
     "name": "Unown [D]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2457,7 +2457,7 @@
     }
   },
   {
-    "id": "neo2-48",
+    "id": "10048",
     "name": "Unown [F]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2506,7 +2506,7 @@
     }
   },
   {
-    "id": "neo2-49",
+    "id": "10049",
     "name": "Unown [M]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2555,7 +2555,7 @@
     }
   },
   {
-    "id": "neo2-50",
+    "id": "10050",
     "name": "Unown [N]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2604,7 +2604,7 @@
     }
   },
   {
-    "id": "neo2-51",
+    "id": "10051",
     "name": "Unown [U]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2653,7 +2653,7 @@
     }
   },
   {
-    "id": "neo2-52",
+    "id": "10052",
     "name": "Xatu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2710,7 +2710,7 @@
     }
   },
   {
-    "id": "neo2-53",
+    "id": "10053",
     "name": "Caterpie",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2752,7 +2752,7 @@
     }
   },
   {
-    "id": "neo2-54",
+    "id": "10054",
     "name": "Dunsparce",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2793,7 +2793,7 @@
     }
   },
   {
-    "id": "neo2-55",
+    "id": "10055",
     "name": "Hoppip",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2837,7 +2837,7 @@
     }
   },
   {
-    "id": "neo2-56",
+    "id": "10056",
     "name": "Kabuto",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2888,7 +2888,7 @@
     }
   },
   {
-    "id": "neo2-57",
+    "id": "10057",
     "name": "Larvitar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2936,7 +2936,7 @@
     }
   },
   {
-    "id": "neo2-58",
+    "id": "10058",
     "name": "Mareep",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2979,7 +2979,7 @@
     }
   },
   {
-    "id": "neo2-59",
+    "id": "10059",
     "name": "Natu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3027,7 +3027,7 @@
     }
   },
   {
-    "id": "neo2-60",
+    "id": "10060",
     "name": "Omanyte",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3077,7 +3077,7 @@
     }
   },
   {
-    "id": "neo2-61",
+    "id": "10061",
     "name": "Pineco",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3120,7 +3120,7 @@
     }
   },
   {
-    "id": "neo2-62",
+    "id": "10062",
     "name": "Poliwag",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3171,7 +3171,7 @@
     }
   },
   {
-    "id": "neo2-63",
+    "id": "10063",
     "name": "Sentret",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3229,7 +3229,7 @@
     }
   },
   {
-    "id": "neo2-64",
+    "id": "10064",
     "name": "Spinarak",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3272,7 +3272,7 @@
     }
   },
   {
-    "id": "neo2-65",
+    "id": "10065",
     "name": "Teddiursa",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3330,7 +3330,7 @@
     }
   },
   {
-    "id": "neo2-66",
+    "id": "10066",
     "name": "Tyrogue",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3367,7 +3367,7 @@
     }
   },
   {
-    "id": "neo2-67",
+    "id": "10067",
     "name": "Unown [E]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3416,7 +3416,7 @@
     }
   },
   {
-    "id": "neo2-68",
+    "id": "10068",
     "name": "Unown [I]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3465,7 +3465,7 @@
     }
   },
   {
-    "id": "neo2-69",
+    "id": "10069",
     "name": "Unown [O]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3514,7 +3514,7 @@
     }
   },
   {
-    "id": "neo2-70",
+    "id": "10070",
     "name": "Weedle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3556,7 +3556,7 @@
     }
   },
   {
-    "id": "neo2-71",
+    "id": "10071",
     "name": "Wooper",
     "supertype": "Pokemon",
     "subtypes": [
@@ -3614,7 +3614,7 @@
     }
   },
   {
-    "id": "neo2-72",
+    "id": "10072",
     "name": "Fossil Egg",
     "supertype": "Trainer",
     "rules": [
@@ -3628,7 +3628,7 @@
     }
   },
   {
-    "id": "neo2-73",
+    "id": "10073",
     "name": "Hyper Devolution Spray",
     "supertype": "Trainer",
     "rules": [
@@ -3642,7 +3642,7 @@
     }
   },
   {
-    "id": "neo2-74",
+    "id": "10074",
     "name": "Ruin Wall",
     "supertype": "Trainer",
     "rules": [
@@ -3656,7 +3656,7 @@
     }
   },
   {
-    "id": "neo2-75",
+    "id": "10075",
     "name": "Energy Ark",
     "supertype": "Trainer",
     "rules": [

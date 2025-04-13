@@ -1,6 +1,6 @@
 [
   {
-    "id": "basep-1",
+    "id": "16001",
     "name": "Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -52,7 +52,7 @@
     }
   },
   {
-    "id": "basep-2",
+    "id": "16002",
     "name": "Electabuzz",
     "supertype": "Pokemon",
     "subtypes": [
@@ -105,7 +105,7 @@
     }
   },
   {
-    "id": "basep-3",
+    "id": "16003",
     "name": "Mewtwo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -156,7 +156,7 @@
     }
   },
   {
-    "id": "basep-4",
+    "id": "16004",
     "name": "Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -209,7 +209,7 @@
     }
   },
   {
-    "id": "basep-5",
+    "id": "16005",
     "name": "Dragonite",
     "supertype": "Pokemon",
     "subtypes": [
@@ -259,7 +259,7 @@
     }
   },
   {
-    "id": "basep-6",
+    "id": "16006",
     "name": "Arcanine",
     "supertype": "Pokemon",
     "subtypes": [
@@ -310,7 +310,7 @@
     }
   },
   {
-    "id": "basep-7",
+    "id": "16007",
     "name": "Jigglypuff",
     "supertype": "Pokemon",
     "subtypes": [
@@ -369,7 +369,7 @@
     }
   },
   {
-    "id": "basep-8",
+    "id": "16008",
     "name": "Mew",
     "supertype": "Pokemon",
     "subtypes": [
@@ -418,7 +418,7 @@
     }
   },
   {
-    "id": "basep-9",
+    "id": "16009",
     "name": "Mew",
     "supertype": "Pokemon",
     "subtypes": [
@@ -467,7 +467,7 @@
     }
   },
   {
-    "id": "basep-10",
+    "id": "16010",
     "name": "Meowth",
     "supertype": "Pokemon",
     "subtypes": [
@@ -516,7 +516,7 @@
     }
   },
   {
-    "id": "basep-11",
+    "id": "16011",
     "name": "Eevee",
     "supertype": "Pokemon",
     "subtypes": [
@@ -574,7 +574,7 @@
     }
   },
   {
-    "id": "basep-12",
+    "id": "16012",
     "name": "Mewtwo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -625,7 +625,7 @@
     }
   },
   {
-    "id": "basep-13",
+    "id": "16013",
     "name": "Venusaur",
     "supertype": "Pokemon",
     "subtypes": [
@@ -676,7 +676,7 @@
     }
   },
   {
-    "id": "basep-14",
+    "id": "16014",
     "name": "Mewtwo",
     "supertype": "Pokemon",
     "subtypes": [
@@ -727,7 +727,7 @@
     }
   },
   {
-    "id": "basep-15",
+    "id": "16015",
     "name": "Cool Porygon",
     "supertype": "Pokemon",
     "subtypes": [
@@ -788,7 +788,7 @@
     }
   },
   {
-    "id": "basep-16",
+    "id": "16016",
     "name": "Computer Error",
     "supertype": "Trainer",
     "subtypes": [
@@ -805,7 +805,7 @@
     }
   },
   {
-    "id": "basep-17",
+    "id": "16017",
     "name": "Dark Persian",
     "supertype": "Pokemon",
     "subtypes": [
@@ -857,7 +857,7 @@
     }
   },
   {
-    "id": "basep-18",
+    "id": "16018",
     "name": "Team Rocket's Meowth",
     "supertype": "Pokemon",
     "subtypes": [
@@ -905,7 +905,7 @@
     }
   },
   {
-    "id": "basep-19",
+    "id": "16019",
     "name": "Sabrina's Abra",
     "supertype": "Pokemon",
     "subtypes": [
@@ -953,7 +953,7 @@
     }
   },
   {
-    "id": "basep-20",
+    "id": "16020",
     "name": "Psyduck",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1004,7 +1004,7 @@
     }
   },
   {
-    "id": "basep-21",
+    "id": "16021",
     "name": "Moltres",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1045,7 +1045,7 @@
     }
   },
   {
-    "id": "basep-22",
+    "id": "16022",
     "name": "Articuno",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1086,7 +1086,7 @@
     }
   },
   {
-    "id": "basep-23",
+    "id": "16023",
     "name": "Zapdos",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1127,7 +1127,7 @@
     }
   },
   {
-    "id": "basep-24",
+    "id": "16024",
     "name": "_____'s Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1170,7 +1170,7 @@
     }
   },
   {
-    "id": "basep-25",
+    "id": "16025",
     "name": "Flying Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1223,7 +1223,7 @@
     }
   },
   {
-    "id": "basep-26",
+    "id": "16026",
     "name": "Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1275,7 +1275,7 @@
     }
   },
   {
-    "id": "basep-27",
+    "id": "16027",
     "name": "Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1323,7 +1323,7 @@
     }
   },
   {
-    "id": "basep-28",
+    "id": "16028",
     "name": "Surfing Pikachu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1366,7 +1366,7 @@
     }
   },
   {
-    "id": "basep-29",
+    "id": "16029",
     "name": "Marill",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1409,7 +1409,7 @@
     }
   },
   {
-    "id": "basep-30",
+    "id": "16030",
     "name": "Togepi",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1461,7 +1461,7 @@
     }
   },
   {
-    "id": "basep-31",
+    "id": "16031",
     "name": "Cleffa",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1496,7 +1496,7 @@
     }
   },
   {
-    "id": "basep-32",
+    "id": "16032",
     "name": "Smeargle",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1541,7 +1541,7 @@
     }
   },
   {
-    "id": "basep-33",
+    "id": "16033",
     "name": "Scizor",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1599,7 +1599,7 @@
     }
   },
   {
-    "id": "basep-34",
+    "id": "16034",
     "name": "Entei",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1647,7 +1647,7 @@
     }
   },
   {
-    "id": "basep-35",
+    "id": "16035",
     "name": "Pichu",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1682,7 +1682,7 @@
     }
   },
   {
-    "id": "basep-36",
+    "id": "16036",
     "name": "Igglybuff",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1717,7 +1717,7 @@
     }
   },
   {
-    "id": "basep-37",
+    "id": "16037",
     "name": "Hitmontop",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1768,7 +1768,7 @@
     }
   },
   {
-    "id": "basep-38",
+    "id": "16038",
     "name": "Unown [J]",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1817,7 +1817,7 @@
     }
   },
   {
-    "id": "basep-39",
+    "id": "16039",
     "name": "Misdreavus",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1869,7 +1869,7 @@
     }
   },
   {
-    "id": "basep-40",
+    "id": "16040",
     "name": "Pokemon Center",
     "supertype": "Trainer",
     "rules": [
@@ -1883,7 +1883,7 @@
     }
   },
   {
-    "id": "basep-41",
+    "id": "16041",
     "name": "Lucky Stadium",
     "supertype": "Trainer",
     "subtypes": [
@@ -1901,7 +1901,7 @@
     }
   },
   {
-    "id": "basep-42",
+    "id": "16042",
     "name": "Pokemon Tower",
     "supertype": "Trainer",
     "subtypes": [
@@ -1919,7 +1919,7 @@
     }
   },
   {
-    "id": "basep-43",
+    "id": "16043",
     "name": "Machamp",
     "supertype": "Pokemon",
     "subtypes": [
@@ -1974,7 +1974,7 @@
     }
   },
   {
-    "id": "basep-44",
+    "id": "16044",
     "name": "Magmar",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2028,7 +2028,7 @@
     }
   },
   {
-    "id": "basep-45",
+    "id": "16045",
     "name": "Scyther",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2077,7 +2077,7 @@
     }
   },
   {
-    "id": "basep-46",
+    "id": "16046",
     "name": "Electabuzz",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2129,7 +2129,7 @@
     }
   },
   {
-    "id": "basep-47",
+    "id": "16047",
     "name": "Mew",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2175,7 +2175,7 @@
     }
   },
   {
-    "id": "basep-48",
+    "id": "16048",
     "name": "Articuno",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2225,7 +2225,7 @@
     }
   },
   {
-    "id": "basep-49",
+    "id": "16049",
     "name": "Snorlax",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2283,7 +2283,7 @@
     }
   },
   {
-    "id": "basep-50",
+    "id": "16050",
     "name": "Celebi",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2323,7 +2323,7 @@
     }
   },
   {
-    "id": "basep-51",
+    "id": "16051",
     "name": "Rapidash",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2371,7 +2371,7 @@
     }
   },
   {
-    "id": "basep-52",
+    "id": "16052",
     "name": "Ho-oh",
     "supertype": "Pokemon",
     "subtypes": [
@@ -2420,7 +2420,7 @@
     }
   },
   {
-    "id": "basep-53",
+    "id": "16053",
     "name": "Suicune",
     "supertype": "Pokemon",
     "subtypes": [

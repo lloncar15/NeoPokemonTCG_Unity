@@ -1,457 +1,320 @@
 [
   {
-    "id": "d-gym2-1",
+    "id": "8901",
     "name": "Sabrina",
     "types": [
       "Psychic"
     ],
     "cards": [
       {
-        "id": "gym2-93",
-        "name": "Sabrina's Abra",
-        "rarity": "Common",
+        "id": "8093",
         "count": 2
       },
       {
-        "id": "gym2-94",
-        "name": "Sabrina's Abra",
-        "rarity": "Common",
+        "id": "8094",
         "count": 2
       },
       {
-        "id": "gym2-58",
-        "name": "Sabrina's Kadabra",
-        "rarity": "Uncommon",
+        "id": "8058",
         "count": 2
       },
       {
-        "id": "gym2-16",
-        "name": "Sabrina's Alakazam",
-        "rarity": "Rare Holo",
+        "id": "8016",
         "count": 1
       },
       {
-        "id": "gym2-95",
-        "name": "Sabrina's Drowzee",
-        "rarity": "Common",
+        "id": "8095",
         "count": 3
       },
       {
-        "id": "gym2-96",
-        "name": "Sabrina's Gastly",
-        "rarity": "Common",
+        "id": "8096",
         "count": 4
       },
       {
-        "id": "gym2-55",
-        "name": "Sabrina's Haunter",
-        "rarity": "Uncommon",
+        "id": "8055",
         "count": 2
       },
       {
-        "id": "gym2-57",
-        "name": "Sabrina's Jynx",
-        "rarity": "Uncommon",
+        "id": "8057",
         "count": 2
       },
       {
-        "id": "gym2-98",
-        "name": "Sabrina's Porygon",
-        "rarity": "Common",
+        "id": "8098",
         "count": 3
       },
       {
-        "id": "base4-118",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "4118",
         "count": 2
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "gym2-110",
-        "name": "Sabrina",
-        "rarity": "Rare",
+        "id": "8110",
         "count": 1
       },
       {
-        "id": "gym1-125",
-        "name": "Sabrina's Gaze",
-        "rarity": "Common",
+        "id": "7125",
         "count": 2
       },
       {
-        "id": "gym2-121",
-        "name": "Sabrina's Psychic Control",
-        "rarity": "Uncommon",
+        "id": "8121",
         "count": 1
       },
       {
-        "id": "gym2-122",
-        "name": "Saffron City Gym",
-        "rarity": "Uncommon",
+        "id": "8122",
         "count": 1
       },
       {
-        "id": "base4-123",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "4123",
         "count": 2
       },
       {
-        "id": "gym2-131",
-        "name": "Psychic Energy",
+        "id": "8131",
         "count": 28
       }
     ]
   },
   {
-    "id": "d-gym2-2",
+    "id": "8902",
     "name": "Koga",
     "types": [
       "Grass"
     ],
     "cards": [
       {
-        "id": "gym2-82",
-        "name": "Koga's Weedle",
-        "rarity": "Common",
+        "id": "8082",
         "count": 4
       },
       {
-        "id": "gym2-47",
-        "name": "Koga's Kakuna",
-        "rarity": "Uncommon",
+        "id": "8047",
         "count": 2
       },
       {
-        "id": "gym2-9",
-        "name": "Koga's Beedrill",
-        "rarity": "Rare Holo",
+        "id": "8009",
         "count": 1
       },
       {
-        "id": "gym2-77",
-        "name": "Koga's Ekans",
-        "rarity": "Common",
+        "id": "8077",
         "count": 3
       },
       {
-        "id": "gym2-78",
-        "name": "Koga's Grimer",
-        "rarity": "Common",
+        "id": "8078",
         "count": 3
       },
       {
-        "id": "gym2-79",
-        "name": "Koga's Koffing",
-        "rarity": "Common",
+        "id": "8079",
         "count": 3
       },
       {
-        "id": "gym2-48",
-        "name": "Koga's Koffing",
-        "rarity": "Uncommon",
+        "id": "8048",
         "count": 1
       },
       {
-        "id": "gym2-50",
-        "name": "Koga's Weezing",
-        "rarity": "Uncommon",
+        "id": "8050",
         "count": 2
       },
       {
-        "id": "gym2-80",
-        "name": "Koga's Pidgey",
-        "rarity": "Common",
+        "id": "8080",
         "count": 3
       },
       {
-        "id": "base4-119",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "4119",
         "count": 1
       },
       {
-        "id": "gym2-114",
-        "name": "Fuchsia City Gym",
-        "rarity": "Uncommon",
+        "id": "8114",
         "count": 1
       },
       {
-        "id": "base4-111",
-        "name": "Full Heal",
-        "rarity": "Uncommon",
+        "id": "4111",
         "count": 1
       },
       {
-        "id": "base4-120",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "4120",
         "count": 2
       },
       {
-        "id": "gym2-106",
-        "name": "Koga",
-        "rarity": "Rare",
+        "id": "8106",
         "count": 1
       },
       {
-        "id": "base4-113",
-        "name": "PlusPower",
-        "rarity": "Uncommon",
+        "id": "4113",
         "count": 1
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 3
       },
       {
-        "id": "gym2-129",
-        "name": "Grass Energy",
+        "id": "8129",
         "count": 28
       }
     ]
   },
   {
-    "id": "d-gym2-3",
+    "id": "8903",
     "name": "Blaine",
     "types": [
       "Fire"
     ],
     "cards": [
       {
-        "id": "gym1-62",
-        "name": "Blaine's Growlithe",
-        "rarity": "Common",
+        "id": "7062",
         "count": 2
       },
       {
-        "id": "gym2-62",
-        "name": "Blaine's Growlithe",
-        "rarity": "Common",
+        "id": "8062",
         "count": 2
       },
       {
-        "id": "gym2-1",
-        "name": "Blaine's Arcanine",
-        "rarity": "Rare Holo",
+        "id": "8001",
         "count": 1
       },
       {
-        "id": "gym2-60",
-        "name": "Blaine's Charmander",
-        "rarity": "Common",
+        "id": "8060",
         "count": 3
       },
       {
-        "id": "gym2-31",
-        "name": "Blaine's Charmeleon",
-        "rarity": "Uncommon",
+        "id": "8031",
         "count": 2
       },
       {
-        "id": "gym2-61",
-        "name": "Blaine's Doduo",
-        "rarity": "Common",
+        "id": "8061",
         "count": 2
       },
       {
-        "id": "gym2-32",
-        "name": "Blaine's Dodrio",
-        "rarity": "Uncommon",
+        "id": "8032",
         "count": 1
       },
       {
-        "id": "gym2-64",
-        "name": "Blaine's Ponyta",
-        "rarity": "Common",
+        "id": "8064",
         "count": 4
       },
       {
-        "id": "gym2-33",
-        "name": "Blaine's Rapidash",
-        "rarity": "Uncommon",
+        "id": "8033",
         "count": 2
       },
       {
-        "id": "gym2-66",
-        "name": "Blaine's Vulpix",
-        "rarity": "Common",
+        "id": "8066",
         "count": 2
       },
       {
-        "id": "base4-118",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "4118",
         "count": 2
       },
       {
-        "id": "gym2-100",
-        "name": "Blaine",
-        "rarity": "Rare",
+        "id": "8100",
         "count": 1
       },
       {
-        "id": "gym1-121",
-        "name": "Blaine's Gamble",
-        "rarity": "Common",
+        "id": "7121",
         "count": 1
       },
       {
-        "id": "gym2-113",
-        "name": "Cinnabar City Gym",
-        "rarity": "Uncommon",
+        "id": "8113",
         "count": 1
       },
       {
-        "id": "gym2-117",
-        "name": "Max Revive",
-        "rarity": "Uncommon",
+        "id": "8117",
         "count": 1
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "gym2-124",
-        "name": "Fervor",
-        "rarity": "Common",
+        "id": "8124",
         "count": 2
       },
       {
-        "id": "base4-117",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "4117",
         "count": 1
       },
       {
-        "id": "gym2-128",
-        "name": "Fire Energy",
+        "id": "8128",
         "count": 28
       }
     ]
   },
   {
-    "id": "d-gym2-4",
+    "id": "8904",
     "name": "Giovanni",
     "types": [
       "Fighting"
     ],
     "cards": [
       {
-        "id": "gym2-75",
-        "name": "Giovanni's Nidoran♀",
-        "rarity": "Common",
+        "id": "8075",
         "count": 3
       },
       {
-        "id": "gym2-44",
-        "name": "Giovanni's Nidorina",
-        "rarity": "Uncommon",
+        "id": "8044",
         "count": 1
       },
       {
-        "id": "gym2-76",
-        "name": "Giovanni's Nidoran♂",
-        "rarity": "Common",
+        "id": "8076",
         "count": 4
       },
       {
-        "id": "gym2-45",
-        "name": "Giovanni's Nidorino",
-        "rarity": "Uncommon",
+        "id": "8045",
         "count": 2
       },
       {
-        "id": "gym2-72",
-        "name": "Giovanni's Machop",
-        "rarity": "Common",
+        "id": "8072",
         "count": 4
       },
       {
-        "id": "gym2-42",
-        "name": "Giovanni's Machoke",
-        "rarity": "Uncommon",
+        "id": "8042",
         "count": 2
       },
       {
-        "id": "gym2-74",
-        "name": "Giovanni's Meowth",
-        "rarity": "Common",
+        "id": "8074",
         "count": 3
       },
       {
-        "id": "gym2-43",
-        "name": "Giovanni's Meowth",
-        "rarity": "Uncommon",
+        "id": "8043",
         "count": 1
       },
       {
-        "id": "gym2-8",
-        "name": "Giovanni's Persian",
-        "rarity": "Rare Holo",
+        "id": "8008",
         "count": 1
       },
       {
-        "id": "base4-118",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "4118",
         "count": 2
       },
       {
-        "id": "base4-119",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "4119",
         "count": 2
       },
       {
-        "id": "base4-111",
-        "name": "Full Heal",
-        "rarity": "Uncommon",
+        "id": "4111",
         "count": 1
       },
       {
-        "id": "gym2-104",
-        "name": "Giovanni",
-        "rarity": "Rare",
+        "id": "8104",
         "count": 1
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "gym2-123",
-        "name": "Viridian City Gym",
-        "rarity": "Uncommon",
+        "id": "8123",
         "count": 1
       },
       {
-        "id": "gym2-126",
-        "name": "Warp Point",
-        "rarity": "Common",
+        "id": "8126",
         "count": 2
       },
       {
-        "id": "gym2-129",
-        "name": "Grass Energy",
+        "id": "8129",
         "count": 20
       },
       {
-        "id": "gym2-127",
-        "name": "Fighting Energy",
+        "id": "8127",
         "count": 8
       }
     ]

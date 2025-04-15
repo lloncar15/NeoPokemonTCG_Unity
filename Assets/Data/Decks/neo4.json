@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-neo4-1",
+    "id": "12901",
     "name": "Light",
     "types": [
       "Fighting",
@@ -8,91 +8,65 @@
     ],
     "cards": [
       {
-        "id": "neo4-67",
-        "name": "Gligar",
-        "rarity": "Common",
+        "id": "12067",
         "count": 4
       },
       {
-        "id": "neo4-42",
-        "name": "Hitmonlee",
-        "rarity": "Uncommon",
+        "id": "12042",
         "count": 2
       },
       {
-        "id": "neo4-73",
-        "name": "Machop",
-        "rarity": "Common",
+        "id": "12073",
         "count": 4
       },
       {
-        "id": "neo4-49",
-        "name": "Light Machoke",
-        "rarity": "Uncommon",
+        "id": "12049",
         "count": 2
       },
       {
-        "id": "neo4-25",
-        "name": "Light Machamp",
-        "rarity": "Rare",
+        "id": "12025",
         "count": 1
       },
       {
-        "id": "neo1-66",
-        "name": "Marill",
-        "rarity": "Common",
+        "id": "9066",
         "count": 4
       },
       {
-        "id": "neo4-13",
-        "name": "Light Azumarill",
-        "rarity": "Rare Holo",
+        "id": "12013",
         "count": 1
       },
       {
-        "id": "neo4-81",
-        "name": "Seel",
-        "rarity": "Common",
+        "id": "12081",
         "count": 4
       },
       {
-        "id": "neo4-45",
-        "name": "Light Dewgong",
-        "rarity": "Uncommon",
+        "id": "12045",
         "count": 2
       },
       {
-        "id": "neo1-99",
-        "name": "Berry",
-        "rarity": "Common",
+        "id": "9099",
         "count": 4
       },
       {
-        "id": "neo4-104",
-        "name": "Heal Powder",
-        "rarity": "Common",
+        "id": "12104",
         "count": 2
       },
       {
-        "id": "neo3-62",
-        "name": "Pokémon Breeder Fields",
-        "rarity": "Uncommon",
+        "id": "11062",
         "count": 2
       },
       {
-        "id": "neo1-106",
-        "name": "Fighting Energy",
+        "id": "9106",
         "count": 15
       },
       {
-        "id": "neo1-111",
-        "name": "Water Energy",
+        "id": "9111",
         "count": 13
       }
     ]
   },
   {
-    "id": "d-neo4-2",
+    "id": "12902",
     "name": "Dark",
     "types": [
       "Fire",
@@ -100,139 +74,95 @@
     ],
     "cards": [
       {
-        "id": "neo4-61",
-        "name": "Cyndaquil",
-        "rarity": "Common",
+        "id": "12061",
         "count": 3
       },
       {
-        "id": "neo1-57",
-        "name": "Cyndaquil",
-        "rarity": "Common",
+        "id": "9057",
         "count": 1
       },
       {
-        "id": "neo4-39",
-        "name": "Dark Quilava",
-        "rarity": "Uncommon",
+        "id": "12039",
         "count": 3
       },
       {
-        "id": "neo4-10",
-        "name": "Dark Typhlosion",
-        "rarity": "Rare Holo",
+        "id": "12010",
         "count": 1
       },
       {
-        "id": "neo4-68",
-        "name": "Growlithe",
-        "rarity": "Common",
+        "id": "12068",
         "count": 1
       },
       {
-        "id": "neo4-82",
-        "name": "Slugma",
-        "rarity": "Common",
+        "id": "12082",
         "count": 3
       },
       {
-        "id": "neo3-33",
-        "name": "Magcargo",
-        "rarity": "Uncommon",
+        "id": "11033",
         "count": 1
       },
       {
-        "id": "neo4-18",
-        "name": "Dark Magcargo",
-        "rarity": "Rare",
+        "id": "12018",
         "count": 1
       },
       {
-        "id": "neo4-91",
-        "name": "Vulpix",
-        "rarity": "Common",
+        "id": "12091",
         "count": 2
       },
       {
-        "id": "neo4-65",
-        "name": "Gastly",
-        "rarity": "Common",
+        "id": "12065",
         "count": 2
       },
       {
-        "id": "neo4-36",
-        "name": "Dark Haunter",
-        "rarity": "Uncommon",
+        "id": "12036",
         "count": 1
       },
       {
-        "id": "neo2-67",
-        "name": "Unown E",
-        "rarity": "Common",
+        "id": "10067",
         "count": 1
       },
       {
-        "id": "neo4-87",
-        "name": "Unown S",
-        "rarity": "Common",
+        "id": "12087",
         "count": 1
       },
       {
-        "id": "neo4-88",
-        "name": "Unown T",
-        "rarity": "Common",
+        "id": "12088",
         "count": 1
       },
       {
-        "id": "neo4-66",
-        "name": "Girafarig",
-        "rarity": "Common",
+        "id": "12066",
         "count": 1
       },
       {
-        "id": "neo1-99",
-        "name": "Berry",
-        "rarity": "Common",
+        "id": "9099",
         "count": 2
       },
       {
-        "id": "neo4-97",
-        "name": "Counterattack Claws",
-        "rarity": "Uncommon",
+        "id": "12097",
         "count": 1
       },
       {
-        "id": "neo4-99",
-        "name": "Energy Stadium",
-        "rarity": "Uncommon",
+        "id": "12099",
         "count": 2
       },
       {
-        "id": "neo4-105",
-        "name": "Mail from Bill",
-        "rarity": "Common",
+        "id": "12105",
         "count": 1
       },
       {
-        "id": "neo3-63",
-        "name": "Rocket's Hideout",
-        "rarity": "Common",
+        "id": "11063",
         "count": 1
       },
       {
-        "id": "neo1-103",
-        "name": "Super Rod",
-        "rarity": "Common",
+        "id": "9103",
         "count": 2
       },
       {
-        "id": "neo1-107",
-        "name": "Fire Energy",
+        "id": "9107",
         "count": 20
       },
       {
-        "id": "neo1-110",
-        "name": "Psychic Energy",
+        "id": "9110",
         "count": 8
       }
     ]

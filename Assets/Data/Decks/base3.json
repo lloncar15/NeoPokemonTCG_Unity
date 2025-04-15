@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-base3-1",
+    "id": "3901",
     "name": "LockDown",
     "types": [
       "Fire",
@@ -8,109 +8,77 @@
     ],
     "cards": [
       {
-        "id": "base1-68",
-        "name": "Vulpix",
-        "rarity": "Common",
+        "id": "1068",
         "count": 3
       },
       {
-        "id": "base1-60",
-        "name": "Ponyta",
-        "rarity": "Common",
+        "id": "1060",
         "count": 3
       },
       {
-        "id": "base3-39",
-        "name": "Magmar",
-        "rarity": "Uncommon",
+        "id": "3039",
         "count": 2
       },
       {
-        "id": "base3-51",
-        "name": "Krabby",
-        "rarity": "Common",
+        "id": "3051",
         "count": 4
       },
       {
-        "id": "base3-38",
-        "name": "Kingler",
-        "rarity": "Uncommon",
+        "id": "3038",
         "count": 2
       },
       {
-        "id": "base3-49",
-        "name": "Horsea",
-        "rarity": "Common",
+        "id": "3049",
         "count": 4
       },
       {
-        "id": "base3-42",
-        "name": "Seadra",
-        "rarity": "Uncommon",
+        "id": "3042",
         "count": 2
       },
       {
-        "id": "base3-10",
-        "name": "Lapras",
-        "rarity": "Rare Holo",
+        "id": "3010",
         "count": 1
       },
       {
-        "id": "base1-91",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "1091",
         "count": 2
       },
       {
-        "id": "base3-59",
-        "name": "Energy Search",
-        "rarity": "Common",
+        "id": "3059",
         "count": 1
       },
       {
-        "id": "base1-82",
-        "name": "Full Heal",
-        "rarity": "Uncommon",
+        "id": "1082",
         "count": 1
       },
       {
-        "id": "base3-60",
-        "name": "Gambler",
-        "rarity": "Common",
+        "id": "3060",
         "count": 1
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 2
       },
       {
-        "id": "base1-90",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "1090",
         "count": 2
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 2
       },
       {
-        "id": "base1-98",
-        "name": "Fire Energy",
+        "id": "1098",
         "count": 14
       },
       {
-        "id": "base1-102",
-        "name": "Water Energy",
+        "id": "1102",
         "count": 14
       }
     ]
   },
   {
-    "id": "d-base3-2",
+    "id": "3902",
     "name": "BodyGuard",
     "types": [
       "Grass",
@@ -118,91 +86,63 @@
     ],
     "cards": [
       {
-        "id": "base1-44",
-        "name": "Bulbasaur",
-        "rarity": "Common",
+        "id": "1044",
         "count": 2
       },
       {
-        "id": "base3-57",
-        "name": "Zubat",
-        "rarity": "Common",
+        "id": "3057",
         "count": 4
       },
       {
-        "id": "base3-34",
-        "name": "Golbat",
-        "rarity": "Uncommon",
+        "id": "3034",
         "count": 2
       },
       {
-        "id": "base3-48",
-        "name": "Grimer",
-        "rarity": "Common",
+        "id": "3048",
         "count": 4
       },
       {
-        "id": "base3-13",
-        "name": "Muk",
-        "rarity": "Rare Holo",
+        "id": "3013",
         "count": 1
       },
       {
-        "id": "base1-51",
-        "name": "Koffing",
-        "rarity": "Common",
+        "id": "1051",
         "count": 4
       },
       {
-        "id": "base3-47",
-        "name": "Geodude",
-        "rarity": "Common",
+        "id": "3047",
         "count": 3
       },
       {
-        "id": "base3-37",
-        "name": "Graveler",
-        "rarity": "Uncommon",
+        "id": "3037",
         "count": 2
       },
       {
-        "id": "base1-56",
-        "name": "Onix",
-        "rarity": "Common",
+        "id": "1056",
         "count": 1
       },
       {
-        "id": "base1-85",
-        "name": "Pokémon Center",
-        "rarity": "Uncommon",
+        "id": "1085",
         "count": 1
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 4
       },
       {
-        "id": "base1-88",
-        "name": "Professor Oak",
-        "rarity": "Uncommon",
+        "id": "1088",
         "count": 2
       },
       {
-        "id": "base1-90",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "1090",
         "count": 2
       },
       {
-        "id": "base1-99",
-        "name": "Grass Energy",
+        "id": "1099",
         "count": 16
       },
       {
-        "id": "base1-97",
-        "name": "Fighting Energy",
+        "id": "1097",
         "count": 12
       }
     ]

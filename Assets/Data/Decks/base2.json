@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-base2-1",
+    "id": "2901",
     "name": "Water Blast",
     "types": [
       "Water",
@@ -8,109 +8,77 @@
     ],
     "cards": [
       {
-        "id": "base1-59",
-        "name": "Poliwag",
-        "rarity": "Common",
+        "id": "1059",
         "count": 4
       },
       {
-        "id": "base1-38",
-        "name": "Poliwhirl",
-        "rarity": "Uncommon",
+        "id": "1038",
         "count": 2
       },
       {
-        "id": "base1-41",
-        "name": "Seel",
-        "rarity": "Uncommon",
+        "id": "1041",
         "count": 1
       },
       {
-        "id": "base2-12",
-        "name": "Vaporeon",
-        "rarity": "Rare Holo",
+        "id": "2012",
         "count": 1
       },
       {
-        "id": "base1-52",
-        "name": "Machop",
-        "rarity": "Common",
+        "id": "1052",
         "count": 2
       },
       {
-        "id": "base2-61",
-        "name": "Rhyhorn",
-        "rarity": "Common",
+        "id": "2061",
         "count": 3
       },
       {
-        "id": "base2-45",
-        "name": "Rhydon",
-        "rarity": "Uncommon",
+        "id": "2045",
         "count": 1
       },
       {
-        "id": "base2-56",
-        "name": "Meowth",
-        "rarity": "Common",
+        "id": "2056",
         "count": 4
       },
       {
-        "id": "base2-42",
-        "name": "Persian",
-        "rarity": "Uncommon",
+        "id": "2042",
         "count": 2
       },
       {
-        "id": "base2-51",
-        "name": "Eevee",
-        "rarity": "Common",
+        "id": "2051",
         "count": 4
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 2
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 2
       },
       {
-        "id": "base1-88",
-        "name": "Professor Oak",
-        "rarity": "Uncommon",
+        "id": "1088",
         "count": 1
       },
       {
-        "id": "base1-90",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "1090",
         "count": 2
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 1
       },
       {
-        "id": "base1-102",
-        "name": "Water Energy",
+        "id": "1102",
         "count": 14
       },
       {
-        "id": "base1-97",
-        "name": "Fighting Energy",
+        "id": "1097",
         "count": 14
       }
     ]
   },
   {
-    "id": "d-base2-2",
+    "id": "2902",
     "name": "Power Reserve",
     "types": [
       "Psychic",
@@ -118,103 +86,71 @@
     ],
     "cards": [
       {
-        "id": "base2-57",
-        "name": "Nidoran♀",
-        "rarity": "Common",
+        "id": "2057",
         "count": 4
       },
       {
-        "id": "base2-40",
-        "name": "Nidorina",
-        "rarity": "Uncommon",
+        "id": "2040",
         "count": 2
       },
       {
-        "id": "base2-58",
-        "name": "Oddish",
-        "rarity": "Common",
+        "id": "2058",
         "count": 2
       },
       {
-        "id": "base2-37",
-        "name": "Gloom",
-        "rarity": "Uncommon",
+        "id": "2037",
         "count": 1
       },
       {
-        "id": "base2-49",
-        "name": "Bellsprout",
-        "rarity": "Common",
+        "id": "2049",
         "count": 4
       },
       {
-        "id": "base2-48",
-        "name": "Weepinbell",
-        "rarity": "Uncommon",
+        "id": "2048",
         "count": 2
       },
       {
-        "id": "base1-43",
-        "name": "Abra",
-        "rarity": "Common",
+        "id": "1043",
         "count": 4
       },
       {
-        "id": "base1-32",
-        "name": "Kadabra",
-        "rarity": "Uncommon",
+        "id": "1032",
         "count": 2
       },
       {
-        "id": "base1-31",
-        "name": "Jynx",
-        "rarity": "Uncommon",
+        "id": "1031",
         "count": 1
       },
       {
-        "id": "base2-5",
-        "name": "Kangaskhan",
-        "rarity": "Rare Holo",
+        "id": "2005",
         "count": 1
       },
       {
-        "id": "base1-91",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "1091",
         "count": 2
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 2
       },
       {
-        "id": "base1-87",
-        "name": "Pokédex",
-        "rarity": "Uncommon",
+        "id": "1087",
         "count": 1
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 3
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 1
       },
       {
-        "id": "base1-99",
-        "name": "Grass Energy",
+        "id": "1099",
         "count": 17
       },
       {
-        "id": "base1-101",
-        "name": "Psychic Energy",
+        "id": "1101",
         "count": 11
       }
     ]

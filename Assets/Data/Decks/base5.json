@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-base5-1",
+    "id": "5901",
     "name": "Devastation",
     "types": [
       "Grass",
@@ -8,121 +8,85 @@
     ],
     "cards": [
       {
-        "id": "base4-100",
-        "name": "Weedle",
-        "rarity": "Common",
+        "id": "4100",
         "count": 3
       },
       {
-        "id": "base5-63",
-        "name": "Oddish",
-        "rarity": "Common",
+        "id": "5063",
         "count": 3
       },
       {
-        "id": "base5-36",
-        "name": "Dark Gloom",
-        "rarity": "Uncommon",
+        "id": "5036",
         "count": 1
       },
       {
-        "id": "base5-58",
-        "name": "Koffing",
-        "rarity": "Common",
+        "id": "5058",
         "count": 4
       },
       {
-        "id": "base5-14",
-        "name": "Dark Weezing",
-        "rarity": "Rare Holo",
+        "id": "5014",
         "count": 1
       },
       {
-        "id": "base4-96",
-        "name": "Tangela",
-        "rarity": "Common",
+        "id": "4096",
         "count": 3
       },
       {
-        "id": "base4-93",
-        "name": "Squirtle",
-        "rarity": "Common",
+        "id": "4093",
         "count": 3
       },
       {
-        "id": "base4-63",
-        "name": "Wartortle",
-        "rarity": "Uncommon",
+        "id": "4063",
         "count": 1
       },
       {
-        "id": "base5-46",
-        "name": "Dark Wartortle",
-        "rarity": "Uncommon",
+        "id": "5046",
         "count": 1
       },
       {
-        "id": "base4-50",
-        "name": "Magikarp",
-        "rarity": "Uncommon",
+        "id": "4050",
         "count": 1
       },
       {
-        "id": "base5-45",
-        "name": "Dark Vaporeon",
-        "rarity": "Uncommon",
+        "id": "5045",
         "count": 2
       },
       {
-        "id": "base5-55",
-        "name": "Eevee",
-        "rarity": "Common",
+        "id": "5055",
         "count": 3
       },
       {
-        "id": "base4-111",
-        "name": "Full Heal",
-        "rarity": "Common",
+        "id": "4111",
         "count": 1
       },
       {
-        "id": "base4-120",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "4120",
         "count": 1
       },
       {
-        "id": "base5-76",
-        "name": "Imposter Oak's Revenge",
-        "rarity": "Uncommon",
+        "id": "5076",
         "count": 1
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "base4-117",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "4117",
         "count": 1
       },
       {
-        "id": "base4-127",
-        "name": "Grass Energy",
+        "id": "4127",
         "count": 18
       },
       {
-        "id": "base4-130",
-        "name": "Water Energy",
+        "id": "4130",
         "count": 10
       }
     ]
   },
   {
-    "id": "d-base5-2",
+    "id": "5902",
     "name": "Trouble",
     "types": [
       "Psychic",
@@ -130,126 +94,87 @@
     ],
     "cards": [
       {
-        "id": "base4-65",
-        "name": "Abra",
-        "rarity": "Common",
+        "id": "4065",
         "count": 2
       },
       {
-        "id": "base5-49",
-        "name": "Abra",
-        "rarity": "Common",
+        "id": "5049",
         "count": 2
       },
       {
-        "id": "base4-46",
-        "name": "Kadabra",
-        "rarity": "Uncommon",
+        "id": "4046",
         "count": 1
       },
       {
-        "id": "base5-39",
-        "name": "Dark Kadabra",
-        "rarity": "Uncommon",
+        "id": "5039",
         "count": 2
       },
       {
-        "id": "base4-75",
-        "name": "Gastly",
-        "rarity": "Common",
+        "id": "4075",
         "count": 2
       },
       {
-        "id": "base4-43",
-        "name": "Haunter",
-        "rarity": "Uncommon",
+        "id": "4043",
         "count": 1
       },
       {
-        "id": "base5-54",
-        "name": "Drowzee",
-        "rarity": "Common",
+        "id": "5054",
         "count": 3
       },
       {
-        "id": "base4-45",
-        "name": "Jynx",
-        "rarity": "Uncommon",
+        "id": "4045",
         "count": 1
       },
       {
-        "id": "base4-100",
-        "name": "Weedle",
-        "rarity": "Common",
+        "id": "4100",
         "count": 2
       },
       {
-        "id": "base5-56",
-        "name": "Ekans",
-        "rarity": "Common",
+        "id": "5056",
         "count": 4
       },
       {
-        "id": "base5-2",
-        "name": "Dark Arbok",
-        "rarity": "Rare Holo",
+        "id": "5002",
         "count": 1
       },
       {
-        "id": "base5-62",
-        "name": "Meowth",
-        "rarity": "Common",
+        "id": "5062",
         "count": 2
       },
       {
-        "id": "base4-40",
-        "name": "Farfetch'd",
-        "rarity": "Uncommon",
+        "id": "4040",
         "count": 2
       },
       {
-        "id": "base4-118",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "4118",
         "count": 1
       },
       {
-        "id": "base4-120",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "4120",
         "count": 1
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "base4-123",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "4123",
         "count": 1
       },
       {
-        "id": "base5-73",
-        "name": "The Boss's Way",
-        "rarity": "Uncommon",
+        "id": "5073",
         "count": 1
       },
       {
-        "id": "base4-129",
-        "name": "Psychic Energy",
+        "id": "4129",
         "count": 18
       },
       {
-        "id": "base4-127",
-        "name": "Grass Energy",
+        "id": "4127",
         "count": 10
       },
       {
-        "id": "base5-81",
-        "name": "Full Heal Energy",
+        "id": "5081",
         "count": 1
       }
     ]

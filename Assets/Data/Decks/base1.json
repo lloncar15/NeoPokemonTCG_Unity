@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-base1-1",
+    "id": "1901",
     "name": "2-Player Starter Set",
     "types": [
       "Fire",
@@ -9,121 +9,85 @@
     ],
     "cards": [
       {
-        "id": "base1-47",
-        "name": "Diglett",
-        "rarity": "Common",
+        "id": "1047",
         "count": 3
       },
       {
-        "id": "base1-52",
-        "name": "Machop",
-        "rarity": "Common",
+        "id": "1052",
         "count": 4
       },
       {
-        "id": "base1-34",
-        "name": "Machoke",
-        "rarity": "Uncommon",
+        "id": "1034",
         "count": 2
       },
       {
-        "id": "base1-8",
-        "name": "Machamp",
-        "rarity": "Rare Holo",
+        "id": "1008",
         "count": 1
       },
       {
-        "id": "base1-60",
-        "name": "Ponyta",
-        "rarity": "Common",
+        "id": "1060",
         "count": 4
       },
       {
-        "id": "base1-46",
-        "name": "Charmander",
-        "rarity": "Common",
+        "id": "1046",
         "count": 4
       },
       {
-        "id": "base1-24",
-        "name": "Charmeleon",
-        "rarity": "Uncommon",
+        "id": "1024",
         "count": 2
       },
       {
-        "id": "base1-28",
-        "name": "Growlithe",
-        "rarity": "Uncommon",
+        "id": "1028",
         "count": 1
       },
       {
-        "id": "base1-61",
-        "name": "Rattata",
-        "rarity": "Common",
+        "id": "1061",
         "count": 2
       },
       {
-        "id": "base1-26",
-        "name": "Dratini",
-        "rarity": "Uncommon",
+        "id": "1026",
         "count": 1
       },
       {
-        "id": "base1-91",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "1091",
         "count": 1
       },
       {
-        "id": "base1-92",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "1092",
         "count": 1
       },
       {
-        "id": "base1-81",
-        "name": "Energy Retrieval",
-        "rarity": "Uncommon",
+        "id": "1081",
         "count": 1
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 1
       },
       {
-        "id": "base1-87",
-        "name": "Pokédex",
-        "rarity": "Uncommon",
+        "id": "1087",
         "count": 1
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 2
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 2
       },
       {
-        "id": "base1-97",
-        "name": "Fighting Energy",
+        "id": "1097",
         "count": 14
       },
       {
-        "id": "base1-98",
-        "name": "Fire Energy",
+        "id": "1098",
         "count": 14
       }
     ]
   },
   {
-    "id": "d-base1-2",
+    "id": "1902",
     "name": "Overgrowth",
     "types": [
       "Water",
@@ -131,103 +95,73 @@
     ],
     "cards": [
       {
-        "id": "base1-44",
-        "name": "Bulbasaur",
-        "rarity": "Common",
+        "id": "1044",
         "count": 4
       },
       {
-        "id": "base1-30",
-        "name": "Ivysaur",
-        "rarity": "Uncommon",
+        "id": "1030",
         "count": 2
       },
       {
-        "id": "base1-69",
-        "name": "Weedle",
-        "rarity": "Common",
+        "id": "1069",
         "count": 4
       },
       {
-        "id": "base1-33",
-        "name": "Kakuna",
-        "rarity": "Uncommon",
+        "id": "1033",
         "count": 2
       },
       {
-        "id": "base1-17",
-        "name": "Beedrill",
-        "rarity": "Rare",
+        "id": "1017",
         "count": 1
       },
       {
-        "id": "base1-65",
-        "name": "Staryu",
-        "rarity": "Common",
+        "id": "1065",
         "count": 4
       },
       {
-        "id": "base1-64",
-        "name": "Starmie",
-        "rarity": "Common",
+        "id": "1064",
         "count": 3
       },
       {
-        "id": "base1-35",
-        "name": "Magikarp",
-        "rarity": "Uncommon",
+        "id": "1035",
         "count": 2
       },
       {
-        "id": "base1-6",
-        "name": "Gyarados",
-        "rarity": "Rare Holo",
+        "id": "1006",
         "count": 1
       },
       {
-        "id": "base1-91",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "1091",
         "count": 2
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 2
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 1
       },
       {
-        "id": "base1-90",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "1090",
         "count": 2
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 2
       },
       {
-        "id": "base1-99",
-        "name": "Grass Energy",
+        "id": "1099",
         "count": 16
       },
       {
-        "id": "base1-102",
-        "name": "Water Energy",
+        "id": "1102",
         "count": 12
       }
     ]
   },
   {
-    "id": "d-base1-3",
+    "id": "1903",
     "name": "Zap!",
     "types": [
       "Lightning",
@@ -235,121 +169,85 @@
     ],
     "cards": [
       {
-        "id": "base1-58",
-        "name": "Pikachu",
-        "rarity": "Common",
+        "id": "1058",
         "count": 4
       },
       {
-        "id": "base1-53",
-        "name": "Magnemite",
-        "rarity": "Common",
+        "id": "1053",
         "count": 3
       },
       {
-        "id": "base1-43",
-        "name": "Abra",
-        "rarity": "Common",
+        "id": "1043",
         "count": 3
       },
       {
-        "id": "base1-32",
-        "name": "Kadabra",
-        "rarity": "Uncommon",
+        "id": "1032",
         "count": 1
       },
       {
-        "id": "base1-50",
-        "name": "Gastly",
-        "rarity": "Common",
+        "id": "1050",
         "count": 3
       },
       {
-        "id": "base1-29",
-        "name": "Haunter",
-        "rarity": "Uncommon",
+        "id": "1029",
         "count": 2
       },
       {
-        "id": "base1-49",
-        "name": "Drowzee",
-        "rarity": "Common",
+        "id": "1049",
         "count": 2
       },
       {
-        "id": "base1-31",
-        "name": "Jynx",
-        "rarity": "Uncommon",
+        "id": "1031",
         "count": 2
       },
       {
-        "id": "base1-10",
-        "name": "Mewtwo",
-        "rarity": "Rare Holo",
+        "id": "1010",
         "count": 1
       },
       {
-        "id": "base1-91",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "1091",
         "count": 2
       },
       {
-        "id": "base1-71",
-        "name": "Computer Search",
-        "rarity": "Rare",
+        "id": "1071",
         "count": 1
       },
       {
-        "id": "base1-80",
-        "name": "Defender",
-        "rarity": "Uncommon",
+        "id": "1080",
         "count": 1
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 2
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 1
       },
       {
-        "id": "base1-88",
-        "name": "Professor Oak",
-        "rarity": "Uncommon",
+        "id": "1088",
         "count": 1
       },
       {
-        "id": "base1-90",
-        "name": "Super Potion",
-        "rarity": "Uncommon",
+        "id": "1090",
         "count": 1
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 2
       },
       {
-        "id": "base1-100",
-        "name": "Lightning Energy",
+        "id": "1100",
         "count": 12
       },
       {
-        "id": "base1-101",
-        "name": "Psychic Energy",
+        "id": "1101",
         "count": 16
       }
     ]
   },
   {
-    "id": "d-base1-4",
+    "id": "1904",
     "name": "Brushfire",
     "types": [
       "Fire",
@@ -357,115 +255,81 @@
     ],
     "cards": [
       {
-        "id": "base1-46",
-        "name": "Charmander",
-        "rarity": "Common",
+        "id": "1046",
         "count": 4
       },
       {
-        "id": "base1-24",
-        "name": "Charmeleon",
-        "rarity": "Uncommon",
+        "id": "1024",
         "count": 2
       },
       {
-        "id": "base1-68",
-        "name": "Vulpix",
-        "rarity": "Common",
+        "id": "1068",
         "count": 2
       },
       {
-        "id": "base1-12",
-        "name": "Ninetales",
-        "rarity": "Rare Holo",
+        "id": "1012",
         "count": 1
       },
       {
-        "id": "base1-28",
-        "name": "Growlithe",
-        "rarity": "Uncommon",
+        "id": "1028",
         "count": 2
       },
       {
-        "id": "base1-23",
-        "name": "Arcanine",
-        "rarity": "Uncommon",
+        "id": "1023",
         "count": 1
       },
       {
-        "id": "base1-69",
-        "name": "Weedle",
-        "rarity": "Common",
+        "id": "1069",
         "count": 4
       },
       {
-        "id": "base1-55",
-        "name": "Nidoran♂",
-        "rarity": "Common",
+        "id": "1055",
         "count": 4
       },
       {
-        "id": "base1-66",
-        "name": "Tangela",
-        "rarity": "Common",
+        "id": "1066",
         "count": 2
       },
       {
-        "id": "base1-92",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "1092",
         "count": 1
       },
       {
-        "id": "base1-81",
-        "name": "Energy Retrieval",
-        "rarity": "Uncommon",
+        "id": "1081",
         "count": 2
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 1
       },
       {
-        "id": "base1-75",
-        "name": "Lass",
-        "rarity": "Rare",
+        "id": "1075",
         "count": 1
       },
       {
-        "id": "base1-84",
-        "name": "PlusPower",
-        "rarity": "Uncommon",
+        "id": "1084",
         "count": 1
       },
       {
-        "id": "base1-94",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "1094",
         "count": 3
       },
       {
-        "id": "base1-95",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "1095",
         "count": 1
       },
       {
-        "id": "base1-98",
-        "name": "Fire Energy",
+        "id": "1098",
         "count": 18
       },
       {
-        "id": "base1-99",
-        "name": "Grass Energy",
+        "id": "1099",
         "count": 10
       }
     ]
   },
   {
-    "id": "d-base1-5",
+    "id": "1905",
     "name": "Blackout",
     "types": [
       "Water",
@@ -473,97 +337,67 @@
     ],
     "cards": [
       {
-        "id": "base1-62",
-        "name": "Sandshrew",
-        "rarity": "Common",
+        "id": "1062",
         "count": 3
       },
       {
-        "id": "base1-52",
-        "name": "Machop",
-        "rarity": "Common",
+        "id": "1052",
         "count": 4
       },
       {
-        "id": "base1-34",
-        "name": "Machoke",
-        "rarity": "Uncommon",
+        "id": "1034",
         "count": 2
       },
       {
-        "id": "base1-56",
-        "name": "Onix",
-        "rarity": "Common",
+        "id": "1056",
         "count": 3
       },
       {
-        "id": "base1-7",
-        "name": "Hitmonchan",
-        "rarity": "Rare Holo",
+        "id": "1007",
         "count": 1
       },
       {
-        "id": "base1-63",
-        "name": "Squirtle",
-        "rarity": "Common",
+        "id": "1063",
         "count": 4
       },
       {
-        "id": "base1-42",
-        "name": "Wartortle",
-        "rarity": "Uncommon",
+        "id": "1042",
         "count": 2
       },
       {
-        "id": "base1-65",
-        "name": "Staryu",
-        "rarity": "Common",
+        "id": "1065",
         "count": 3
       },
       {
-        "id": "base1-27",
-        "name": "Farfetch'd",
-        "rarity": "Uncommon",
+        "id": "1027",
         "count": 2
       },
       {
-        "id": "base1-92",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "1092",
         "count": 4
       },
       {
-        "id": "base1-93",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "1093",
         "count": 1
       },
       {
-        "id": "base1-84",
-        "name": "PlusPower",
-        "rarity": "Uncommon",
+        "id": "1084",
         "count": 1
       },
       {
-        "id": "base1-88",
-        "name": "Professor Oak",
-        "rarity": "Uncommon",
+        "id": "1088",
         "count": 1
       },
       {
-        "id": "base1-79",
-        "name": "Super Energy Removal",
-        "rarity": "Rare",
+        "id": "1079",
         "count": 1
       },
       {
-        "id": "base1-97",
-        "name": "Fighting Energy",
+        "id": "1097",
         "count": 16
       },
       {
-        "id": "base1-102",
-        "name": "Water Energy",
+        "id": "1102",
         "count": 12
       }
     ]

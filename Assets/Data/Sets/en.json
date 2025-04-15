@@ -1,6 +1,6 @@
 [
   {
-    "id": "base1",
+    "id": "1000",
     "name": "Base",
     "series": "Base",
     "totalCards": 102,
@@ -10,7 +10,7 @@
     }
   },
   {
-    "id": "base2",
+    "id": "2000",
     "name": "Jungle",
     "series": "Base",
     "totalCards": 64,
@@ -20,17 +20,7 @@
     }
   },
   {
-    "id": "basep",
-    "name": "Wizards Black Star Promos",
-    "series": "Base",
-    "totalCards": 53,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
-      "logo": "https://images.pokemontcg.io/basep/logo.png"
-    }
-  },
-  {
-    "id": "base3",
+    "id": "3000",
     "name": "Fossil",
     "series": "Base",
     "totalCards": 62,
@@ -40,7 +30,7 @@
     }
   },
   {
-    "id": "base4",
+    "id": "4000",
     "name": "Base Set 2",
     "series": "Base",
     "totalCards": 130,
@@ -50,7 +40,7 @@
     }
   },
   {
-    "id": "base5",
+    "id": "5000",
     "name": "Team Rocket",
     "series": "Base",
     "totalCards": 83,
@@ -60,77 +50,7 @@
     }
   },
   {
-    "id": "gym1",
-    "name": "Gym Heroes",
-    "series": "Gym",
-    "totalCards": 132,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
-      "logo": "https://images.pokemontcg.io/gym1/logo.png"
-    }
-  },
-  {
-    "id": "gym2",
-    "name": "Gym Challenge",
-    "series": "Gym",
-    "totalCards": 132,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
-      "logo": "https://images.pokemontcg.io/gym2/logo.png"
-    }
-  },
-  {
-    "id": "neo1",
-    "name": "Neo Genesis",
-    "series": "Neo",
-    "totalCards": 111,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
-      "logo": "https://images.pokemontcg.io/neo1/logo.png"
-    }
-  },
-  {
-    "id": "neo2",
-    "name": "Neo Discovery",
-    "series": "Neo",
-    "totalCards": 75,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
-      "logo": "https://images.pokemontcg.io/neo2/logo.png"
-    }
-  },
-  {
-    "id": "si1",
-    "name": "Southern Islands",
-    "series": "Other",
-    "totalCards": 18,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
-      "logo": "https://images.pokemontcg.io/si1/logo.png"
-    }
-  },
-  {
-    "id": "neo3",
-    "name": "Neo Revelation",
-    "series": "Neo",
-    "totalCards": 66,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
-      "logo": "https://images.pokemontcg.io/neo3/logo.png"
-    }
-  },
-  {
-    "id": "neo4",
-    "name": "Neo Destiny",
-    "series": "Neo",
-    "totalCards": 113,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
-      "logo": "https://images.pokemontcg.io/neo4/logo.png"
-    }
-  },
-  {
-    "id": "base6",
+    "id": "6000",
     "name": "Legendary Collection",
     "series": "Other",
     "totalCards": 110,
@@ -140,9 +60,69 @@
     }
   },
   {
-    "id": "ecard1",
+    "id": "7000",
+    "name": "Gym Heroes",
+    "series": "Gym",
+    "totalCards": 132,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym1/logo.png"
+    }
+  },
+  {
+    "id": "8000",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "totalCards": 132,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  {
+    "id": "9000",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "totalCards": 111,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  {
+    "id": "10000",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "totalCards": 75,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  {
+    "id": "11000",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "totalCards": 66,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  {
+    "id": "12000",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "totalCards": 113,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  {
+    "id": "13000",
     "name": "Expedition Base Set",
-    "series": "E-Card",
+    "series": "ECard",
     "totalCards": 165,
     "images": {
       "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
@@ -150,7 +130,37 @@
     }
   },
   {
-    "id": "bp",
+    "id": "14000",
+    "name": "Aquapolis",
+    "series": "ECard",
+    "totalCards": 182,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
+    }
+  },
+  {
+    "id": "15000",
+    "name": "Skyridge",
+    "series": "ECard",
+    "totalCards": 182,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+    }
+  },
+  {
+    "id": "16000",
+    "name": "Wizards Black Star Promos",
+    "series": "Base",
+    "totalCards": 53,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
+      "logo": "https://images.pokemontcg.io/basep/logo.png"
+    }
+  },
+  {
+    "id": "17000",
     "name": "Best of Game",
     "series": "Other",
     "totalCards": 9,
@@ -160,23 +170,13 @@
     }
   },
   {
-    "id": "ecard2",
-    "name": "Aquapolis",
-    "series": "E-Card",
-    "totalCards": 182,
+    "id": "18000",
+    "name": "Southern Islands",
+    "series": "Other",
+    "totalCards": 18,
     "images": {
-      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
-      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
-    }
-  },
-  {
-    "id": "ecard3",
-    "name": "Skyridge",
-    "series": "E-Card",
-    "totalCards": 182,
-    "images": {
-      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
-      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+      "logo": "https://images.pokemontcg.io/si1/logo.png"
     }
   }
 ]

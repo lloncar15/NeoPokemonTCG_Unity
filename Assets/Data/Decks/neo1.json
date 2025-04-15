@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-neo1-1",
+    "id": "9901",
     "name": "Hotfoot",
     "types": [
       "Grass",
@@ -8,115 +8,81 @@
     ],
     "cards": [
       {
-        "id": "neo1-61",
-        "name": "Hoppip",
-        "rarity": "Common",
+        "id": "9061",
         "count": 4
       },
       {
-        "id": "neo1-49",
-        "name": "Skiploom",
-        "rarity": "Uncommon",
+        "id": "9049",
         "count": 2
       },
       {
-        "id": "neo1-7",
-        "name": "Jumpluff",
-        "rarity": "Rare Holo",
+        "id": "9007",
         "count": 1
       },
       {
-        "id": "neo1-68",
-        "name": "Oddish",
-        "rarity": "Common",
+        "id": "9068",
         "count": 4
       },
       {
-        "id": "neo1-75",
-        "name": "Spinarak",
-        "rarity": "Common",
+        "id": "9075",
         "count": 3
       },
       {
-        "id": "neo1-27",
-        "name": "Ariados",
-        "rarity": "Uncommon",
+        "id": "9027",
         "count": 1
       },
       {
-        "id": "neo1-56",
-        "name": "Cyndaquil",
-        "rarity": "Common",
+        "id": "9056",
         "count": 2
       },
       {
-        "id": "neo1-57",
-        "name": "Cyndaquil",
-        "rarity": "Common",
+        "id": "9057",
         "count": 2
       },
       {
-        "id": "neo1-47",
-        "name": "Quilava",
-        "rarity": "Uncommon",
+        "id": "9047",
         "count": 1
       },
       {
-        "id": "neo1-23",
-        "name": "Magby",
-        "rarity": "Rare",
+        "id": "9023",
         "count": 1
       },
       {
-        "id": "neo1-40",
-        "name": "Magmar",
-        "rarity": "Uncommon",
+        "id": "9040",
         "count": 2
       },
       {
-        "id": "neo1-91",
-        "name": "Bill's Teleporter",
-        "rarity": "Uncommon",
+        "id": "9091",
         "count": 1
       },
       {
-        "id": "neo1-101",
-        "name": "Moo-Moo Milk",
-        "rarity": "Common",
+        "id": "9101",
         "count": 3
       },
       {
-        "id": "neo1-102",
-        "name": "Pokémon March",
-        "rarity": "Common",
+        "id": "9102",
         "count": 2
       },
       {
-        "id": "neo1-96",
-        "name": "Professor Elm",
-        "rarity": "Uncommon",
+        "id": "9096",
         "count": 1
       },
       {
-        "id": "neo1-103",
-        "name": "Super Rod",
-        "rarity": "Common",
+        "id": "9103",
         "count": 2
       },
       {
-        "id": "neo1-108",
-        "name": "Grass Energy",
+        "id": "9108",
         "count": 21
       },
       {
-        "id": "neo1-107",
-        "name": "Fire Energy",
+        "id": "9107",
         "count": 7
       }
     ]
   },
   {
-    "id": "d-neo1-2",
+    "id": "9902",
     "name": "Cold Fusion",
     "types": [
       "Lightning",
@@ -124,109 +90,75 @@
     ],
     "cards": [
       {
-        "id": "neo1-80",
-        "name": "Totodile",
-        "rarity": "Common",
+        "id": "9080",
         "count": 2
       },
       {
-        "id": "neo1-81",
-        "name": "Totodile",
-        "rarity": "Common",
+        "id": "9081",
         "count": 2
       },
       {
-        "id": "neo1-31",
-        "name": "Croconaw",
-        "rarity": "Uncommon",
+        "id": "9031",
         "count": 1
       },
       {
-        "id": "neo1-32",
-        "name": "Croconaw",
-        "rarity": "Uncommon",
+        "id": "9032",
         "count": 1
       },
       {
-        "id": "neo1-64",
-        "name": "Mantine",
-        "rarity": "Common",
+        "id": "9064",
         "count": 4
       },
       {
-        "id": "neo1-62",
-        "name": "Horsea",
-        "rarity": "Common",
+        "id": "9062",
         "count": 4
       },
       {
-        "id": "neo1-48",
-        "name": "Seadra",
-        "rarity": "Uncommon",
+        "id": "9048",
         "count": 2
       },
       {
-        "id": "neo1-8",
-        "name": "Kingdra",
-        "rarity": "Rare Holo",
+        "id": "9008",
         "count": 1
       },
       {
-        "id": "neo1-55",
-        "name": "Chinchou",
-        "rarity": "Common",
+        "id": "9055",
         "count": 4
       },
       {
-        "id": "neo1-38",
-        "name": "Lanturn",
-        "rarity": "Uncommon",
+        "id": "9038",
         "count": 2
       },
       {
-        "id": "neo1-22",
-        "name": "Elekid",
-        "rarity": "Rare",
+        "id": "9022",
         "count": 1
       },
       {
-        "id": "neo1-33",
-        "name": "Electabuzz",
-        "rarity": "Uncommon",
+        "id": "9033",
         "count": 1
       },
       {
-        "id": "neo1-70",
-        "name": "Pikachu",
-        "rarity": "Common",
+        "id": "9070",
         "count": 2
       },
       {
-        "id": "neo1-101",
-        "name": "Moo-Moo Milk",
-        "rarity": "Common",
+        "id": "9101",
         "count": 3
       },
       {
-        "id": "neo1-96",
-        "name": "Professor Elm",
-        "rarity": "Uncommon",
+        "id": "9096",
         "count": 1
       },
       {
-        "id": "neo1-103",
-        "name": "Super Rod",
-        "rarity": "Common",
+        "id": "9103",
         "count": 1
       },
       {
-        "id": "neo1-111",
-        "name": "Water Energy",
+        "id": "9111",
         "count": 16
       },
       {
-        "id": "neo1-109",
-        "name": "Lightning Energy",
+        "id": "9109",
         "count": 12
       }
     ]

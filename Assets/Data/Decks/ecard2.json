@@ -1,6 +1,6 @@
 [
   {
-    "id": "d-ecard2-1",
+    "id": "14901",
     "name": "Rock Garden",
     "types": [
       "Fighting",
@@ -8,115 +8,81 @@
     ],
     "cards": [
       {
-        "id": "ecard2-96",
-        "name": "Nidoran♂",
-        "rarity": "Common",
+        "id": "14096",
         "count": 4
       },
       {
-        "id": "ecard2-55",
-        "name": "Nidorino",
-        "rarity": "Uncommon",
+        "id": "14055",
         "count": 2
       },
       {
-        "id": "ecard2-24",
-        "name": "Nidoking",
-        "rarity": "Rare",
+        "id": "14024",
         "count": 1
       },
       {
-        "id": "ecard2-76",
-        "name": "Exeggcute",
-        "rarity": "Common",
+        "id": "14076",
         "count": 3
       },
       {
-        "id": "ecard2-12",
-        "name": "Exeggutor",
-        "rarity": "Rare",
+        "id": "14012",
         "count": 1
       },
       {
-        "id": "ecard2-69",
-        "name": "Chansey",
-        "rarity": "Common",
+        "id": "14069",
         "count": 3
       },
       {
-        "id": "ecard2-6",
-        "name": "Blissey",
-        "rarity": "Rare",
+        "id": "14006",
         "count": 1
       },
       {
-        "id": "ecard2-72",
-        "name": "Cubone",
-        "rarity": "Common",
+        "id": "14072",
         "count": 3
       },
       {
-        "id": "ecard2-54",
-        "name": "Marowak",
-        "rarity": "Uncommon",
+        "id": "14054",
         "count": 1
       },
       {
-        "id": "ecard2-98",
-        "name": "Onix",
-        "rarity": "Common",
+        "id": "14098",
         "count": 2
       },
       {
-        "id": "ecard2-111",
-        "name": "Spinarak",
-        "rarity": "Common",
+        "id": "14111",
         "count": 2
       },
       {
-        "id": "ecard1-156",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "13156",
         "count": 4
       },
       {
-        "id": "ecard1-137",
-        "name": "Bill's Maintenance",
-        "rarity": "Uncommon",
+        "id": "13137",
         "count": 3
       },
       {
-        "id": "ecard2-123",
-        "name": "Forest Guardian",
-        "rarity": "Uncommon",
+        "id": "14123",
         "count": 2
       },
       {
-        "id": "ecard2-130",
-        "name": "Pokémon Fan Club",
-        "rarity": "Uncommon",
+        "id": "14130",
         "count": 2
       },
       {
-        "id": "ecard2-136",
-        "name": "Town Volunteers",
-        "rarity": "Uncommon",
+        "id": "14136",
         "count": 1
       },
       {
-        "id": "ecard1-162",
-        "name": "Grass Energy",
+        "id": "13162",
         "count": 13
       },
       {
-        "id": "ecard1-160",
-        "name": "Fighting Energy",
+        "id": "13160",
         "count": 12
       }
     ]
   },
   {
-    "id": "d-ecard2-2",
+    "id": "14902",
     "name": "Abyss",
     "types": [
       "Fire",
@@ -124,103 +90,71 @@
     ],
     "cards": [
       {
-        "id": "ecard2-116",
-        "name": "Vulpix",
-        "rarity": "Common",
+        "id": "14116",
         "count": 3
       },
       {
-        "id": "ecard2-25",
-        "name": "Ninetales",
-        "rarity": "Rare",
+        "id": "14025",
         "count": 1
       },
       {
-        "id": "ecard2-85",
-        "name": "Horsea",
-        "rarity": "Common",
+        "id": "14085",
         "count": 4
       },
       {
-        "id": "ecard2-58",
-        "name": "Seadra",
-        "rarity": "Uncommon",
+        "id": "14058",
         "count": 2
       },
       {
-        "id": "ecard2-19",
-        "name": "Kingdra",
-        "rarity": "Rare",
+        "id": "14019",
         "count": 1
       },
       {
-        "id": "ecard2-103",
-        "name": "Porygon",
-        "rarity": "Common",
+        "id": "14103",
         "count": 3
       },
       {
-        "id": "ecard2-28",
-        "name": "Porygon2",
-        "rarity": "Rare",
+        "id": "14028",
         "count": 1
       },
       {
-        "id": "ecard2-94",
-        "name": "Miltank",
-        "rarity": "Common",
+        "id": "14094",
         "count": 2
       },
       {
-        "id": "ecard2-113",
-        "name": "Tentacool",
-        "rarity": "Common",
+        "id": "14113",
         "count": 2
       },
       {
-        "id": "ecard2-86",
-        "name": "Houndour",
-        "rarity": "Common",
+        "id": "14086",
         "count": 2
       },
       {
-        "id": "ecard1-155",
-        "name": "Moo-Moo Milk",
-        "rarity": "Common",
+        "id": "13155",
         "count": 4
       },
       {
-        "id": "ecard1-149",
-        "name": "Professor Oak's Research",
-        "rarity": "Uncommon",
+        "id": "13149",
         "count": 3
       },
       {
-        "id": "ecard2-123",
-        "name": "Forest Guardian",
-        "rarity": "Uncommon",
+        "id": "14123",
         "count": 3
       },
       {
-        "id": "ecard2-126",
-        "name": "Juggler",
-        "rarity": "Uncommon",
+        "id": "14126",
         "count": 2
       },
       {
-        "id": "ecard2-136",
-        "name": "Town Volunteers",
-        "rarity": "Uncommon",
+        "id": "14136",
         "count": 1
       },
       {
-        "id": "ecard1-165",
-        "name": "Water Energy",
+        "id": "13165",
         "count": 14
       },
       {
-        "id": "ecard1-161",
-        "name": "Fire Energy",
+        "id": "13161",
         "count": 12
       }
     ]

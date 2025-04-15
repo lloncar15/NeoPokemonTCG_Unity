@@ -1,439 +1,308 @@
 [
   {
-    "id": "d-gym1-1",
+    "id": "7901",
     "name": "Brock",
     "types": [
       "Fighting"
     ],
     "cards": [
       {
-        "id": "gym1-66",
-        "name": "Brock's Geodude",
-        "rarity": "Common",
+        "id": "7066",
         "count": 3
       },
       {
-        "id": "gym1-40",
-        "name": "Brock's Graveler",
-        "rarity": "Uncommon",
+        "id": "7040",
         "count": 1
       },
       {
-        "id": "gym1-67",
-        "name": "Brock's Mankey",
-        "rarity": "Common",
+        "id": "7067",
         "count": 3
       },
       {
-        "id": "gym1-69",
-        "name": "Brock's Onix",
-        "rarity": "Common",
+        "id": "7069",
         "count": 4
       },
       {
-        "id": "gym1-70",
-        "name": "Brock's Rhyhorn",
-        "rarity": "Common",
+        "id": "7070",
         "count": 3
       },
       {
-        "id": "gym1-2",
-        "name": "Brock's Rhydon",
-        "rarity": "Rare Holo",
+        "id": "7002",
         "count": 1
       },
       {
-        "id": "gym1-71",
-        "name": "Brock's Sandshrew",
-        "rarity": "Common",
+        "id": "7071",
         "count": 2
       },
       {
-        "id": "gym1-72",
-        "name": "Brock's Sandshrew",
-        "rarity": "Common",
+        "id": "7072",
         "count": 1
       },
       {
-        "id": "gym1-41",
-        "name": "Brock's Lickitung",
-        "rarity": "Uncommon",
+        "id": "7041",
         "count": 1
       },
       {
-        "id": "base4-118",
-        "name": "Bill",
-        "rarity": "Common",
+        "id": "4118",
         "count": 1
       },
       {
-        "id": "gym1-98",
-        "name": "Brock",
-        "rarity": "Rare",
+        "id": "7098",
         "count": 1
       },
       {
-        "id": "gym1-106",
-        "name": "Brock's Training Method",
-        "rarity": "Uncommon",
+        "id": "7106",
         "count": 2
       },
       {
-        "id": "base4-110",
-        "name": "Energy Retrieval",
-        "rarity": "Uncommon",
+        "id": "4110",
         "count": 2
       },
       {
-        "id": "base4-111",
-        "name": "Full Heal",
-        "rarity": "Uncommon",
+        "id": "4111",
         "count": 1
       },
       {
-        "id": "gym1-115",
-        "name": "Pewter City Gym",
-        "rarity": "Uncommon",
+        "id": "7115",
         "count": 1
       },
       {
-        "id": "base4-123",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "4123",
         "count": 2
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 3
       },
       {
-        "id": "gym1-127",
-        "name": "Fighting Energy",
+        "id": "7127",
         "count": 28
       }
     ]
   },
   {
-    "id": "d-gym1-2",
+    "id": "7902",
     "name": "Misty",
     "types": [
       "Water"
     ],
     "cards": [
       {
-        "id": "gym1-85",
-        "name": "Misty's Goldeen",
-        "rarity": "Common",
+        "id": "7085",
         "count": 3
       },
       {
-        "id": "gym1-86",
-        "name": "Misty's Horsea",
-        "rarity": "Common",
+        "id": "7086",
         "count": 4
       },
       {
-        "id": "gym1-87",
-        "name": "Misty's Poliwag",
-        "rarity": "Common",
+        "id": "7087",
         "count": 3
       },
       {
-        "id": "gym1-53",
-        "name": "Misty's Poliwhirl",
-        "rarity": "Uncommon",
+        "id": "7053",
         "count": 1
       },
       {
-        "id": "gym1-54",
-        "name": "Misty's Psyduck",
-        "rarity": "Uncommon",
+        "id": "7054",
         "count": 2
       },
       {
-        "id": "gym1-90",
-        "name": "Misty's Staryu",
-        "rarity": "Common",
+        "id": "7090",
         "count": 4
       },
       {
-        "id": "gym1-56",
-        "name": "Misty's Starmie",
-        "rarity": "Uncommon",
+        "id": "7056",
         "count": 2
       },
       {
-        "id": "gym1-57",
-        "name": "Misty's Tentacool",
-        "rarity": "Common",
+        "id": "7057",
         "count": 2
       },
       {
-        "id": "gym1-10",
-        "name": "Misty's Tentacruel",
-        "rarity": "Rare Holo",
+        "id": "7010",
         "count": 1
       },
       {
-        "id": "gym1-108",
-        "name": "Cerulean City Gym",
-        "rarity": "Uncommon",
+        "id": "7108",
         "count": 1
       },
       {
-        "id": "base4-119",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "4119",
         "count": 2
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "gym1-102",
-        "name": "Misty",
-        "rarity": "Rare",
+        "id": "7102",
         "count": 1
       },
       {
-        "id": "base4-121",
-        "name": "Poké Ball",
-        "rarity": "Common",
+        "id": "4121",
         "count": 3
       },
       {
-        "id": "base4-123",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "4123",
         "count": 1
       },
       {
-        "id": "gym1-132",
-        "name": "Water Energy",
+        "id": "7132",
         "count": 28
       }
     ]
   },
   {
-    "id": "d-gym1-3",
+    "id": "7903",
     "name": "Lt. Surge",
     "types": [
       "Lightning"
     ],
     "cards": [
       {
-        "id": "gym1-80",
-        "name": "Lt. Surge's Magnemite",
-        "rarity": "Common",
+        "id": "7080",
         "count": 4
       },
       {
-        "id": "gym1-8",
-        "name": "Lt. Surge's Magneton",
-        "rarity": "Rare Holo",
+        "id": "7008",
         "count": 1
       },
       {
-        "id": "gym1-81",
-        "name": "Lt. Surge's Pikachu",
-        "rarity": "Common",
+        "id": "7081",
         "count": 4
       },
       {
-        "id": "gym1-84",
-        "name": "Lt. Surge's Voltorb",
-        "rarity": "Common",
+        "id": "7084",
         "count": 3
       },
       {
-        "id": "gym1-52",
-        "name": "Lt. Surge's Spearow",
-        "rarity": "Uncommon",
+        "id": "7052",
         "count": 2
       },
       {
-        "id": "gym1-83",
-        "name": "Lt. Surge's Spearow",
-        "rarity": "Common",
+        "id": "7083",
         "count": 2
       },
       {
-        "id": "gym1-82",
-        "name": "Lt. Surge's Rattata",
-        "rarity": "Common",
+        "id": "7082",
         "count": 4
       },
       {
-        "id": "gym1-51",
-        "name": "Lt. Surge's Raticate",
-        "rarity": "Uncommon",
+        "id": "7051",
         "count": 2
       },
       {
-        "id": "base4-119",
-        "name": "Energy Removal",
-        "rarity": "Common",
+        "id": "4119",
         "count": 1
       },
       {
-        "id": "base4-120",
-        "name": "Gust of Wind",
-        "rarity": "Common",
+        "id": "4120",
         "count": 2
       },
       {
-        "id": "gym1-101",
-        "name": "Lt. Surge",
-        "rarity": "Rare",
+        "id": "7101",
         "count": 1
       },
       {
-        "id": "base4-113",
-        "name": "PlusPower",
-        "rarity": "Uncommon",
+        "id": "4113",
         "count": 1
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "gym1-118",
-        "name": "Secret Mission",
-        "rarity": "Uncommon",
+        "id": "7118",
         "count": 2
       },
       {
-        "id": "gym1-120",
-        "name": "Vermilion City Gym",
-        "rarity": "Uncommon",
+        "id": "7120",
         "count": 1
       },
       {
-        "id": "gym1-130",
-        "name": "Lightning Energy",
+        "id": "7130",
         "count": 28
       }
     ]
   },
   {
-    "id": "d-gym1-4",
+    "id": "7904",
     "name": "Erika",
     "types": [
       "Grass"
     ],
     "cards": [
       {
-        "id": "gym1-76",
-        "name": "Erika's Bellsprout",
-        "rarity": "Common",
+        "id": "7076",
         "count": 4
       },
       {
-        "id": "gym1-49",
-        "name": "Erika's Weepinbell",
-        "rarity": "Uncommon",
+        "id": "7049",
         "count": 2
       },
       {
-        "id": "gym1-77",
-        "name": "Erika's Exeggcute",
-        "rarity": "Common",
+        "id": "7077",
         "count": 3
       },
       {
-        "id": "gym1-44",
-        "name": "Erika's Exeggutor",
-        "rarity": "Uncommon",
+        "id": "7044",
         "count": 1
       },
       {
-        "id": "gym1-78",
-        "name": "Erika's Oddish",
-        "rarity": "Common",
+        "id": "7078",
         "count": 4
       },
       {
-        "id": "gym1-46",
-        "name": "Erika's Gloom",
-        "rarity": "Uncommon",
+        "id": "7046",
         "count": 1
       },
       {
-        "id": "gym1-45",
-        "name": "Erika's Gloom",
-        "rarity": "Uncommon",
+        "id": "7045",
         "count": 1
       },
       {
-        "id": "gym1-5",
-        "name": "Erika's Vileplume",
-        "rarity": "Rare Holo",
+        "id": "7005",
         "count": 1
       },
       {
-        "id": "gym1-79",
-        "name": "Erika's Tangela",
-        "rarity": "Common",
+        "id": "7079",
         "count": 4
       },
       {
-        "id": "gym1-42",
-        "name": "Erika's Dratini",
-        "rarity": "Uncommon",
+        "id": "7042",
         "count": 1
       },
       {
-        "id": "gym1-107",
-        "name": "Celadon City Gym",
-        "rarity": "Uncommon",
+        "id": "7107",
         "count": 1
       },
       {
-        "id": "gym1-110",
-        "name": "Erika's Perfume",
-        "rarity": "Uncommon",
+        "id": "7110",
         "count": 1
       },
       {
-        "id": "gym1-100",
-        "name": "Erika",
-        "rarity": "Rare",
+        "id": "7100",
         "count": 1
       },
       {
-        "id": "base4-121",
-        "name": "Poké Ball",
-        "rarity": "Common",
+        "id": "4121",
         "count": 2
       },
       {
-        "id": "base4-122",
-        "name": "Potion",
-        "rarity": "Common",
+        "id": "4122",
         "count": 2
       },
       {
-        "id": "base4-123",
-        "name": "Switch",
-        "rarity": "Common",
+        "id": "4123",
         "count": 3
       },
       {
-        "id": "gym1-129",
-        "name": "Grass Energy",
+        "id": "7129",
         "count": 22
       },
       {
-        "id": "gym1-131",
-        "name": "Psychic Energy",
+        "id": "7131",
         "count": 6
       }
     ]

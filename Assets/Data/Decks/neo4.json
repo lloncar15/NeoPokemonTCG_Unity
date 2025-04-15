@@ -1,6 +1,6 @@
 [
   {
-    "id": "12901",
+    "id": "12900",
     "name": "Light",
     "types": [
       "Fighting",
@@ -66,7 +66,7 @@
     ]
   },
   {
-    "id": "12902",
+    "id": "12901",
     "name": "Dark",
     "types": [
       "Fire",

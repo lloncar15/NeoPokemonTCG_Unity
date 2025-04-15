@@ -1,6 +1,6 @@
 [
   {
-    "id": "8901",
+    "id": "8900",
     "name": "Sabrina",
     "types": [
       "Psychic"
@@ -77,7 +77,7 @@
     ]
   },
   {
-    "id": "8902",
+    "id": "8901",
     "name": "Koga",
     "types": [
       "Grass"
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "id": "8903",
+    "id": "8902",
     "name": "Blaine",
     "types": [
       "Fire"
@@ -239,7 +239,7 @@
     ]
   },
   {
-    "id": "8904",
+    "id": "8903",
     "name": "Giovanni",
     "types": [
       "Fighting"

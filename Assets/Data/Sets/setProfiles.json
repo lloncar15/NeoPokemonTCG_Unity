@@ -2,8 +2,10 @@
   {
     "id": "1000",
     "name": "Base",
+    "setCode": "base1",
     "series": "Base",
     "totalCards": 102,
+    "totalDecks": 5,
     "images": {
       "symbol": "https://images.pokemontcg.io/base1/symbol.png",
       "logo": "https://images.pokemontcg.io/base1/logo.png"
@@ -12,8 +14,10 @@
   {
     "id": "2000",
     "name": "Jungle",
+    "setCode": "base2",
     "series": "Base",
     "totalCards": 64,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/base2/symbol.png",
       "logo": "https://images.pokemontcg.io/base2/logo.png"
@@ -22,8 +26,10 @@
   {
     "id": "3000",
     "name": "Fossil",
+    "setCode": "base3",
     "series": "Base",
     "totalCards": 62,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/base3/symbol.png",
       "logo": "https://images.pokemontcg.io/base3/logo.png"
@@ -32,8 +38,10 @@
   {
     "id": "4000",
     "name": "Base Set 2",
+    "setCode": "base4",
     "series": "Base",
     "totalCards": 130,
+    "totalDecks": 6,
     "images": {
       "symbol": "https://images.pokemontcg.io/base4/symbol.png",
       "logo": "https://images.pokemontcg.io/base4/logo.png"
@@ -42,8 +50,10 @@
   {
     "id": "5000",
     "name": "Team Rocket",
+    "setCode": "base5",
     "series": "Base",
     "totalCards": 83,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/base5/symbol.png",
       "logo": "https://images.pokemontcg.io/base5/logo.png"
@@ -52,8 +62,10 @@
   {
     "id": "6000",
     "name": "Legendary Collection",
+    "setCode": "base6",
     "series": "Other",
     "totalCards": 110,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/base6/symbol.png",
       "logo": "https://images.pokemontcg.io/base6/logo.png"
@@ -62,8 +74,10 @@
   {
     "id": "7000",
     "name": "Gym Heroes",
+    "setCode": "gym1",
     "series": "Gym",
     "totalCards": 132,
+    "totalDecks": 4,
     "images": {
       "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
       "logo": "https://images.pokemontcg.io/gym1/logo.png"
@@ -72,8 +86,10 @@
   {
     "id": "8000",
     "name": "Gym Challenge",
+    "setCode": "gym2",
     "series": "Gym",
     "totalCards": 132,
+    "totalDecks": 4,
     "images": {
       "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
       "logo": "https://images.pokemontcg.io/gym2/logo.png"
@@ -82,8 +98,10 @@
   {
     "id": "9000",
     "name": "Neo Genesis",
+    "setCode": "neo1",
     "series": "Neo",
     "totalCards": 111,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
       "logo": "https://images.pokemontcg.io/neo1/logo.png"
@@ -92,8 +110,10 @@
   {
     "id": "10000",
     "name": "Neo Discovery",
+    "setCode": "neo2",
     "series": "Neo",
     "totalCards": 75,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
       "logo": "https://images.pokemontcg.io/neo2/logo.png"
@@ -102,8 +122,10 @@
   {
     "id": "11000",
     "name": "Neo Revelation",
+    "setCode": "neo3",
     "series": "Neo",
     "totalCards": 66,
+    "totalDecks": 0,
     "images": {
       "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
       "logo": "https://images.pokemontcg.io/neo3/logo.png"
@@ -112,8 +134,10 @@
   {
     "id": "12000",
     "name": "Neo Destiny",
+    "setCode": "neo4",
     "series": "Neo",
     "totalCards": 113,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
       "logo": "https://images.pokemontcg.io/neo4/logo.png"
@@ -122,8 +146,10 @@
   {
     "id": "13000",
     "name": "Expedition Base Set",
+    "setCode": "ecard1",
     "series": "ECard",
     "totalCards": 165,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
       "logo": "https://images.pokemontcg.io/ecard1/logo.png"
@@ -132,8 +158,10 @@
   {
     "id": "14000",
     "name": "Aquapolis",
+    "setCode": "ecard2",
     "series": "ECard",
     "totalCards": 182,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
       "logo": "https://images.pokemontcg.io/ecard2/logo.png"
@@ -142,8 +170,10 @@
   {
     "id": "15000",
     "name": "Skyridge",
+    "setCode": "ecard3",
     "series": "ECard",
     "totalCards": 182,
+    "totalDecks": 2,
     "images": {
       "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
       "logo": "https://images.pokemontcg.io/ecard3/logo.png"
@@ -152,8 +182,10 @@
   {
     "id": "16000",
     "name": "Wizards Black Star Promos",
+    "setCode": "basep",
     "series": "Base",
     "totalCards": 53,
+    "totalDecks": 0,
     "images": {
       "symbol": "https://images.pokemontcg.io/basep/symbol.png",
       "logo": "https://images.pokemontcg.io/basep/logo.png"
@@ -162,8 +194,10 @@
   {
     "id": "17000",
     "name": "Best of Game",
+    "setCode": "bp",
     "series": "Other",
     "totalCards": 9,
+    "totalDecks": 0,
     "images": {
       "symbol": "https://images.pokemontcg.io/bp/symbol.png",
       "logo": "https://images.pokemontcg.io/bp/logo.png"
@@ -172,8 +206,22 @@
   {
     "id": "18000",
     "name": "Southern Islands",
+    "setCode": "si1",
     "series": "Other",
     "totalCards": 18,
+    "totalDecks": 0,
+    "images": {
+      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+      "logo": "https://images.pokemontcg.io/si1/logo.png"
+    }
+  },
+  {
+    "id": "19000",
+    "name": "Special",
+    "setCode": "special",
+    "series": "Other",
+    "totalCards": 0,
+    "totalDecks": 1,
     "images": {
       "symbol": "https://images.pokemontcg.io/si1/symbol.png",
       "logo": "https://images.pokemontcg.io/si1/logo.png"

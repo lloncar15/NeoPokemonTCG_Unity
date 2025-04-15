@@ -1,6 +1,6 @@
 [
   {
-    "id": "3901",
+    "id": "3900",
     "name": "LockDown",
     "types": [
       "Fire",
@@ -78,7 +78,7 @@
     ]
   },
   {
-    "id": "3902",
+    "id": "3901",
     "name": "BodyGuard",
     "types": [
       "Grass",

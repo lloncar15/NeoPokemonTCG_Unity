@@ -1,6 +1,6 @@
 [
   {
-    "id": "9901",
+    "id": "9900",
     "name": "Hotfoot",
     "types": [
       "Grass",
@@ -82,7 +82,7 @@
     ]
   },
   {
-    "id": "9902",
+    "id": "9901",
     "name": "Cold Fusion",
     "types": [
       "Lightning",

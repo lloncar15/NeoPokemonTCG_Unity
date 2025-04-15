@@ -1,6 +1,6 @@
 [
   {
-    "id": "7901",
+    "id": "7900",
     "name": "Brock",
     "types": [
       "Fighting"
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "id": "7902",
+    "id": "7901",
     "name": "Misty",
     "types": [
       "Water"
@@ -154,7 +154,7 @@
     ]
   },
   {
-    "id": "7903",
+    "id": "7902",
     "name": "Lt. Surge",
     "types": [
       "Lightning"
@@ -227,7 +227,7 @@
     ]
   },
   {
-    "id": "7904",
+    "id": "7903",
     "name": "Erika",
     "types": [
       "Grass"

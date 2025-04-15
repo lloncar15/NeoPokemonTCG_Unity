@@ -1,6 +1,6 @@
 [
   {
-    "id": "4901",
+    "id": "4900",
     "name": "2-Player CD-ROM Starter Set",
     "types": [
       "Fighting",
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "id": "4902",
+    "id": "4901",
     "name": "Grass Chopper",
     "types": [
       "Fighting",
@@ -165,7 +165,7 @@
     ]
   },
   {
-    "id": "4903",
+    "id": "4902",
     "name": "Hot Water",
     "types": [
       "Fire",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "id": "4904",
+    "id": "4903",
     "name": "Lightning Bug",
     "types": [
       "Lightning",
@@ -321,7 +321,7 @@
     ]
   },
   {
-    "id": "4905",
+    "id": "4904",
     "name": "Psych Out",
     "types": [
       "Psychic",
@@ -407,7 +407,7 @@
     ]
   },
   {
-    "id": "4906",
+    "id": "4905",
     "name": "Thunderstorm",
     "types": [
       "Water",

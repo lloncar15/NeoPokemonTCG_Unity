@@ -64,7 +64,7 @@ public enum TestEnum {
 }
 
 public class SerializationTest {
-    #region Encoding
+    #region Encoding Tests
 
     [Test]
     public void TestISerializableEncode() {
@@ -258,7 +258,7 @@ public class SerializationTest {
 
     #endregion
 
-    #region Decoding
+    #region Decoding Tests
 
     [Test]
     public void TestISerializableDecode() {
@@ -500,6 +500,35 @@ public class SerializationTest {
         Assert.AreEqual(2, nestedList[0].Count);
         Assert.AreEqual(3, nestedList[0]["key1"].Count);
         Assert.AreEqual(3, nestedList[1]["key3"].Count);
+    }
+    
+    #endregion
+    
+    #region Card Decoding Tests
+    
+    [Test]
+    public void TestPokemonBasicCardDecode() {
+        
+    }
+    
+    [Test]
+    public void TestPokemonStage1CardDecode() {
+        
+    }
+
+    [Test]
+    public void TestPokemonStage2CardDecode() {
+        
+    }
+    
+    [Test]
+    public void TestTrainerCardDecode() {
+        
+    }
+
+    [Test]
+    public void TestSetJsonDecode() {
+        
     }
 
     #endregion

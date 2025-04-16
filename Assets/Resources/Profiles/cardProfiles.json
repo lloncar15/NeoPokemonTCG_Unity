@@ -44,7 +44,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/1.png",
       "large": "https://images.pokemontcg.io/base1/1_hires.png"
@@ -96,7 +96,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/2.png",
       "large": "https://images.pokemontcg.io/base1/2_hires.png"
@@ -158,7 +158,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/3.png",
       "large": "https://images.pokemontcg.io/base1/3_hires.png"
@@ -217,7 +217,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/4.png",
       "large": "https://images.pokemontcg.io/base1/4_hires.png"
@@ -277,7 +277,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/5.png",
       "large": "https://images.pokemontcg.io/base1/5_hires.png"
@@ -340,7 +340,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/6.png",
       "large": "https://images.pokemontcg.io/base1/6_hires.png"
@@ -392,7 +392,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/7.png",
       "large": "https://images.pokemontcg.io/base1/7_hires.png"
@@ -445,7 +445,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/8.png",
       "large": "https://images.pokemontcg.io/base1/8_hires.png"
@@ -503,7 +503,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/9.png",
       "large": "https://images.pokemontcg.io/base1/9_hires.png"
@@ -556,7 +556,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/10.png",
       "large": "https://images.pokemontcg.io/base1/10_hires.png"
@@ -612,7 +612,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/11.png",
       "large": "https://images.pokemontcg.io/base1/11_hires.png"
@@ -666,7 +666,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/12.png",
       "large": "https://images.pokemontcg.io/base1/12_hires.png"
@@ -723,7 +723,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/13.png",
       "large": "https://images.pokemontcg.io/base1/13_hires.png"
@@ -778,7 +778,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/14.png",
       "large": "https://images.pokemontcg.io/base1/14_hires.png"
@@ -830,7 +830,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/15.png",
       "large": "https://images.pokemontcg.io/base1/15_hires.png"
@@ -887,7 +887,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base1/16.png",
       "large": "https://images.pokemontcg.io/base1/16_hires.png"
@@ -4179,7 +4179,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/1.png",
       "large": "https://images.pokemontcg.io/base2/1_hires.png"
@@ -4232,7 +4232,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/2.png",
       "large": "https://images.pokemontcg.io/base2/2_hires.png"
@@ -4286,7 +4286,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/3.png",
       "large": "https://images.pokemontcg.io/base2/3_hires.png"
@@ -4339,7 +4339,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/4.png",
       "large": "https://images.pokemontcg.io/base2/4_hires.png"
@@ -4399,7 +4399,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/5.png",
       "large": "https://images.pokemontcg.io/base2/5_hires.png"
@@ -4447,7 +4447,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/6.png",
       "large": "https://images.pokemontcg.io/base2/6_hires.png"
@@ -4503,7 +4503,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/7.png",
       "large": "https://images.pokemontcg.io/base2/7_hires.png"
@@ -4558,7 +4558,7 @@
       }
     ],
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/8.png",
       "large": "https://images.pokemontcg.io/base2/8_hires.png"
@@ -4611,7 +4611,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/9.png",
       "large": "https://images.pokemontcg.io/base2/9_hires.png"
@@ -4667,7 +4667,7 @@
       }
     ],
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/10.png",
       "large": "https://images.pokemontcg.io/base2/10_hires.png"
@@ -4726,7 +4726,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/11.png",
       "large": "https://images.pokemontcg.io/base2/11_hires.png"
@@ -4779,7 +4779,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/12.png",
       "large": "https://images.pokemontcg.io/base2/12_hires.png"
@@ -4830,7 +4830,7 @@
       }
     ],
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/13.png",
       "large": "https://images.pokemontcg.io/base2/13_hires.png"
@@ -4882,7 +4882,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/14.png",
       "large": "https://images.pokemontcg.io/base2/14_hires.png"
@@ -4933,7 +4933,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/15.png",
       "large": "https://images.pokemontcg.io/base2/15_hires.png"
@@ -4992,7 +4992,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base2/16.png",
       "large": "https://images.pokemontcg.io/base2/16_hires.png"
@@ -7621,7 +7621,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/1.png",
       "large": "https://images.pokemontcg.io/base3/1_hires.png"
@@ -7676,7 +7676,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/2.png",
       "large": "https://images.pokemontcg.io/base3/2_hires.png"
@@ -7718,7 +7718,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/3.png",
       "large": "https://images.pokemontcg.io/base3/3_hires.png"
@@ -7769,7 +7769,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/4.png",
       "large": "https://images.pokemontcg.io/base3/4_hires.png"
@@ -7819,7 +7819,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/5.png",
       "large": "https://images.pokemontcg.io/base3/5_hires.png"
@@ -7867,7 +7867,7 @@
       }
     ],
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/6.png",
       "large": "https://images.pokemontcg.io/base3/6_hires.png"
@@ -7919,7 +7919,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/7.png",
       "large": "https://images.pokemontcg.io/base3/7_hires.png"
@@ -7972,7 +7972,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/8.png",
       "large": "https://images.pokemontcg.io/base3/8_hires.png"
@@ -8026,7 +8026,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/9.png",
       "large": "https://images.pokemontcg.io/base3/9_hires.png"
@@ -8077,7 +8077,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/10.png",
       "large": "https://images.pokemontcg.io/base3/10_hires.png"
@@ -8135,7 +8135,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/11.png",
       "large": "https://images.pokemontcg.io/base3/11_hires.png"
@@ -8188,7 +8188,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/12.png",
       "large": "https://images.pokemontcg.io/base3/12_hires.png"
@@ -8239,7 +8239,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/13.png",
       "large": "https://images.pokemontcg.io/base3/13_hires.png"
@@ -8283,7 +8283,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/14.png",
       "large": "https://images.pokemontcg.io/base3/14_hires.png"
@@ -8327,7 +8327,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base3/15.png",
       "large": "https://images.pokemontcg.io/base3/15_hires.png"
@@ -10626,7 +10626,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/1.png",
       "large": "https://images.pokemontcg.io/base4/1_hires.png"
@@ -10678,7 +10678,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/2.png",
       "large": "https://images.pokemontcg.io/base4/2_hires.png"
@@ -10740,7 +10740,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/3.png",
       "large": "https://images.pokemontcg.io/base4/3_hires.png"
@@ -10799,7 +10799,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/4.png",
       "large": "https://images.pokemontcg.io/base4/4_hires.png"
@@ -10857,7 +10857,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/5.png",
       "large": "https://images.pokemontcg.io/base4/5_hires.png"
@@ -10917,7 +10917,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/6.png",
       "large": "https://images.pokemontcg.io/base4/6_hires.png"
@@ -10980,7 +10980,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/7.png",
       "large": "https://images.pokemontcg.io/base4/7_hires.png"
@@ -11032,7 +11032,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/8.png",
       "large": "https://images.pokemontcg.io/base4/8_hires.png"
@@ -11090,7 +11090,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/9.png",
       "large": "https://images.pokemontcg.io/base4/9_hires.png"
@@ -11143,7 +11143,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/10.png",
       "large": "https://images.pokemontcg.io/base4/10_hires.png"
@@ -11199,7 +11199,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/11.png",
       "large": "https://images.pokemontcg.io/base4/11_hires.png"
@@ -11255,7 +11255,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/12.png",
       "large": "https://images.pokemontcg.io/base4/12_hires.png"
@@ -11309,7 +11309,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/13.png",
       "large": "https://images.pokemontcg.io/base4/13_hires.png"
@@ -11364,7 +11364,7 @@
       }
     ],
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/14.png",
       "large": "https://images.pokemontcg.io/base4/14_hires.png"
@@ -11421,7 +11421,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/15.png",
       "large": "https://images.pokemontcg.io/base4/15_hires.png"
@@ -11476,7 +11476,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/16.png",
       "large": "https://images.pokemontcg.io/base4/16_hires.png"
@@ -11532,7 +11532,7 @@
       }
     ],
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/17.png",
       "large": "https://images.pokemontcg.io/base4/17_hires.png"
@@ -11584,7 +11584,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/18.png",
       "large": "https://images.pokemontcg.io/base4/18_hires.png"
@@ -11643,7 +11643,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/19.png",
       "large": "https://images.pokemontcg.io/base4/19_hires.png"
@@ -11700,7 +11700,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "20",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base4/20.png",
       "large": "https://images.pokemontcg.io/base4/20_hires.png"
@@ -16430,7 +16430,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/1.png",
       "large": "https://images.pokemontcg.io/base5/1_hires.png"
@@ -16484,7 +16484,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/2.png",
       "large": "https://images.pokemontcg.io/base5/2_hires.png"
@@ -16538,7 +16538,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/3.png",
       "large": "https://images.pokemontcg.io/base5/3_hires.png"
@@ -16597,7 +16597,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/4.png",
       "large": "https://images.pokemontcg.io/base5/4_hires.png"
@@ -16649,7 +16649,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/5.png",
       "large": "https://images.pokemontcg.io/base5/5_hires.png"
@@ -16705,7 +16705,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/6.png",
       "large": "https://images.pokemontcg.io/base5/6_hires.png"
@@ -16759,7 +16759,7 @@
       }
     ],
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/7.png",
       "large": "https://images.pokemontcg.io/base5/7_hires.png"
@@ -16816,7 +16816,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/8.png",
       "large": "https://images.pokemontcg.io/base5/8_hires.png"
@@ -16869,7 +16869,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/9.png",
       "large": "https://images.pokemontcg.io/base5/9_hires.png"
@@ -16925,7 +16925,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/10.png",
       "large": "https://images.pokemontcg.io/base5/10_hires.png"
@@ -16981,7 +16981,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/11.png",
       "large": "https://images.pokemontcg.io/base5/11_hires.png"
@@ -17031,7 +17031,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/12.png",
       "large": "https://images.pokemontcg.io/base5/12_hires.png"
@@ -17082,7 +17082,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/13.png",
       "large": "https://images.pokemontcg.io/base5/13_hires.png"
@@ -17135,7 +17135,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/14.png",
       "large": "https://images.pokemontcg.io/base5/14_hires.png"
@@ -17150,7 +17150,7 @@
       "Each player plays with his or her Prize cards face up for the rest of the game."
     ],
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/15.png",
       "large": "https://images.pokemontcg.io/base5/15_hires.png"
@@ -17165,7 +17165,7 @@
       "Look at your opponent's hand. If he or she has any Trainer cards, choose 1 of them. Your opponent shuffles that card into his or her deck."
     ],
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/16.png",
       "large": "https://images.pokemontcg.io/base5/16_hires.png"
@@ -17183,7 +17183,7 @@
       "Attach Rainbow Energy to 1 of your Pokemon. While in play, Rainbow Energy counts as every type of basic Energy but only provides 1 Energy at a time. (Doesn't count as a basic Energy card when not in play.) When you attach this card from your hand to 1 of your Pokemon, it does 10 damage to that Pokemon. (Don't apply Weakness and Resistance.)"
     ],
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base5/17.png",
       "large": "https://images.pokemontcg.io/base5/17_hires.png"
@@ -20228,7 +20228,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "83",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/base5/83.png",
       "large": "https://images.pokemontcg.io/base5/83_hires.png"
@@ -20280,7 +20280,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/1.png",
       "large": "https://images.pokemontcg.io/base6/1_hires.png"
@@ -20335,7 +20335,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/2.png",
       "large": "https://images.pokemontcg.io/base6/2_hires.png"
@@ -20394,7 +20394,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/3.png",
       "large": "https://images.pokemontcg.io/base6/3_hires.png"
@@ -20448,7 +20448,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/4.png",
       "large": "https://images.pokemontcg.io/base6/4_hires.png"
@@ -20500,7 +20500,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/5.png",
       "large": "https://images.pokemontcg.io/base6/5_hires.png"
@@ -20553,7 +20553,7 @@
       }
     ],
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/6.png",
       "large": "https://images.pokemontcg.io/base6/6_hires.png"
@@ -20596,7 +20596,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/7.png",
       "large": "https://images.pokemontcg.io/base6/7_hires.png"
@@ -20646,7 +20646,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/8.png",
       "large": "https://images.pokemontcg.io/base6/8_hires.png"
@@ -20700,7 +20700,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/9.png",
       "large": "https://images.pokemontcg.io/base6/9_hires.png"
@@ -20754,7 +20754,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/10.png",
       "large": "https://images.pokemontcg.io/base6/10_hires.png"
@@ -20804,7 +20804,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/11.png",
       "large": "https://images.pokemontcg.io/base6/11_hires.png"
@@ -20867,7 +20867,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/12.png",
       "large": "https://images.pokemontcg.io/base6/12_hires.png"
@@ -20919,7 +20919,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/13.png",
       "large": "https://images.pokemontcg.io/base6/13_hires.png"
@@ -20972,7 +20972,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/14.png",
       "large": "https://images.pokemontcg.io/base6/14_hires.png"
@@ -21025,7 +21025,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/15.png",
       "large": "https://images.pokemontcg.io/base6/15_hires.png"
@@ -21076,7 +21076,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/16.png",
       "large": "https://images.pokemontcg.io/base6/16_hires.png"
@@ -21130,7 +21130,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/17.png",
       "large": "https://images.pokemontcg.io/base6/17_hires.png"
@@ -21182,7 +21182,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/18.png",
       "large": "https://images.pokemontcg.io/base6/18_hires.png"
@@ -21239,7 +21239,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/base6/19.png",
       "large": "https://images.pokemontcg.io/base6/19_hires.png"
@@ -25663,7 +25663,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/1.png",
       "large": "https://images.pokemontcg.io/gym1/1_hires.png"
@@ -25725,7 +25725,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/2.png",
       "large": "https://images.pokemontcg.io/gym1/2_hires.png"
@@ -25784,7 +25784,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/3.png",
       "large": "https://images.pokemontcg.io/gym1/3_hires.png"
@@ -25843,7 +25843,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/4.png",
       "large": "https://images.pokemontcg.io/gym1/4_hires.png"
@@ -25894,7 +25894,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/5.png",
       "large": "https://images.pokemontcg.io/gym1/5_hires.png"
@@ -25947,7 +25947,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/6.png",
       "large": "https://images.pokemontcg.io/gym1/6_hires.png"
@@ -26002,7 +26002,7 @@
       }
     ],
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/7.png",
       "large": "https://images.pokemontcg.io/gym1/7_hires.png"
@@ -26057,7 +26057,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/8.png",
       "large": "https://images.pokemontcg.io/gym1/8_hires.png"
@@ -26112,7 +26112,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/9.png",
       "large": "https://images.pokemontcg.io/gym1/9_hires.png"
@@ -26159,7 +26159,7 @@
       }
     ],
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/10.png",
       "large": "https://images.pokemontcg.io/gym1/10_hires.png"
@@ -26210,7 +26210,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/11.png",
       "large": "https://images.pokemontcg.io/gym1/11_hires.png"
@@ -26260,7 +26260,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/12.png",
       "large": "https://images.pokemontcg.io/gym1/12_hires.png"
@@ -26320,7 +26320,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/13.png",
       "large": "https://images.pokemontcg.io/gym1/13_hires.png"
@@ -26372,7 +26372,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/14.png",
       "large": "https://images.pokemontcg.io/gym1/14_hires.png"
@@ -26387,7 +26387,7 @@
       "Remove 1 damage counter from each of your Pokemon that has any damage counters on it."
     ],
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/15.png",
       "large": "https://images.pokemontcg.io/gym1/15_hires.png"
@@ -26402,7 +26402,7 @@
       "You may draw up to 3 cards, then your opponent may draw up to 3 cards."
     ],
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/16.png",
       "large": "https://images.pokemontcg.io/gym1/16_hires.png"
@@ -26417,7 +26417,7 @@
       "You can play this card only if you have at least 1 Basic Pokemon card in your hand. Put a Basic Pokemon card from your hand into play as your Active Pokemon. Put your old Active Pokemon onto your Bench. (You can't play this card if your Bench is full.)"
     ],
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/17.png",
       "large": "https://images.pokemontcg.io/gym1/17_hires.png"
@@ -26432,7 +26432,7 @@
       "Discard 2 of the other cards in your hand in order to play this card. If this turn's attack does damage to the Defending Pokemon (after applying Weakness and Resistance), and if the attacking Pokemon has Misty in its name, the attack does 20 more damage to the Defending Pokemon."
     ],
     "number": "18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/18.png",
       "large": "https://images.pokemontcg.io/gym1/18_hires.png"
@@ -26447,7 +26447,7 @@
       "Flip a coin. If heads, choose up to 3 cards at random from your opponent's hand (don't look at them). Your opponent shuffles those cards into his or her deck."
     ],
     "number": "19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym1/19.png",
       "large": "https://images.pokemontcg.io/gym1/19_hires.png"
@@ -31069,7 +31069,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/1.png",
       "large": "https://images.pokemontcg.io/gym2/1_hires.png"
@@ -31128,7 +31128,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/2.png",
       "large": "https://images.pokemontcg.io/gym2/2_hires.png"
@@ -31177,7 +31177,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/3.png",
       "large": "https://images.pokemontcg.io/gym2/3_hires.png"
@@ -31231,7 +31231,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/4.png",
       "large": "https://images.pokemontcg.io/gym2/4_hires.png"
@@ -31292,7 +31292,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/5.png",
       "large": "https://images.pokemontcg.io/gym2/5_hires.png"
@@ -31345,7 +31345,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/6.png",
       "large": "https://images.pokemontcg.io/gym2/6_hires.png"
@@ -31400,7 +31400,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/7.png",
       "large": "https://images.pokemontcg.io/gym2/7_hires.png"
@@ -31452,7 +31452,7 @@
       }
     ],
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/8.png",
       "large": "https://images.pokemontcg.io/gym2/8_hires.png"
@@ -31507,7 +31507,7 @@
       }
     ],
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/9.png",
       "large": "https://images.pokemontcg.io/gym2/9_hires.png"
@@ -31562,7 +31562,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/10.png",
       "large": "https://images.pokemontcg.io/gym2/10_hires.png"
@@ -31617,7 +31617,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/11.png",
       "large": "https://images.pokemontcg.io/gym2/11_hires.png"
@@ -31669,7 +31669,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/12.png",
       "large": "https://images.pokemontcg.io/gym2/12_hires.png"
@@ -31728,7 +31728,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/13.png",
       "large": "https://images.pokemontcg.io/gym2/13_hires.png"
@@ -31791,7 +31791,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/14.png",
       "large": "https://images.pokemontcg.io/gym2/14_hires.png"
@@ -31844,7 +31844,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/15.png",
       "large": "https://images.pokemontcg.io/gym2/15_hires.png"
@@ -31897,7 +31897,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/16.png",
       "large": "https://images.pokemontcg.io/gym2/16_hires.png"
@@ -31912,7 +31912,7 @@
       "During this turn, instead of attaching your free Energy card, you may instead attach 2 Fire Energy cards to 1 of your Pokemon with Blaine in its name. (Playing additional copies of this card this turn has no effect.)"
     ],
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/17.png",
       "large": "https://images.pokemontcg.io/gym2/17_hires.png"
@@ -31927,7 +31927,7 @@
       "Choose 1 of your Pokemon in play with Giovanni in its name. For the rest of your turn, you may evolve that Pokemon even if you just played or evolved it this turn or if this is your first turn. This effect also applies to the Pokemon it evolves into."
     ],
     "number": "18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/18.png",
       "large": "https://images.pokemontcg.io/gym2/18_hires.png"
@@ -31942,7 +31942,7 @@
       "If an attack from a Pokemon with Koga in its name does damage to a Defending Pokemon this turn, that Pokemon is then Poisoned."
     ],
     "number": "19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/19.png",
       "large": "https://images.pokemontcg.io/gym2/19_hires.png"
@@ -31957,7 +31957,7 @@
       "Take all Energy cards attached to 1 of your Pokemon with Sabrina in its name and attach them to another 1 of your Pokemon with Sabrina in its name."
     ],
     "number": "20",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/gym2/20.png",
       "large": "https://images.pokemontcg.io/gym2/20_hires.png"
@@ -36648,7 +36648,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/1.png",
       "large": "https://images.pokemontcg.io/neo1/1_hires.png"
@@ -36701,7 +36701,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/2.png",
       "large": "https://images.pokemontcg.io/neo1/2_hires.png"
@@ -36754,7 +36754,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/3.png",
       "large": "https://images.pokemontcg.io/neo1/3_hires.png"
@@ -36807,7 +36807,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/4.png",
       "large": "https://images.pokemontcg.io/neo1/4_hires.png"
@@ -36859,7 +36859,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/5.png",
       "large": "https://images.pokemontcg.io/neo1/5_hires.png"
@@ -36909,7 +36909,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/6.png",
       "large": "https://images.pokemontcg.io/neo1/6_hires.png"
@@ -36961,7 +36961,7 @@
       }
     ],
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/7.png",
       "large": "https://images.pokemontcg.io/neo1/7_hires.png"
@@ -37011,7 +37011,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/8.png",
       "large": "https://images.pokemontcg.io/neo1/8_hires.png"
@@ -37060,7 +37060,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/9.png",
       "large": "https://images.pokemontcg.io/neo1/9_hires.png"
@@ -37113,7 +37113,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/10.png",
       "large": "https://images.pokemontcg.io/neo1/10_hires.png"
@@ -37166,7 +37166,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/11.png",
       "large": "https://images.pokemontcg.io/neo1/11_hires.png"
@@ -37202,7 +37202,7 @@
       }
     ],
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/12.png",
       "large": "https://images.pokemontcg.io/neo1/12_hires.png"
@@ -37260,7 +37260,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/13.png",
       "large": "https://images.pokemontcg.io/neo1/13_hires.png"
@@ -37312,7 +37312,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/14.png",
       "large": "https://images.pokemontcg.io/neo1/14_hires.png"
@@ -37374,7 +37374,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/15.png",
       "large": "https://images.pokemontcg.io/neo1/15_hires.png"
@@ -37425,7 +37425,7 @@
       }
     ],
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/16.png",
       "large": "https://images.pokemontcg.io/neo1/16_hires.png"
@@ -37477,7 +37477,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/17.png",
       "large": "https://images.pokemontcg.io/neo1/17_hires.png"
@@ -37529,7 +37529,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/18.png",
       "large": "https://images.pokemontcg.io/neo1/18_hires.png"
@@ -37547,7 +37547,7 @@
       "Damage done to the Pokemon Metal Energy is attached to is reduced by 10 (after applying Weakness and Resistance). If the Pokemon Metal Energy is attached to isn't Metal, whenever it damages a Pokemon, reduce that damage by 10 (before applying Weakness and Resistance). Metal Energy provides Metal Energy. (Doesn't count as a basic Energy card.)"
     ],
     "number": "19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo1/19.png",
       "large": "https://images.pokemontcg.io/neo1/19_hires.png"
@@ -41392,7 +41392,7 @@
       }
     ],
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/1.png",
       "large": "https://images.pokemontcg.io/neo2/1_hires.png"
@@ -41450,7 +41450,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/2.png",
       "large": "https://images.pokemontcg.io/neo2/2_hires.png"
@@ -41501,7 +41501,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/3.png",
       "large": "https://images.pokemontcg.io/neo2/3_hires.png"
@@ -41555,7 +41555,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/4.png",
       "large": "https://images.pokemontcg.io/neo2/4_hires.png"
@@ -41608,7 +41608,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/5.png",
       "large": "https://images.pokemontcg.io/neo2/5_hires.png"
@@ -41659,7 +41659,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/6.png",
       "large": "https://images.pokemontcg.io/neo2/6_hires.png"
@@ -41718,7 +41718,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/7.png",
       "large": "https://images.pokemontcg.io/neo2/7_hires.png"
@@ -41771,7 +41771,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/8.png",
       "large": "https://images.pokemontcg.io/neo2/8_hires.png"
@@ -41826,7 +41826,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/9.png",
       "large": "https://images.pokemontcg.io/neo2/9_hires.png"
@@ -41885,7 +41885,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/10.png",
       "large": "https://images.pokemontcg.io/neo2/10_hires.png"
@@ -41932,7 +41932,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/11.png",
       "large": "https://images.pokemontcg.io/neo2/11_hires.png"
@@ -41989,7 +41989,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/12.png",
       "large": "https://images.pokemontcg.io/neo2/12_hires.png"
@@ -42042,7 +42042,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/13.png",
       "large": "https://images.pokemontcg.io/neo2/13_hires.png"
@@ -42092,7 +42092,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/14.png",
       "large": "https://images.pokemontcg.io/neo2/14_hires.png"
@@ -42154,7 +42154,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/15.png",
       "large": "https://images.pokemontcg.io/neo2/15_hires.png"
@@ -42196,7 +42196,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/16.png",
       "large": "https://images.pokemontcg.io/neo2/16_hires.png"
@@ -42252,7 +42252,7 @@
       }
     ],
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo2/17.png",
       "large": "https://images.pokemontcg.io/neo2/17_hires.png"
@@ -45143,7 +45143,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/1.png",
       "large": "https://images.pokemontcg.io/neo3/1_hires.png"
@@ -45201,7 +45201,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/2.png",
       "large": "https://images.pokemontcg.io/neo3/2_hires.png"
@@ -45248,7 +45248,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/3.png",
       "large": "https://images.pokemontcg.io/neo3/3_hires.png"
@@ -45302,7 +45302,7 @@
       }
     ],
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/4.png",
       "large": "https://images.pokemontcg.io/neo3/4_hires.png"
@@ -45349,7 +45349,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/5.png",
       "large": "https://images.pokemontcg.io/neo3/5_hires.png"
@@ -45398,7 +45398,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/6.png",
       "large": "https://images.pokemontcg.io/neo3/6_hires.png"
@@ -45469,7 +45469,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/7.png",
       "large": "https://images.pokemontcg.io/neo3/7_hires.png"
@@ -45521,7 +45521,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/8.png",
       "large": "https://images.pokemontcg.io/neo3/8_hires.png"
@@ -45573,7 +45573,7 @@
       }
     ],
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/9.png",
       "large": "https://images.pokemontcg.io/neo3/9_hires.png"
@@ -45633,7 +45633,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/10.png",
       "large": "https://images.pokemontcg.io/neo3/10_hires.png"
@@ -45687,7 +45687,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/11.png",
       "large": "https://images.pokemontcg.io/neo3/11_hires.png"
@@ -45746,7 +45746,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/12.png",
       "large": "https://images.pokemontcg.io/neo3/12_hires.png"
@@ -45795,7 +45795,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/13.png",
       "large": "https://images.pokemontcg.io/neo3/13_hires.png"
@@ -45844,7 +45844,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/14.png",
       "large": "https://images.pokemontcg.io/neo3/14_hires.png"
@@ -48305,7 +48305,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "65",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/65.png",
       "large": "https://images.pokemontcg.io/neo3/65_hires.png"
@@ -48360,7 +48360,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "66",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo3/66.png",
       "large": "https://images.pokemontcg.io/neo3/66_hires.png"
@@ -48411,7 +48411,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/1.png",
       "large": "https://images.pokemontcg.io/neo4/1_hires.png"
@@ -48462,7 +48462,7 @@
       }
     ],
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/2.png",
       "large": "https://images.pokemontcg.io/neo4/2_hires.png"
@@ -48523,7 +48523,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/3.png",
       "large": "https://images.pokemontcg.io/neo4/3_hires.png"
@@ -48571,7 +48571,7 @@
       }
     ],
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/4.png",
       "large": "https://images.pokemontcg.io/neo4/4_hires.png"
@@ -48623,7 +48623,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/5.png",
       "large": "https://images.pokemontcg.io/neo4/5_hires.png"
@@ -48674,7 +48674,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/6.png",
       "large": "https://images.pokemontcg.io/neo4/6_hires.png"
@@ -48725,7 +48725,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/7.png",
       "large": "https://images.pokemontcg.io/neo4/7_hires.png"
@@ -48784,7 +48784,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/8.png",
       "large": "https://images.pokemontcg.io/neo4/8_hires.png"
@@ -48844,7 +48844,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/9.png",
       "large": "https://images.pokemontcg.io/neo4/9_hires.png"
@@ -48894,7 +48894,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/10.png",
       "large": "https://images.pokemontcg.io/neo4/10_hires.png"
@@ -48955,7 +48955,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/11.png",
       "large": "https://images.pokemontcg.io/neo4/11_hires.png"
@@ -49006,7 +49006,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/12.png",
       "large": "https://images.pokemontcg.io/neo4/12_hires.png"
@@ -49058,7 +49058,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/13.png",
       "large": "https://images.pokemontcg.io/neo4/13_hires.png"
@@ -49109,7 +49109,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/14.png",
       "large": "https://images.pokemontcg.io/neo4/14_hires.png"
@@ -49157,7 +49157,7 @@
       }
     ],
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/15.png",
       "large": "https://images.pokemontcg.io/neo4/15_hires.png"
@@ -49175,7 +49175,7 @@
       "You can't have more than 1 Miracle Energy in your deck. Attach Miracle Energy to 1 of your Shining or Light Pokemon. At the end of your turn, discard Miracle Energy. While in play, Miracle Energy counts as every type of Energy but provides only 2 Energy at a time."
     ],
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/16.png",
       "large": "https://images.pokemontcg.io/neo4/16_hires.png"
@@ -53287,7 +53287,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "106",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/106.png",
       "large": "https://images.pokemontcg.io/neo4/106_hires.png"
@@ -53342,7 +53342,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "107",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/107.png",
       "large": "https://images.pokemontcg.io/neo4/107_hires.png"
@@ -53400,7 +53400,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "108",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/108.png",
       "large": "https://images.pokemontcg.io/neo4/108_hires.png"
@@ -53456,7 +53456,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "109",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/109.png",
       "large": "https://images.pokemontcg.io/neo4/109_hires.png"
@@ -53507,7 +53507,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "110",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/110.png",
       "large": "https://images.pokemontcg.io/neo4/110_hires.png"
@@ -53553,7 +53553,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "111",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/111.png",
       "large": "https://images.pokemontcg.io/neo4/111_hires.png"
@@ -53608,7 +53608,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "112",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/112.png",
       "large": "https://images.pokemontcg.io/neo4/112_hires.png"
@@ -53667,7 +53667,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "113",
-    "rarity": "Rare Shining",
+    "rarity": "RareShining",
     "images": {
       "small": "https://images.pokemontcg.io/neo4/113.png",
       "large": "https://images.pokemontcg.io/neo4/113_hires.png"
@@ -53718,7 +53718,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/1.png",
       "large": "https://images.pokemontcg.io/ecard1/1_hires.png"
@@ -53770,7 +53770,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/2.png",
       "large": "https://images.pokemontcg.io/ecard1/2_hires.png"
@@ -53821,7 +53821,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/3.png",
       "large": "https://images.pokemontcg.io/ecard1/3_hires.png"
@@ -53872,7 +53872,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/4.png",
       "large": "https://images.pokemontcg.io/ecard1/4_hires.png"
@@ -53918,7 +53918,7 @@
       }
     ],
     "number": "5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/5.png",
       "large": "https://images.pokemontcg.io/ecard1/5_hires.png"
@@ -53971,7 +53971,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/6.png",
       "large": "https://images.pokemontcg.io/ecard1/6_hires.png"
@@ -54020,7 +54020,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/7.png",
       "large": "https://images.pokemontcg.io/ecard1/7_hires.png"
@@ -54074,7 +54074,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/8.png",
       "large": "https://images.pokemontcg.io/ecard1/8_hires.png"
@@ -54119,7 +54119,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/9.png",
       "large": "https://images.pokemontcg.io/ecard1/9_hires.png"
@@ -54177,7 +54177,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/10.png",
       "large": "https://images.pokemontcg.io/ecard1/10_hires.png"
@@ -54232,7 +54232,7 @@
       }
     ],
     "number": "11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/11.png",
       "large": "https://images.pokemontcg.io/ecard1/11_hires.png"
@@ -54285,7 +54285,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/12.png",
       "large": "https://images.pokemontcg.io/ecard1/12_hires.png"
@@ -54341,7 +54341,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/13.png",
       "large": "https://images.pokemontcg.io/ecard1/13_hires.png"
@@ -54395,7 +54395,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/14.png",
       "large": "https://images.pokemontcg.io/ecard1/14_hires.png"
@@ -54448,7 +54448,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/15.png",
       "large": "https://images.pokemontcg.io/ecard1/15_hires.png"
@@ -54500,7 +54500,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/16.png",
       "large": "https://images.pokemontcg.io/ecard1/16_hires.png"
@@ -54540,7 +54540,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/17.png",
       "large": "https://images.pokemontcg.io/ecard1/17_hires.png"
@@ -54598,7 +54598,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/18.png",
       "large": "https://images.pokemontcg.io/ecard1/18_hires.png"
@@ -54639,7 +54639,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/19.png",
       "large": "https://images.pokemontcg.io/ecard1/19_hires.png"
@@ -54691,7 +54691,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "20",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/20.png",
       "large": "https://images.pokemontcg.io/ecard1/20_hires.png"
@@ -54744,7 +54744,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "21",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/21.png",
       "large": "https://images.pokemontcg.io/ecard1/21_hires.png"
@@ -54784,7 +54784,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "22",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/22.png",
       "large": "https://images.pokemontcg.io/ecard1/22_hires.png"
@@ -54836,7 +54836,7 @@
       }
     ],
     "number": "23",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/23.png",
       "large": "https://images.pokemontcg.io/ecard1/23_hires.png"
@@ -54888,7 +54888,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "24",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/24.png",
       "large": "https://images.pokemontcg.io/ecard1/24_hires.png"
@@ -54940,7 +54940,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "25",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/25.png",
       "large": "https://images.pokemontcg.io/ecard1/25_hires.png"
@@ -54989,7 +54989,7 @@
       }
     ],
     "number": "26",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/26.png",
       "large": "https://images.pokemontcg.io/ecard1/26_hires.png"
@@ -55048,7 +55048,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "27",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/27.png",
       "large": "https://images.pokemontcg.io/ecard1/27_hires.png"
@@ -55100,7 +55100,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "28",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/28.png",
       "large": "https://images.pokemontcg.io/ecard1/28_hires.png"
@@ -55160,7 +55160,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "29",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/29.png",
       "large": "https://images.pokemontcg.io/ecard1/29_hires.png"
@@ -55212,7 +55212,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "30",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/30.png",
       "large": "https://images.pokemontcg.io/ecard1/30_hires.png"
@@ -55262,7 +55262,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "31",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/31.png",
       "large": "https://images.pokemontcg.io/ecard1/31_hires.png"
@@ -55316,7 +55316,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "32",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard1/32.png",
       "large": "https://images.pokemontcg.io/ecard1/32_hires.png"
@@ -68004,7 +68004,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "148",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/148.png",
       "large": "https://images.pokemontcg.io/ecard2/148_hires.png"
@@ -68066,7 +68066,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "149",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/149.png",
       "large": "https://images.pokemontcg.io/ecard2/149_hires.png"
@@ -68130,7 +68130,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "150",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/150.png",
       "large": "https://images.pokemontcg.io/ecard2/150_hires.png"
@@ -68183,7 +68183,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H1.png",
       "large": "https://images.pokemontcg.io/ecard2/H1_hires.png"
@@ -68235,7 +68235,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H2.png",
       "large": "https://images.pokemontcg.io/ecard2/H2_hires.png"
@@ -68280,7 +68280,7 @@
       }
     ],
     "number": "H3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H3.png",
       "large": "https://images.pokemontcg.io/ecard2/H3_hires.png"
@@ -68330,7 +68330,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H4.png",
       "large": "https://images.pokemontcg.io/ecard2/H4_hires.png"
@@ -68387,7 +68387,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H5.png",
       "large": "https://images.pokemontcg.io/ecard2/H5_hires.png"
@@ -68438,7 +68438,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H6.png",
       "large": "https://images.pokemontcg.io/ecard2/H6_hires.png"
@@ -68487,7 +68487,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H7.png",
       "large": "https://images.pokemontcg.io/ecard2/H7_hires.png"
@@ -68536,7 +68536,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H8.png",
       "large": "https://images.pokemontcg.io/ecard2/H8_hires.png"
@@ -68582,7 +68582,7 @@
       }
     ],
     "number": "H9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H9.png",
       "large": "https://images.pokemontcg.io/ecard2/H9_hires.png"
@@ -68632,7 +68632,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H10.png",
       "large": "https://images.pokemontcg.io/ecard2/H10_hires.png"
@@ -68691,7 +68691,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H11.png",
       "large": "https://images.pokemontcg.io/ecard2/H11_hires.png"
@@ -68741,7 +68741,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H12.png",
       "large": "https://images.pokemontcg.io/ecard2/H12_hires.png"
@@ -68791,7 +68791,7 @@
       }
     ],
     "number": "H13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H13.png",
       "large": "https://images.pokemontcg.io/ecard2/H13_hires.png"
@@ -68844,7 +68844,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H14.png",
       "large": "https://images.pokemontcg.io/ecard2/H14_hires.png"
@@ -68893,7 +68893,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H15.png",
       "large": "https://images.pokemontcg.io/ecard2/H15_hires.png"
@@ -68953,7 +68953,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H16.png",
       "large": "https://images.pokemontcg.io/ecard2/H16_hires.png"
@@ -69002,7 +69002,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H17.png",
       "large": "https://images.pokemontcg.io/ecard2/H17_hires.png"
@@ -69061,7 +69061,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H18.png",
       "large": "https://images.pokemontcg.io/ecard2/H18_hires.png"
@@ -69113,7 +69113,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H19.png",
       "large": "https://images.pokemontcg.io/ecard2/H19_hires.png"
@@ -69164,7 +69164,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H20",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H20.png",
       "large": "https://images.pokemontcg.io/ecard2/H20_hires.png"
@@ -69225,7 +69225,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H21",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H21.png",
       "large": "https://images.pokemontcg.io/ecard2/H21_hires.png"
@@ -69277,7 +69277,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H22",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H22.png",
       "large": "https://images.pokemontcg.io/ecard2/H22_hires.png"
@@ -69340,7 +69340,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "H23",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H23.png",
       "large": "https://images.pokemontcg.io/ecard2/H23_hires.png"
@@ -69390,7 +69390,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H24",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H24.png",
       "large": "https://images.pokemontcg.io/ecard2/H24_hires.png"
@@ -69439,7 +69439,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H25",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H25.png",
       "large": "https://images.pokemontcg.io/ecard2/H25_hires.png"
@@ -69484,7 +69484,7 @@
       }
     ],
     "number": "H26",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H26.png",
       "large": "https://images.pokemontcg.io/ecard2/H26_hires.png"
@@ -69541,7 +69541,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H27",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H27.png",
       "large": "https://images.pokemontcg.io/ecard2/H27_hires.png"
@@ -69614,7 +69614,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H28",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H28.png",
       "large": "https://images.pokemontcg.io/ecard2/H28_hires.png"
@@ -69670,7 +69670,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H29",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H29.png",
       "large": "https://images.pokemontcg.io/ecard2/H29_hires.png"
@@ -69721,7 +69721,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H30",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H30.png",
       "large": "https://images.pokemontcg.io/ecard2/H30_hires.png"
@@ -69774,7 +69774,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H31",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H31.png",
       "large": "https://images.pokemontcg.io/ecard2/H31_hires.png"
@@ -69840,7 +69840,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H32",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard2/H32.png",
       "large": "https://images.pokemontcg.io/ecard2/H32_hires.png"
@@ -76756,7 +76756,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "145",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/145.png",
       "large": "https://images.pokemontcg.io/ecard3/145_hires.png"
@@ -76821,7 +76821,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "146",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/146.png",
       "large": "https://images.pokemontcg.io/ecard3/146_hires.png"
@@ -76878,7 +76878,7 @@
       }
     ],
     "number": "147",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/147.png",
       "large": "https://images.pokemontcg.io/ecard3/147_hires.png"
@@ -76943,7 +76943,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "148",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/148.png",
       "large": "https://images.pokemontcg.io/ecard3/148_hires.png"
@@ -77005,7 +77005,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "149",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/149.png",
       "large": "https://images.pokemontcg.io/ecard3/149_hires.png"
@@ -77069,7 +77069,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "150",
-    "rarity": "Rare Secret",
+    "rarity": "RareSecret",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/150.png",
       "large": "https://images.pokemontcg.io/ecard3/150_hires.png"
@@ -77120,7 +77120,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H1",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H1.png",
       "large": "https://images.pokemontcg.io/ecard3/H1_hires.png"
@@ -77180,7 +77180,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H2",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H2.png",
       "large": "https://images.pokemontcg.io/ecard3/H2_hires.png"
@@ -77246,7 +77246,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H3",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H3.png",
       "large": "https://images.pokemontcg.io/ecard3/H3_hires.png"
@@ -77291,7 +77291,7 @@
       }
     ],
     "number": "H4",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H4.png",
       "large": "https://images.pokemontcg.io/ecard3/H4_hires.png"
@@ -77337,7 +77337,7 @@
       }
     ],
     "number": "H5",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H5.png",
       "large": "https://images.pokemontcg.io/ecard3/H5_hires.png"
@@ -77392,7 +77392,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H6",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H6.png",
       "large": "https://images.pokemontcg.io/ecard3/H6_hires.png"
@@ -77451,7 +77451,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H7",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H7.png",
       "large": "https://images.pokemontcg.io/ecard3/H7_hires.png"
@@ -77511,7 +77511,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H8",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H8.png",
       "large": "https://images.pokemontcg.io/ecard3/H8_hires.png"
@@ -77569,7 +77569,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H9",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H9.png",
       "large": "https://images.pokemontcg.io/ecard3/H9_hires.png"
@@ -77621,7 +77621,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H10",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H10.png",
       "large": "https://images.pokemontcg.io/ecard3/H10_hires.png"
@@ -77680,7 +77680,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H11",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H11.png",
       "large": "https://images.pokemontcg.io/ecard3/H11_hires.png"
@@ -77735,7 +77735,7 @@
       }
     ],
     "number": "H12",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H12.png",
       "large": "https://images.pokemontcg.io/ecard3/H12_hires.png"
@@ -77786,7 +77786,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H13",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H13.png",
       "large": "https://images.pokemontcg.io/ecard3/H13_hires.png"
@@ -77834,7 +77834,7 @@
       }
     ],
     "number": "H14",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H14.png",
       "large": "https://images.pokemontcg.io/ecard3/H14_hires.png"
@@ -77896,7 +77896,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H15",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H15.png",
       "large": "https://images.pokemontcg.io/ecard3/H15_hires.png"
@@ -77952,7 +77952,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H16",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H16.png",
       "large": "https://images.pokemontcg.io/ecard3/H16_hires.png"
@@ -78004,7 +78004,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H17",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H17.png",
       "large": "https://images.pokemontcg.io/ecard3/H17_hires.png"
@@ -78057,7 +78057,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H18",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H18.png",
       "large": "https://images.pokemontcg.io/ecard3/H18_hires.png"
@@ -78120,7 +78120,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H19",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H19.png",
       "large": "https://images.pokemontcg.io/ecard3/H19_hires.png"
@@ -78186,7 +78186,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H20",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H20.png",
       "large": "https://images.pokemontcg.io/ecard3/H20_hires.png"
@@ -78238,7 +78238,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H21",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H21.png",
       "large": "https://images.pokemontcg.io/ecard3/H21_hires.png"
@@ -78298,7 +78298,7 @@
     ],
     "convertedRetreatCost": 3,
     "number": "H22",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H22.png",
       "large": "https://images.pokemontcg.io/ecard3/H22_hires.png"
@@ -78364,7 +78364,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H23",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H23.png",
       "large": "https://images.pokemontcg.io/ecard3/H23_hires.png"
@@ -78415,7 +78415,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H24",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H24.png",
       "large": "https://images.pokemontcg.io/ecard3/H24_hires.png"
@@ -78468,7 +78468,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H25",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H25.png",
       "large": "https://images.pokemontcg.io/ecard3/H25_hires.png"
@@ -78517,7 +78517,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H26",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H26.png",
       "large": "https://images.pokemontcg.io/ecard3/H26_hires.png"
@@ -78583,7 +78583,7 @@
     ],
     "convertedRetreatCost": 2,
     "number": "H27",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H27.png",
       "large": "https://images.pokemontcg.io/ecard3/H27_hires.png"
@@ -78635,7 +78635,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H28",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H28.png",
       "large": "https://images.pokemontcg.io/ecard3/H28_hires.png"
@@ -78706,7 +78706,7 @@
     ],
     "convertedRetreatCost": 4,
     "number": "H29",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H29.png",
       "large": "https://images.pokemontcg.io/ecard3/H29_hires.png"
@@ -78761,7 +78761,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H30",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H30.png",
       "large": "https://images.pokemontcg.io/ecard3/H30_hires.png"
@@ -78821,7 +78821,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H31",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H31.png",
       "large": "https://images.pokemontcg.io/ecard3/H31_hires.png"
@@ -78871,7 +78871,7 @@
     ],
     "convertedRetreatCost": 1,
     "number": "H32",
-    "rarity": "Rare Holo",
+    "rarity": "RareHolo",
     "images": {
       "small": "https://images.pokemontcg.io/ecard3/H32.png",
       "large": "https://images.pokemontcg.io/ecard3/H32_hires.png"

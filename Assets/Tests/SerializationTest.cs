@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 using System;
+using GimGim.Data;
+using GimGim.Enums;
 using NUnit.Framework;
 using GimGim.Serialization;
 using UnityEngine;
@@ -507,28 +509,79 @@ public class SerializationTest {
     #region Card Decoding Tests
     
     [Test]
-    public void TestPokemonBasicCardDecode() {
+    public void TestPokemonCardDecode() {
+        string json = "{\"id\":\"15149\",\"name\":\"Ho-oh\",\"supertype\":\"Pokemon\",\"subtypes\":[\"Basic\"],\"hp\":\"80\",\"types\":[\"Colorless\"],\"abilities\":[{\"name\":\"Crystal Type\",\"text\":\"Whenever you attach a Fire, Water, or Lightning basic Energy card from your hand to Ho-oh, Ho-oh's type (color) becomes the same as that type of Energy until the end of the turn.\",\"type\":\"Poke-Body\"}],\"attacks\":[{\"name\":\"Holy Flame\",\"cost\":[\"Fire\",\"Lightning\"],\"convertedEnergyCost\":2,\"damage\":\"20\",\"text\":\"\"},{\"name\":\"Scalding Steam\",\"cost\":[\"Fire\",\"Water\",\"Water\",\"Colorless\"],\"convertedEnergyCost\":4,\"damage\":\"40\",\"text\":\"Discard an Energy card attached to Ho-oh and flip a coin. If heads, the Defending Pokemon is now Burned.\"}],\"weaknesses\":[{\"type\":\"Water\",\"value\":\"x2\"}],\"retreatCost\":[\"Colorless\",\"Colorless\",\"Colorless\"],\"convertedRetreatCost\":3,\"number\":\"149\",\"rarity\":\"RareSecret\",\"images\":{\"small\":\"https://images.pokemontcg.io/ecard3/149.png\",\"large\":\"https://images.pokemontcg.io/ecard3/149_hires.png\"},\"setCode\":\"ecard3\"}";
+        JsonDecoder decoder = new(json);
+        PokemonProfile pokemonProfile = new();
+        pokemonProfile.Decode(decoder);
         
-    }
-    
-    [Test]
-    public void TestPokemonStage1CardDecode() {
-        
-    }
-
-    [Test]
-    public void TestPokemonStage2CardDecode() {
-        
+        Assert.AreEqual(15149, pokemonProfile.Id);
+        Assert.AreEqual("Ho-oh", pokemonProfile.Name);
+        Assert.AreEqual("ecard3", pokemonProfile.SetCode);
+        Assert.AreEqual(SuperType.Pokemon, pokemonProfile.SuperType);
+        Assert.AreEqual(1, pokemonProfile.SubTypes.Count);
+        Assert.AreEqual(SubType.Basic, pokemonProfile.SubTypes[0]);
+        Assert.AreEqual(80, pokemonProfile.Hp);
+        Assert.AreEqual(1, pokemonProfile.Types.Count);
+        Assert.AreEqual(EnergyType.Colorless, pokemonProfile.Types[0]);
+        Assert.AreEqual(1, pokemonProfile.Abilities.Count);
+        Assert.AreEqual("Crystal Type", pokemonProfile.Abilities[0]["name"]);
+        Assert.AreEqual("Whenever you attach a Fire, Water, or Lightning basic Energy card from your hand to Ho-oh, Ho-oh's type (color) becomes the same as that type of Energy until the end of the turn.", pokemonProfile.Abilities[0]["text"]);
+        Assert.AreEqual(2, pokemonProfile.Attacks.Count);
+        Assert.AreEqual("Holy Flame", pokemonProfile.Attacks[0]["name"]);
+        Assert.AreEqual("2", pokemonProfile.Attacks[0]["convertedEnergyCost"]);
+        Assert.AreEqual("20", pokemonProfile.Attacks[0]["damage"]);
+        Assert.AreEqual("Scalding Steam", pokemonProfile.Attacks[1]["name"]);
+        Assert.AreEqual("4", pokemonProfile.Attacks[1]["convertedEnergyCost"]);
+        Assert.AreEqual("40", pokemonProfile.Attacks[1]["damage"]);
+        Assert.AreEqual(1, pokemonProfile.Weaknesses.Count);
+        Assert.AreEqual("Water", pokemonProfile.Weaknesses[0]["type"]);
+        Assert.AreEqual("x2", pokemonProfile.Weaknesses[0]["value"]);
+        Assert.AreEqual(3, pokemonProfile.RetreatCost.Count);
+        Assert.AreEqual(EnergyType.Colorless, pokemonProfile.RetreatCost[0]);
+        Assert.AreEqual(EnergyType.Colorless, pokemonProfile.RetreatCost[1]);
+        Assert.AreEqual(EnergyType.Colorless, pokemonProfile.RetreatCost[2]);
+        Assert.AreEqual(3, pokemonProfile.ConvertedRetreatCost);
+        Assert.AreEqual(Rarity.RareSecret, pokemonProfile.Rarity);
+        Assert.AreEqual("https://images.pokemontcg.io/ecard3/149.png", pokemonProfile.Images["small"]);
+        Assert.AreEqual("https://images.pokemontcg.io/ecard3/149_hires.png", pokemonProfile.Images["large"]);
     }
     
     [Test]
     public void TestTrainerCardDecode() {
+        string json = "{\"id\":\"15120\",\"name\":\"Relic Hunter\",\"supertype\":\"Trainer\",\"subtypes\":[\"Supporter\"],\"rules\":\"Search your deck for up to 2 Supporter and/or Stadium cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.\",\"number\":\"120\",\"rarity\":\"Uncommon\",\"images\":{\"small\":\"https://images.pokemontcg.io/ecard3/120.png\",\"large\":\"https://images.pokemontcg.io/ecard3/120_hires.png\"},\"setCode\":\"ecard3\"}";
+        JsonDecoder decoder = new(json);
+        TrainerProfile trainerProfile = new();
+        trainerProfile.Decode(decoder);
         
+        Assert.AreEqual(15120, trainerProfile.Id);
+        Assert.AreEqual("Relic Hunter", trainerProfile.Name);
+        Assert.AreEqual("ecard3", trainerProfile.SetCode);
+        Assert.AreEqual(SuperType.Trainer, trainerProfile.SuperType);
+        Assert.AreEqual(1, trainerProfile.SubTypes.Count);
+        Assert.AreEqual(SubType.Supporter, trainerProfile.SubTypes[0]);
+        Assert.AreEqual("Search your deck for up to 2 Supporter and/or Stadium cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward.", trainerProfile.Rules);
+        Assert.AreEqual(Rarity.Uncommon, trainerProfile.Rarity);
+        Assert.AreEqual("https://images.pokemontcg.io/ecard3/120.png", trainerProfile.Images["small"]);
+        Assert.AreEqual("https://images.pokemontcg.io/ecard3/120_hires.png", trainerProfile.Images["large"]);
+        // TODO: Check after abilities have been implemented
     }
 
     [Test]
     public void TestSetJsonDecode() {
+        string json = "{\"id\":\"1000\",\"name\":\"Base\",\"setCode\":\"base1\",\"series\":\"Base\",\"totalCards\":102,\"totalDecks\":5,\"images\":{\"symbol\":\"https://images.pokemontcg.io/base1/symbol.png\",\"logo\":\"https://images.pokemontcg.io/base1/logo.png\"}}";
+        JsonDecoder decoder = new(json);
+        SetProfile setProfile = new();
+        setProfile.Decode(decoder);
         
+        Assert.AreEqual(1000, setProfile.Id);
+        Assert.AreEqual("Base", setProfile.Name);
+        Assert.AreEqual("base1", setProfile.SetCode);
+        Assert.AreEqual(SetSeries.Base, setProfile.Series);
+        Assert.AreEqual(102, setProfile.TotalCards);
+        Assert.AreEqual(5, setProfile.TotalDecks);
+        Assert.AreEqual("https://images.pokemontcg.io/base1/symbol.png", setProfile.Images["symbol"]);
+        Assert.AreEqual("https://images.pokemontcg.io/base1/logo.png", setProfile.Images["logo"]);
     }
 
     #endregion

@@ -4,6 +4,8 @@ namespace GimGim.Data {
     public class TrainerProfile : CardProfile {
         private string _rules; // TODO: create a class for trainer abilities
         
+        public string Rules => _rules;
+        
         public override bool Decode(IDecoder decoder) {
             bool success = true;
             

@@ -9,10 +9,19 @@ namespace GimGim.Data {
         private SetSeries _series;
         private int _totalCards;
         private int _totalDecks;
-        private List<string> _images = new List<string>();
+        private Dictionary<string, string> _images = new Dictionary<string, string>();
         private HashSet<int> _cardProfiles = new HashSet<int>();
         private HashSet<int> _deckProfiles = new HashSet<int>();
-        public string Name { get; set; }
+        
+        public string Name => _name;
+        public string SetCode => _setCode;
+        public SetSeries Series => _series;
+        public int TotalCards => _totalCards;
+        public int TotalDecks => _totalDecks;
+        public HashSet<int> CardProfiles => _cardProfiles;
+        public HashSet<int> DeckProfiles => _deckProfiles;
+        public Dictionary<string, string> Images => _images;
+        
 
         public override bool Decode(IDecoder decoder) {
             bool success = true;

@@ -7,6 +7,7 @@ namespace GimGim.Data {
         private int _setId;
         
         private string _name;
+        private string _setCode;
         private SuperType _superType;
         private SubType _subType;
         private Rarity _rarity;
@@ -18,6 +19,7 @@ namespace GimGim.Data {
             
             success &= base.Decode(decoder);
             success &= decoder.Get("name", ref _name);
+            success &= decoder.Get("setCode", ref _setCode);
             success &= decoder.Get("superType", ref _superType);
             success &= decoder.Get("subType", ref _subType);
             success &= decoder.Get("rarity", ref _rarity);

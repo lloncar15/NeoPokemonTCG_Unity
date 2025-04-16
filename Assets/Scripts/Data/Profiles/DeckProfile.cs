@@ -5,6 +5,7 @@ using GimGim.Serialization;
 namespace GimGim.Data {
     public class DeckProfile : Profile {
         private string _name;
+        private string _setCode;
         private HashSet<EnergyType> _types = new HashSet<EnergyType>();
         private HashSet<(int cardId, int count)> _cards = new HashSet<(int cardId, int count)>();
         
@@ -13,6 +14,7 @@ namespace GimGim.Data {
             
             success &= base.Decode(decoder);
             success &= decoder.Get("name", ref _name);
+            success &= decoder.Get("setCode", ref _setCode);
             success &= decoder.Get("types", ref _types);
             success &= decoder.Get("cards", ref _cards);
 

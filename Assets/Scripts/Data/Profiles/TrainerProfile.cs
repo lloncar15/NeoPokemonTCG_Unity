@@ -10,7 +10,7 @@ namespace GimGim.Data {
             bool success = true;
             
             success &= base.Decode(decoder);
-            success &= decoder.Get("rules", ref _rules);
+            decoder.Get("rules", ref _rules);
             
             return success;
         }

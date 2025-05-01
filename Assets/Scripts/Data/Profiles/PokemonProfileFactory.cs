@@ -15,6 +15,9 @@ namespace GimGim.Data {
             return new DeckProfile();
         }
 
+        /// <summary>
+        /// Creates an instance of a card profile based on the superType.
+        /// </summary>
         public static CardProfile CreateCardProfile(string superType) {
             if (Enum.TryParse(superType, out SuperType type)) {
                 switch (type) {

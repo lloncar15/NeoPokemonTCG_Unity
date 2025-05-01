@@ -10,18 +10,19 @@ namespace GimGim.Data {
     /// Loads all the data needed for the game and caches it for later use.
     /// </summary>
     public class ProfilesController : MonoBehaviour {
-        private bool _hasLoadedProfiles = false;
-
         private readonly Dictionary<Type, Dictionary<int, Profile>> _profilesForTypes = new();
-        public void Start() {
-            LoadPokemonProfiles();
-        }
+        
+        public Dictionary<Type, Dictionary<int, Profile>> ProfilesForTypes => _profilesForTypes;
+        
+        public string setProfilesFilename = "setProfiles";
+        public string deckProfilesFilename = "deckProfiles";
+        public string cardProfilesFilename = "cardProfiles";
 
         /// <summary>
-        /// Loads all required profiles.
-        /// TODO: Decouple this 
+        /// Loads all required profiles for Pokemon TCG. Set profiles should be loaded first to be able to populate
+        /// card and deck ids into the set profile when loading them.
         /// </summary>
-        private void LoadPokemonProfiles() {
+        public void LoadPokemonProfiles() {
             LoadSetProfiles();
             LoadDeckProfiles();
             LoadCardProfiles();
@@ -30,8 +31,8 @@ namespace GimGim.Data {
         /// <summary>
         /// Loads the set profiles and adds them to the profile's dictionary.
         /// </summary>
-        private void LoadSetProfiles() {
-            string json = GetJsonStringForFile("setProfiles");
+        public void LoadSetProfiles() {
+            string json = GetJsonStringForFile(setProfilesFilename);
             
             Dictionary<int, Profile> setProfiles = new();
             JsonDecoder decoder = new JsonDecoder(json);
@@ -55,8 +56,8 @@ namespace GimGim.Data {
         /// <summary>
         /// Loads the deck profiles and adds them to the profiles dictionary while adding deck profile ids into corresponding sets.
         /// </summary>
-        private void LoadDeckProfiles() {
-            string json = GetJsonStringForFile("deckProfiles");
+        public void LoadDeckProfiles() {
+            string json = GetJsonStringForFile(deckProfilesFilename);
             Dictionary<int, Profile> deckProfiles = new();
             JsonDecoder decoder = new JsonDecoder(json);
             JSONArray decoderCurrentNode = decoder.CurrentNode as JSONArray;
@@ -79,15 +80,18 @@ namespace GimGim.Data {
             _profilesForTypes[typeof(DeckProfile)] = deckProfiles;
         }
 
-        private void LoadCardProfiles() {
-            string json = GetJsonStringForFile("cardProfiles");
+        /// <summary>
+        /// Loads the card profiles and adds them to the profiles dictionary while adding card profile ids into corresponding sets.
+        /// </summary>
+        public void LoadCardProfiles() {
+            string json = GetJsonStringForFile(cardProfilesFilename);
             Dictionary<int, Profile> cardProfiles = new();
             JsonDecoder decoder = new JsonDecoder(json);
             JSONArray decoderCurrentNode = decoder.CurrentNode as JSONArray;
             if (decoderCurrentNode != null) {
                 for (int i = 0; i < decoderCurrentNode.Count; i++) {
                     try {
-                        string superType = decoderCurrentNode[i]["superType"];
+                        string superType = decoderCurrentNode[i]["supertype"];
                         CardProfile profile = PokemonProfileFactory.CreateCardProfile(superType);
                         if (decoder.Get(i, ref profile)) {
                             cardProfiles.Add(i, profile);
@@ -97,7 +101,7 @@ namespace GimGim.Data {
                         }
                     }
                     catch (Exception e) {
-                        Debug.Log($"ProfilesController - Could not load card profiles - {e}");
+                        Debug.Log($"ProfilesController - Could not load card profile {decoderCurrentNode[i]["id"]} - {e}");
                     }
                 }
             }
@@ -105,21 +109,17 @@ namespace GimGim.Data {
         }
         
         #region Profile Getters
-
         public T GetProfile<T>(int profileId) where T : Profile {
             return GetProfile<T>(typeof(T), profileId);
         }
-
         private T GetProfile<T>(Type type, int profileId) where T : Profile {
             _profilesForTypes.TryGetValue(type, out Dictionary<int, Profile> profilesForType);
             return profilesForType?.GetValueOrDefault(profileId) as T;
         }
-
         public Profile GetProfile(Type type, int profileId) {
             _profilesForTypes.TryGetValue(type, out Dictionary<int, Profile> profilesForType);
             return profilesForType?.GetValueOrDefault(profileId);
         }
-
         public List<T> GetAllProfiles<T>() where T : Profile {
             List<T> profiles = new();
             if (_profilesForTypes.TryGetValue(typeof(T), out Dictionary<int, Profile> profilesForType)) {

@@ -3,6 +3,9 @@ using GimGim.Enums;
 using GimGim.Serialization;
 
 namespace GimGim.Data {
+    /// <summary>
+    /// Profile for any type of card.
+    /// </summary>
     public abstract class CardProfile : Profile {
         private int _setId;
         private string _name;
@@ -24,17 +27,21 @@ namespace GimGim.Data {
         
         private const int SetBaseId = 1000;
 
+        /// <summary>
+        /// Decodes and populates the profile using the decoder. Some field in the json can be empty and that's why
+        /// success bool doesn't depend on decoding certain fields.
+        /// </summary>
         public override bool Decode(IDecoder decoder) {
             bool success = true;
             
             success &= base.Decode(decoder);
-            success &= decoder.Get("name", ref _name);
-            success &= decoder.Get("setCode", ref _setCode);
-            success &= decoder.Get("supertype", ref _superType);
-            success &= decoder.Get("subtypes", ref _subTypes);
-            success &= decoder.Get("rarity", ref _rarity);
-            success &= decoder.Get("images", ref _images);
-            success &= decoder.Get("hp", ref _hp);
+            decoder.Get("name", ref _name);
+            decoder.Get("setCode", ref _setCode);
+            decoder.Get("supertype", ref _superType);
+            decoder.Get("subtypes", ref _subTypes);
+            decoder.Get("rarity", ref _rarity);
+            decoder.Get("images", ref _images);
+            decoder.Get("hp", ref _hp);
 
             _setId = (Id / SetBaseId) * SetBaseId;
             

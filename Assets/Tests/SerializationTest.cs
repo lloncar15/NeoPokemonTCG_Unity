@@ -95,6 +95,15 @@ public class SerializationTest {
 
     [Test]
     public void TestTupleEncode() {
+        Tuple<int, string> tuple = new Tuple<int, string>(42, "Hello, World!");
+
+        JsonEncoder encoder = new();
+        encoder.Add("tuple", tuple);
+        Assert.AreEqual("{\"tuple\":[42,\"Hello, World!\"]}", encoder.GetString());
+    }
+
+    [Test]
+    public void TestValueTupleEncode() {
         (int a, string b) tuple = (42, "Hello, World!");
 
         JsonEncoder encoder = new();
@@ -291,6 +300,28 @@ public class SerializationTest {
         decoder.Get("tuple", ref tuple);
         Assert.AreEqual(3, tuple.Item1);
         Assert.AreEqual("test", tuple.Item2);
+    }
+    
+    [Test]
+    public void TestValueTupleDecode() {
+        string json = "{\"valueTuple\":[3,\"test\"]}";
+        (int num, string str) valueTuple = new(0, "");
+        JsonDecoder decoder = new(json);
+        decoder.Get("valueTuple", ref valueTuple);
+        Assert.AreEqual(3, valueTuple.num);
+        Assert.AreEqual("test", valueTuple.str);
+    }
+
+    [Test]
+    public void TestListOfValueTuplesDecode() {
+        string json =
+            "{\"cards\":[[1044, 4],[1030, 2],[1069, 4],[1033, 2],[1017, 1],[1065, 4],[1064, 3],[1035, 2],[1006, 1],[1091, 2],[1093, 2],[1094, 1],[1090, 2],[1095, 2],[1099, 16],[1102, 12]]}";
+        List<(int id, int count)> cards = new();
+        JsonDecoder decoder = new(json);
+        decoder.Get("cards", ref cards);
+        Assert.AreEqual(16, cards.Count);
+        Assert.AreEqual(1044, cards[0].id);
+        Assert.AreEqual(4, cards[0].count);
     }
 
     [Test]

@@ -33,6 +33,14 @@ namespace GimGim.Serialization {
             _currentNode = _rootNode;
         }
         
+        /// <summary>
+        /// Gets the value of the specified key from the current node. Integer, string and enum keys are supported.
+        /// Enum keys are converted into string keys.
+        /// </summary>
+        /// <param name="key">Specified key to check.</param>
+        /// <param name="value">Object to be populated from the decoder.</param>
+        /// <param name="defaultValue">Default value object for the type.</param>
+        /// <returns>Boolean to show if the instantiation succeeded.</returns>
         public bool Get<TK, TV>(TK key, ref TV value, TV defaultValue = default) {
             bool success = false;
 
@@ -58,6 +66,9 @@ namespace GimGim.Serialization {
             return success;
         }
         
+        /// <summary>
+        /// Gets the value of the specified integer key from the current node.
+        /// </summary>
         private bool GetWithInt<T>(int intKey, ref T value, T defaultValue = default(T)) {
             bool success = false;
             if (_currentNode is JSONArray arrayNode && intKey < arrayNode.Count) {
@@ -76,6 +87,9 @@ namespace GimGim.Serialization {
             return success;
         }
         
+        /// <summary>
+        /// Gets the value of the specified string key from the current node.
+        /// </summary>
         private bool GetWithString<T>(string key, ref T value, T defaultValue = default(T))
         {
             bool success = false;
@@ -99,6 +113,13 @@ namespace GimGim.Serialization {
         
         #region Decoding data
 
+        /// <summary>
+        /// Gets the value of the specified key and populates the object with the value. Tries to find the type of the
+        /// objects and then tries to decode and populate the object.
+        /// </summary>
+        /// <param name="obj">Object to populate.</param>
+        /// <typeparam name="T">Type of the object.</typeparam>
+        /// <returns>Boolean if populating the object succeeded.</returns>
         private bool DecodeCurrent<T>(ref T obj) {
             bool success;
             Type valueType = typeof(T);
@@ -113,7 +134,7 @@ namespace GimGim.Serialization {
                 success = DecodeCollection(out obj, "Add");
             }
             else if (typeof(ITuple).IsAssignableFrom(valueType)) {
-                success = DecodeTuple(out obj);
+                success = valueType.IsValueType ? DecodeValueTuple(out obj) : DecodeTuple(out obj);
             }
             else if (typeof(ISerializable).IsAssignableFrom(valueType)) {
                 success = DecodeClass(ref obj);
@@ -133,6 +154,9 @@ namespace GimGim.Serialization {
             return success;
         }
 
+        /// <summary>
+        /// Decodes a collection.
+        /// </summary>
         private bool DecodeCollection<T>(out T value, string addFunctionName)
         {
             bool success = false;
@@ -161,11 +185,9 @@ namespace GimGim.Serialization {
             return success;
         }
 
-        private bool DecodeData(out IDecoder value) {
-            value = new JsonDecoder(_currentNode);
-            return true;
-        }
-
+        /// <summary>
+        /// Decodes a dictionary.
+        /// </summary>
         private bool DecodeDictionary<T>(out T obj) {
             bool success = false;
 
@@ -196,8 +218,10 @@ namespace GimGim.Serialization {
             return success;
         }
         
-        private bool DecodeTuple<T>(out T value)
-        {
+        /// <summary>
+        /// Decodes a tuple.
+        /// </summary>
+        private bool DecodeTuple<T>(out T value) {
             bool success = false;
 
             Type[] typeArguments = typeof(T).GetGenericArguments();
@@ -221,7 +245,45 @@ namespace GimGim.Serialization {
             value = (T)tupleCreator.Invoke(null, tupleObjects);
             return success;
         }
+
+        /// <summary>
+        /// Decodes a ValueTuple. Has to use explicit constructor creation as it does not have a parameterless constructor.
+        /// </summary>
+        private bool DecodeValueTuple<T>(out T value) {
+            bool success = false;
+
+            Type valueType = typeof(T);
+            Type[] typeArguments = valueType.GetGenericArguments();
+            object[] tupleObjects = new object[typeArguments.Length];
+            JSONArray arrayNode = _currentNode as JSONArray;
+            if (arrayNode != null && arrayNode.Count == typeArguments.Length) {
+                for (int index = 0; index < arrayNode.Count; index++) {
+                    Type childType = typeArguments[index];
+                    MethodInfo getMethod = GetType().GetMethod("Get", BindingFlags.Instance | BindingFlags.Public)?.MakeGenericMethod(typeof(int), childType);
+
+                    object child = Activator.CreateInstance(childType);
+                    object[] parameters = { index, child, child };
+                    getMethod?.Invoke(this, parameters);
+                    tupleObjects[index] = parameters[1];
+                }
+            }
+
+            ConstructorInfo constructor = valueType.GetConstructor(typeArguments);
+            if (constructor != null) {
+                value = (T)constructor.Invoke(tupleObjects);
+                success = true;
+            } 
+            else {
+                Debug.LogError($"JSONDecoder - No matching constructor found for {valueType.FullName}");
+                value = default;
+            }
+            
+            return success;
+        }
         
+        /// <summary>
+        /// Decodes a custom class that implements ISerializable.
+        /// </summary>
         private bool DecodeClass<T>(ref T value) {
             ISerializable decodable;
 
@@ -245,6 +307,10 @@ namespace GimGim.Serialization {
             return success;
         }
         
+        /// <summary>
+        /// Decodes a JSONNode into a specified type. This is used for primitive types, enums, objects and classes
+        /// that do not implement the ISerializable interface.
+        /// </summary>
         private bool DecodeJsonNode<T>(ref T value) {
             bool success = true;
 
@@ -270,6 +336,9 @@ namespace GimGim.Serialization {
             return success;
         }
         
+        /// <summary>
+        /// Decodes an enum type.
+        /// </summary>
         private bool DecodeEnum<T>(ref T value) {
             bool success = false;
 
@@ -286,6 +355,9 @@ namespace GimGim.Serialization {
             return success;
         }
         
+        /// <summary>
+        /// Decodes Unity and SimpleJSON types.
+        /// </summary>
         private bool DecodeObjectType<T>(ref T value) {
             bool success = true;
 
@@ -334,7 +406,9 @@ namespace GimGim.Serialization {
 
             return success;
         }
-        
+        /// <summary>
+        /// Decodes primitive types.
+        /// </summary>
         private bool DecodePrimitiveType<T>(Type underlyingType, ref T value) {
             bool success = true;
 
@@ -390,6 +464,10 @@ namespace GimGim.Serialization {
         #endregion
         
         #region Helpers
+        /// <summary>
+        /// Instantiates an object for the specified node. If the node has a CLASS key, it will try to find the type
+        /// of the class and instantiate it. If not, it will use the fallback type.
+        /// </summary>
         private static object InstantiateObjectForNode(JSONNode node, Type fallbackType) {
             object result;
             
@@ -406,6 +484,9 @@ namespace GimGim.Serialization {
             return result;
         }
         
+        /// <summary>
+        /// Gets the converted key for the specified type.
+        /// </summary>
         private static object GetConvertedKey(Type keyType, string key) {
             object convertedKey;
             if (keyType == typeof(int) && int.TryParse(key, out int intKey)) {
@@ -424,7 +505,10 @@ namespace GimGim.Serialization {
         #endregion
         
         #region Caching constructors and types
-
+        /// <summary>
+        /// Invokes the constructor of the specified type using the dictionaries of cached constructors and caches it
+        /// if it is not already cached.
+        /// </summary>
         private static object CreateInstance(Type type) {
             Func<object> constructor = null;
             if (type != null && !Constructors.TryGetValue(type, out constructor)) {
@@ -434,14 +518,12 @@ namespace GimGim.Serialization {
             return constructor?.Invoke();
         }
 
+        /// <summary>
+        /// Caches the constructor of the specified type. ValueTuples are handled differently.
+        /// </summary>
         private static Func<object> CacheFunc(Type type) {
-            Func<object> func = null;
-            ConstructorInfo constructor = type.GetConstructor(Type.EmptyTypes);
-            if (constructor != null) {
-                Expression newExpr = Expression.New(constructor);
-                LambdaExpression lambdaExpr = Expression.Lambda(typeof(Func<object>), newExpr);
-                func = (Func<object>)lambdaExpr.Compile();
-            }
+            bool isValueTuple = typeof(ITuple).IsAssignableFrom(type) && type.IsValueType;
+            Func<object> func = isValueTuple ? CacheValueTupleFunc(type) : CacheGenericFunc(type);
             
             if (func == null && !type.IsPrimitive && !type.IsEnum && type != typeof(string) && type != typeof(decimal)) {
                 Debug.LogError($"JSONDecoder - Could not find a parameterless constructor for type: {type.FullName}");
@@ -451,6 +533,44 @@ namespace GimGim.Serialization {
             return func;
         }
 
+        /// <summary>
+        /// Caches the constructor of the specified type.
+        /// </summary>
+        private static Func<object> CacheGenericFunc(Type type) {
+            Func<object> func = null;
+            
+            ConstructorInfo constructor = type.GetConstructor(Type.EmptyTypes);
+            if (constructor != null) {
+                Expression newExpr = Expression.New(constructor);
+                LambdaExpression lambdaExpr = Expression.Lambda(typeof(Func<object>), newExpr);
+                func = (Func<object>)lambdaExpr.Compile();
+            }
+
+            return func;
+        }
+
+        /// <summary>
+        /// Caches the ValueTuple constructor as they don't have a parameterless constructor.
+        /// </summary>
+        private static Func<object> CacheValueTupleFunc(Type type) {
+            Func<object> func = null;
+            
+            ConstructorInfo constructor = type.GetConstructors().FirstOrDefault();
+            if (constructor != null) {
+                ParameterInfo[] parameters = constructor.GetParameters();
+                object[] defaultValues = parameters.Select(p => Activator.CreateInstance(p.ParameterType)).ToArray();
+
+                func = () => constructor.Invoke(defaultValues);
+            }
+            
+            
+            return func;
+        }
+
+        /// <summary>
+        /// Invokes the constructor of the specified class name using the dictionaries of cached constructors and caches
+        /// it if it is not already cached.
+        /// </summary>
         private static object CreateInstance(string className) {
             Type type = null;
             if (className != null && !Types.TryGetValue(className, out type)) {
@@ -459,6 +579,9 @@ namespace GimGim.Serialization {
             return CreateInstance(type);
         }
 
+        /// <summary>
+        /// Caches the constructor of the specified class name.
+        /// </summary>
         private static Type CacheType(string className) {
             Type type = null;
             

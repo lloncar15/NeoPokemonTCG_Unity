@@ -1,55 +1,50 @@
 using System;
 using System.Collections.Generic;
-using System.Reflection;
+using System.Linq;
 
 namespace GimGim.Utility {
+    /// <summary>
+    /// A utility class for working with predefined assemblies in the current application domain.
+    /// Provides methods to retrieve types from specific assemblies based on their relationship to a given interface or base type.
+    /// </summary>
     public static class PredefinedAssemblyUtility {
-        enum AssemblyType {
-            AssemblyCSharp,
-            AssemblyCSharpEditor,
-            AssemblyCSharpEditorFirstPass,
-            AssemblyCSharpFirstPass
-        }
+        private static readonly HashSet<string> TrustedAssemblies = new() {
+            "Assembly-CSharp",
+            "Assembly-CSharp-firstpass",
+            "Assembly-CSharp-Editor",
+            "Assembly-CSharp-Editor-firstpass"
+        };
 
-        static AssemblyType? GetAssemblyType(string assemblyName) {
-            return assemblyName switch {
-                "Assembly-CSharp" => AssemblyType.AssemblyCSharp,
-                "Assembly-CSharp-Editor" => AssemblyType.AssemblyCSharpEditor,
-                "Assembly-CSharp-Editor-firstpass" => AssemblyType.AssemblyCSharpEditorFirstPass,
-                "Assembly-CSharp-firstpass" => AssemblyType.AssemblyCSharpFirstPass,
-                _ => null
-            };
-        }
-
-        static void AddTypesFromAssembly(Type[] assemblyTypes, Type interfaceType, ICollection<Type> result) {
+        /// <summary>
+        /// Adds types from a given assembly to the result collection if they implement or inherit from the specified interface or base type.
+        /// </summary>
+        /// <param name="assemblyTypes">The array of types in the assembly.</param>
+        /// <param name="interfaceType">The interface or base type to match.</param>
+        /// <param name="result">The collection to which matching types will be added.</param>
+        private static void AddTypesFromAssembly(Type[] assemblyTypes, Type interfaceType, ICollection<Type> result) {
             if (assemblyTypes is null) return;
-            for (int i = 0; i < assemblyTypes.Length; ++i) {
-                Type type = assemblyTypes[i];
+            foreach (var type in assemblyTypes) {
                 if (type != interfaceType && interfaceType.IsAssignableFrom(type)) {
                     result.Add(type);
                 }
             }
         }
 
+        /// <summary>
+        /// Retrieves a list of types from predefined assemblies that implement or inherit from the specified interface or base type.
+        /// </summary>
+        /// <param name="interfaceType">The interface or base type to match.</param>
+        /// <returns>A list of types that match the specified interface or base type.</returns>
         public static List<Type> GetTypes(Type interfaceType) {
-            Assembly[] assemblies = AppDomain.CurrentDomain.GetAssemblies();
-            
-            Dictionary<AssemblyType, Type[]> assemblyTypes = new Dictionary<AssemblyType, Type[]>();
-            
-            List<Type> types = new List<Type>();
-            for (int i = 0; i < assemblies.Length; i++) {
-                AssemblyType? assemblyType = GetAssemblyType(assemblies[i].GetName().Name);
-                if (assemblyType is not null) {
-                    assemblyTypes.Add((AssemblyType) assemblyType, assemblies[i].GetTypes());
-                }
-            }
-        
-            assemblyTypes.TryGetValue(AssemblyType.AssemblyCSharp, out var assemblyCSharpTypes);
-            AddTypesFromAssembly(assemblyCSharpTypes, interfaceType, types);
+            var assemblies = AppDomain.CurrentDomain.GetAssemblies()
+                .Where(assembly => TrustedAssemblies.Contains(assembly.GetName().Name))
+                .ToArray();
 
-            assemblyTypes.TryGetValue(AssemblyType.AssemblyCSharpFirstPass, out var assemblyCSharpFirstPassTypes);
-            AddTypesFromAssembly(assemblyCSharpFirstPassTypes, interfaceType, types);
-        
+            var types = new List<Type>();
+            foreach (var assembly in assemblies) {
+                AddTypesFromAssembly(assembly.GetTypes(), interfaceType, types);
+            }
+
             return types;
         }
     }

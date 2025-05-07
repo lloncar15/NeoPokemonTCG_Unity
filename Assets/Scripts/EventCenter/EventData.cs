@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace GimGim.EventCenter {
     /// <summary>
-    /// Base class for game event data objects.
+    /// Base abstract class for game event data objects.
     /// </summary>
     public abstract class EventData {
         private object Sender { get; set; }

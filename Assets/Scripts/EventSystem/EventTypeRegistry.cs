@@ -4,7 +4,7 @@ using GimGim.Utility;
 using UnityEditor;
 using UnityEngine;
 
-namespace GimGim.EventCenter {
+namespace GimGim.EventSystem {
     /// <summary>
     /// A static utility class responsible for managing and caching type hashes for event data types.
     /// This is used to efficiently identify and process event types in the event system.
@@ -85,7 +85,7 @@ namespace GimGim.EventCenter {
         /// </summary>
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         private static void PreloadEventDataTypes() {
-            Type eventDataType = typeof(EventData);
+            Type eventDataType = typeof(Event);
             List<Type> types = PredefinedAssemblyUtility.GetTypes(eventDataType);
 
             foreach (Type type in types) {

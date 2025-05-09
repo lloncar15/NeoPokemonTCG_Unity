@@ -1,4 +1,4 @@
-using GimGim.NotificationEventSystem;
+using GimGim.EventSystem;
 
 namespace GimGim.StateMachine {
     public abstract class StateMachineEvent : EventData {

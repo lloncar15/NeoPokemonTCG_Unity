@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
-using GimGim.NotificationEventSystem;
+using GimGim.EventSystem;
 using NUnit.Framework;
 
 public class NotificationEventSystemTest 

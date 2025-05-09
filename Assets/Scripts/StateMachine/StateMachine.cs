@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using GimGim.NotificationEventSystem;
+using GimGim.EventSystem;
 
 namespace GimGim.StateMachine {
     /// <summary>
@@ -60,7 +60,7 @@ namespace GimGim.StateMachine {
             }
             
             if (!_currentState.CanExit(target) && !target.CanEnter(_currentState)) {
-                NotificationEventSystem.NotificationEventSystem.PostEvent(new StateTransitionBlocked(this, _currentState, target));
+                NotificationEventSystem.PostEvent(new StateTransitionBlocked(this, _currentState, target));
                 return false;
             }
             
@@ -83,7 +83,7 @@ namespace GimGim.StateMachine {
             
             State old = _currentState;
             _currentState = target;
-            NotificationEventSystem.NotificationEventSystem.PostEvent(new StateTransitionEvent(this, old, _currentState));
+            NotificationEventSystem.PostEvent(new StateTransitionEvent(this, old, _currentState));
             return true;
         }
 

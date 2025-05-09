@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace GimGim.EventSystem {
+namespace GimGim.NotificationEventSystem {
     /// <summary>
     /// Base abstract class for game event data objects.
     /// </summary>

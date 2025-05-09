@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace GimGim.EventSystem {
+namespace GimGim.NotificationEventSystem {
     /// <summary>
     /// Interface for event binding objects.
     /// </summary>

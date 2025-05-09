@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace GimGim.NotificationEventSystem {
+namespace GimGim.EventSystem {
     /// <summary>
     /// A singleton-based event system for managing event subscriptions and dispatching events.
     /// </summary>

@@ -4,7 +4,7 @@ using GimGim.Utility;
 using UnityEditor;
 using UnityEngine;
 
-namespace GimGim.NotificationEventSystem {
+namespace GimGim.EventSystem {
     /// <summary>
     /// A static utility class responsible for managing and caching type hashes for event data types.
     /// This is used to efficiently identify and process event types in the event system.

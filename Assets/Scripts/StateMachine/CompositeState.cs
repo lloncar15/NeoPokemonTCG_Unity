@@ -10,11 +10,13 @@ namespace GimGim.StateMachine {
         
         public IEnumerable<State> Children => _children;
 
-        public void AddChildState(State child, bool isInitialState = false) {
+        public void AddChildState(State child) {
+            if (_children.Count <= 0) {
+                _initialState = child;
+            }
+
             child.Parent = this;
             _children.Add(child);
-            
-            if (isInitialState) _initialState = child;
         }
         
         internal State GetInitialState() => _initialState;

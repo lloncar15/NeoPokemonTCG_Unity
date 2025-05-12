@@ -2,9 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using GimGim.EventSystem;
 using NUnit.Framework;
-using UnityEditorInternal;
 
-public class EventSystemTest 
+public class NotificationEventSystemTest 
 {
     #region Dummy Events
     private interface ICombatEvent : IEvent {
@@ -60,21 +59,21 @@ public class EventSystemTest
         private IEventSubscription _subscriptionAny;
         
         public void SubscribeCombat(bool firesOnce = false, int priority = 0) {
-            _subscriptionCombat = EventSystem.Subscribe(new EventSubscription<ICombatEvent>(OnCombatEvent, firesOnce, priority));
+            _subscriptionCombat = NotificationEventSystem.Subscribe(new EventSubscription<ICombatEvent>(OnCombatEvent, firesOnce, priority));
         }
         
         public void SubscribeCombatWithNegativePriority() {
-            _subscriptionCombatNegative = EventSystem.Subscribe(new EventSubscription<ICombatEvent>(OnCombatNegativeEvent, false, -1));
+            _subscriptionCombatNegative = NotificationEventSystem.Subscribe(new EventSubscription<ICombatEvent>(OnCombatNegativeEvent, false, -1));
         }
         
         public void SubscribeAny(int priority = 0) {
-            _subscriptionAny = EventSystem.Subscribe(new EventSubscription<OtherEvent>(OnOtherEvent, priority));
+            _subscriptionAny = NotificationEventSystem.Subscribe(new EventSubscription<OtherEvent>(OnOtherEvent, priority));
         }
 
         public void Unsubscribe() {
-            if (_subscriptionCombat != null) EventSystem.Unsubscribe(_subscriptionCombat);
-            if (_subscriptionAny != null) EventSystem.Unsubscribe(_subscriptionAny);
-            if (_subscriptionCombatNegative != null) EventSystem.Unsubscribe(_subscriptionCombatNegative);
+            if (_subscriptionCombat != null) NotificationEventSystem.Unsubscribe(_subscriptionCombat);
+            if (_subscriptionAny != null) NotificationEventSystem.Unsubscribe(_subscriptionAny);
+            if (_subscriptionCombatNegative != null) NotificationEventSystem.Unsubscribe(_subscriptionCombatNegative);
         }
 
         public void OnCombatEvent(ICombatEvent otherEvent) {
@@ -96,13 +95,13 @@ public class EventSystemTest
     private CombatListener _listener;
 
     /// <summary>
-    /// Sets up the test environment by resetting the EventSystem instance and initializing a listener.
+    /// Sets up the test environment by resetting the NotificationEventSystem instance and initializing a listener.
     /// </summary>
     [SetUp]
     public void SetUp() {
         _listener = new CombatListener();
         
-        typeof(EventSystem)
+        typeof(NotificationEventSystem)
             .GetField("_instance", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static)
             ?.SetValue(null, null);
     }
@@ -113,8 +112,8 @@ public class EventSystemTest
     [Test]
     public void TestSubscriptionToSystem() {
         _listener.SubscribeAny();
-        EventSystem.PostEvent(new OtherEvent(this, UnitId.Player, "Test"));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new OtherEvent(this, UnitId.Player, "Test"));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsTrue(_listener.AnyEvent, "Listener should have received the event");
         Assert.IsNotNull(_listener.String, "Listener should have received the event with the correct string");
@@ -127,8 +126,8 @@ public class EventSystemTest
     public void TestUnsubscriptionFromSystem() {
         _listener.SubscribeAny();
         _listener.Unsubscribe();
-        EventSystem.PostEvent(new OtherEvent(this, UnitId.Player, "Test"));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new OtherEvent(this, UnitId.Player, "Test"));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsFalse(_listener.AnyEvent, "Listener should not have received the event");
     }
@@ -139,8 +138,8 @@ public class EventSystemTest
     [Test]
     public void TestSubscriptionToCombatEvent() {
         _listener.SubscribeCombat();
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsTrue(_listener.CombatEvent, "Listener should have received the event");
     }
@@ -151,8 +150,8 @@ public class EventSystemTest
     [Test]
     public void TestSubscriptionToOneButFiringOtherEvent() {
         _listener.SubscribeCombat();
-        EventSystem.PostEvent(new PlayerEvent(this, UnitId.Player));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new PlayerEvent(this, UnitId.Player));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsFalse(_listener.CombatEvent, "Listener should not have received the event");
     }
@@ -163,8 +162,8 @@ public class EventSystemTest
     [Test]
     public void TestCombatEventFiringOnOtherEvent() {
         _listener.SubscribeCombat();
-        EventSystem.PostEvent(new OtherEvent(this, UnitId.Enemy, "Test"));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new OtherEvent(this, UnitId.Enemy, "Test"));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsTrue(_listener.CombatEvent, "Listener should have received the event");
     }
@@ -175,14 +174,14 @@ public class EventSystemTest
     [Test]
     public void TestSubscriptionToOneOffEvent() {
         _listener.SubscribeCombat(true);
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsTrue(_listener.CombatEvent, "Listener should have received the event");
         _listener.CombatEvent = false;
         
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsFalse(_listener.CombatEvent, "Listener should not have received the event");
     }
@@ -193,14 +192,14 @@ public class EventSystemTest
     [Test]
     public void TestListenerListensTwice() {
         _listener.SubscribeCombat();
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsTrue(_listener.CombatEvent, "Listener should have received the event");
         _listener.CombatEvent = false;
 
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.IsTrue(_listener.CombatEvent, "Listener should have received the event");
     }
@@ -212,8 +211,8 @@ public class EventSystemTest
 	public void TestSubscriptionPriority() {
         _listener.SubscribeCombatWithNegativePriority();
         _listener.SubscribeCombat(false, 3);
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.AreEqual(UnitId.Combat, _listener.EventPriorityList.First(), "Listener should have received the event with the highest priority first");
         
@@ -222,8 +221,8 @@ public class EventSystemTest
         
         _listener.SubscribeCombatWithNegativePriority();
         _listener.SubscribeCombat(false, -3);
-        EventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
-        EventSystem.Instance.Flush();
+        NotificationEventSystem.PostEvent(new EnemyDiedEvent(this, UnitId.Enemy));
+        NotificationEventSystem.Instance.Flush();
         
         Assert.AreEqual(UnitId.Other, _listener.EventPriorityList.First(), "Listener should have received the events in order of subscription");
 	}

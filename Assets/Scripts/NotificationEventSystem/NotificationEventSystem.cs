@@ -5,14 +5,14 @@ namespace GimGim.EventSystem {
     /// <summary>
     /// A singleton-based event system for managing event subscriptions and dispatching events.
     /// </summary>
-    public class EventSystem {
-        private static EventSystem _instance;
+    public class NotificationEventSystem {
+        private static NotificationEventSystem _instance;
 
         /// <summary>
         /// Gets the singleton instance of the event system.
         /// </summary>
-        public static EventSystem Instance {
-            get { return _instance ??= new EventSystem(); }
+        public static NotificationEventSystem Instance {
+            get { return _instance ??= new NotificationEventSystem(); }
         }
         
         private readonly Queue<EventData> _queue = new();

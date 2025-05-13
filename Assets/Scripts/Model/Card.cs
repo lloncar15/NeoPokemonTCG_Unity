@@ -1,42 +1,36 @@
+using GimGim.Serialization;
 using GimGim.Data;
+using GimGim.Enums;
 
 namespace GimGim.Model {
-    public abstract class Card {
-        private readonly CardProfile _profile;
+    public abstract class Card : ISerializable {
+        private int _profileId;
+        public int PlayOrder = int.MaxValue;
+        public int OwnerIndex = -1;
+        public Zone Zone;
 
-        protected Card(CardProfile profile) {
-            _profile = profile;
+        protected Card(int profileId) {
+            _profileId = profileId;
         }
 
         protected virtual CardProfile GetProfile() {
-            return _profile;
-        }
-    }
-    
-    public class PokemonCard : Card {
-        public PokemonCard(CardProfile profile) : base(profile) {
+            return ProfilesController.GetProfile<CardProfile>(_profileId);
         }
 
-        protected override CardProfile GetProfile() {
-            return (PokemonProfile)base.GetProfile();
-        }
-    }
-
-    public class TrainerCard : Card {
-        public TrainerCard(CardProfile profile) : base(profile) {
+        public virtual void Encode(IEncoder coder) {
+            coder.Add("profileId", _profileId);
+            coder.Add("playOrder", PlayOrder);
+            coder.Add("ownerIndex", OwnerIndex);
+            coder.Add("zone", Zone);
         }
 
-        protected override CardProfile GetProfile() {
-            return (TrainerProfile)base.GetProfile();
-        }
-    }
-    
-    public class EnergyCard : Card {
-        public EnergyCard(CardProfile profile) : base(profile) {
-        }
-
-        protected override CardProfile GetProfile() {
-            return (EnergyProfile)base.GetProfile();
+        public virtual bool Decode(IDecoder coder) {
+            bool success = true;
+            success &= coder.Get("profileId", ref _profileId);
+            success &= coder.Get("playOrder", ref PlayOrder);
+            success &= coder.Get("ownerIndex", ref OwnerIndex);
+            success &= coder.Get("zone", ref Zone);
+            return success;
         }
     }
 }

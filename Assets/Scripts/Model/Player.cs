@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using GimGim.Enums;
+using GimGim.Serialization;
 
 namespace GimGim.Model {
-    public class Player {
-        private readonly Dictionary<Zone, object> _zones = new();
+    public class Player : ISerializable {
+        private Dictionary<Zone, object> _zones = new();
         
-        public readonly int PlayerIndex;
+        public int PlayerIndex;
         
         private const int MAX_BENCH_SIZE = 5;
         private const int MAX_ACTIVE_POKEMON_SIZE = 1;
@@ -24,5 +25,17 @@ namespace GimGim.Model {
         }
 
         public Zone<T> GetZone<T>(Zone zone) where T : Card => (Zone<T>)_zones[zone];
+        
+        public void Encode(IEncoder coder) {
+            coder.Add("playerIndex", PlayerIndex);
+            coder.Add("zones", _zones);
+        }
+
+        public bool Decode(IDecoder coder) {
+            bool success = true;
+            success &= coder.Get("playerIndex", ref PlayerIndex);
+            success &= coder.Get("zones", ref _zones);
+            return success;
+        }
     }
 }

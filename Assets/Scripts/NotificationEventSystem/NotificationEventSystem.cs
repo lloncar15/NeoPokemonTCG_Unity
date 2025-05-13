@@ -72,11 +72,15 @@ namespace GimGim.EventSystem {
         private void AddEventToQueue<T>(T eventData) where T : EventData {
             _queue.Enqueue(eventData);
         }
+
+        public static void Flush() {
+            Instance.DispatchEvents();
+        }
         
         /// <summary>
         /// Dispatches all events in the queue to their respective subscribers.
         /// </summary>
-        public void Flush() {
+        public void DispatchEvents() {
             while (_queue.Count > 0) {
                 DispatchEvent(_queue.Dequeue());
             }

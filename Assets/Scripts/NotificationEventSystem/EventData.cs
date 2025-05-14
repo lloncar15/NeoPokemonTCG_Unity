@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using GimGim.Utility;
 
 namespace GimGim.EventSystem {
     /// <summary>
@@ -10,7 +11,7 @@ namespace GimGim.EventSystem {
 
         public EventData(object sender) {
             Sender = sender;
-            TypeHashes = EventTypeRegistry.GetTypeHashes(GetType());
+            TypeHashes = TypeRegistry.GetTypeHashes(GetType());
         }
 
         public override string ToString() => $"{GetType().Name} (Sender: {Sender?.GetType().Name ?? "null"})";

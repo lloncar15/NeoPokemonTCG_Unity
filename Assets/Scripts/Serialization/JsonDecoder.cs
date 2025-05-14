@@ -261,7 +261,7 @@ namespace GimGim.Serialization {
                     Type childType = typeArguments[index];
                     MethodInfo getMethod = GetType().GetMethod("Get", BindingFlags.Instance | BindingFlags.Public)?.MakeGenericMethod(typeof(int), childType);
 
-                    object child = Activator.CreateInstance(childType);
+                    object child = childType.IsValueType ? Activator.CreateInstance(childType) : null;
                     object[] parameters = { index, child, child };
                     getMethod?.Invoke(this, parameters);
                     tupleObjects[index] = parameters[1];
@@ -558,7 +558,9 @@ namespace GimGim.Serialization {
             ConstructorInfo constructor = type.GetConstructors().FirstOrDefault();
             if (constructor != null) {
                 ParameterInfo[] parameters = constructor.GetParameters();
-                object[] defaultValues = parameters.Select(p => Activator.CreateInstance(p.ParameterType)).ToArray();
+                object[] defaultValues = parameters
+                    .Select(p => p.ParameterType.IsValueType ? Activator.CreateInstance(p.ParameterType) : null)
+                    .ToArray();
 
                 func = () => constructor.Invoke(defaultValues);
             }

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using CodiceApp.EventTracking;
 using GimGim.AspectContainer;
 using GimGim.EventSystem;
@@ -29,11 +30,22 @@ namespace GimGim.ActionSystem {
 
         protected GameAction() {
             OrderOfPlay = ActionSystem.OrderOfPlayCounter.Next();
-            AddPhase(new GameActionPhase(this, OnPrepare));
-            AddPhase(new GameActionPhase(this, OnPerform));
+            AddPhase(new GameActionPhase(this, OnPrepare, GameActionPhaseType.Prepare));
+            AddPhase(new GameActionPhase(this, OnPerform, GameActionPhaseType.Perform));
         }
 
         private void AddPhase(GameActionPhase phase) => Phases.Add(phase);
+        
+        public GameActionPhase GetPhase(GameActionPhaseType phaseType) {
+            switch (phaseType) {
+                case GameActionPhaseType.Prepare:
+                    return Phases.FirstOrDefault(p => p.Type == GameActionPhaseType.Prepare);
+                case GameActionPhaseType.Perform:
+                    return Phases.FirstOrDefault(p => p.Type == GameActionPhaseType.Perform);
+                default:
+                    return null;
+            }
+        }
         
         public virtual void Cancel() => IsCanceled = true;
 
@@ -48,5 +60,10 @@ namespace GimGim.ActionSystem {
         /// </summary>
         protected virtual void OnPerform(IContainer game) =>
             NotificationEventSystem.PostEvent(new GameActionPerformedEvent(Sender, this));
+    }
+
+    public enum GameActionPhaseType {
+        Prepare,
+        Perform
     }
 }

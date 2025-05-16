@@ -13,5 +13,6 @@ namespace GimGim.ActionSystem {
         List<GameAction> SubActions { get; }
 
         void Cancel();
+        GameActionPhase GetPhase(GameActionPhaseType phaseType);
     }
 }

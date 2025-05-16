@@ -9,13 +9,15 @@ namespace GimGim.ActionSystem {
     /// the handler is called directly without waiting for the viewer to finish (used for test cases and AI decisions).
     /// </summary>
     public class GameActionPhase {
+        public readonly GameActionPhaseType Type;
         public readonly GameAction Owner;
         private readonly Action<IContainer> _handler;
         public Func<IContainer, GameAction, IEnumerator> Viewer;
 
-        public GameActionPhase(GameAction owner, Action<IContainer> handler) {
+        public GameActionPhase(GameAction owner, Action<IContainer> handler, GameActionPhaseType type) {
             Owner = owner;
             _handler = handler;
+            Type = type;
         }
 
         /// <summary>

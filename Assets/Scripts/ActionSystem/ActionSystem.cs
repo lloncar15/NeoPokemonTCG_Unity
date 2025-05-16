@@ -16,7 +16,7 @@ namespace GimGim.ActionSystem {
         private List<GameAction> _reactionsToResolve;
         
         public static readonly ManualCounter OrderOfPlayCounter = new ManualCounter();
-        private bool IsActive => _rootFlow != null;
+        public bool IsActive => _rootFlow != null;
         
         private readonly IActionSystemSorter _sorter = new ActionSystemSorterFiFo();
         

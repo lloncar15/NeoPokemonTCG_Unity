@@ -46,7 +46,7 @@ public class NotificationEventSystemTest
     #endregion
 
     /// <summary>
-    /// Dummy class to represent an object that subscribes and listens to events.
+    /// Test class to represent an object that subscribes and listens to events.
     /// </summary>
     private class CombatListener {
         public bool CombatEvent;
@@ -67,7 +67,7 @@ public class NotificationEventSystemTest
         }
         
         public void SubscribeAny(int priority = 0) {
-            _subscriptionAny = NotificationEventSystem.Subscribe(new EventSubscription<OtherEvent>(OnOtherEvent, priority));
+            _subscriptionAny = NotificationEventSystem.Subscribe(new EventSubscription<OtherEvent>(OnOtherEvent, false, priority));
         }
 
         public void Unsubscribe() {
@@ -76,17 +76,17 @@ public class NotificationEventSystemTest
             if (_subscriptionCombatNegative != null) NotificationEventSystem.Unsubscribe(_subscriptionCombatNegative);
         }
 
-        public void OnCombatEvent(ICombatEvent otherEvent) {
+        private void OnCombatEvent(ICombatEvent otherEvent) {
             CombatEvent = true;
             EventPriorityList.Add(UnitId.Combat);
         }
-        
-        public void OnCombatNegativeEvent(ICombatEvent otherEvent) {
+
+        private void OnCombatNegativeEvent(ICombatEvent otherEvent) {
             CombatEvent = true;
             EventPriorityList.Add(UnitId.Other);
         }
 
-        public void OnOtherEvent(OtherEvent otherEvent) {
+        private void OnOtherEvent(OtherEvent otherEvent) {
             AnyEvent = true;
             String = otherEvent.Other;
         }

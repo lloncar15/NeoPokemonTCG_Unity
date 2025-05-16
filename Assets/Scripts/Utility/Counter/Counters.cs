@@ -2,7 +2,7 @@ using System.Threading;
 
 namespace GimGim.Utility.Counter {
     public class LocalCounter : ICounter {
-        private int _counter = 0;
+        private int _counter = -1;
         public int Next() => ++_counter;
     }
 
@@ -13,7 +13,7 @@ namespace GimGim.Utility.Counter {
     }
 
     public class GlobalCounter : ICounter {
-        private int _counter = 0;
+        private int _counter = -1;
         public int Next() => Interlocked.Increment(ref _counter);
     }
 }

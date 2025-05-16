@@ -6,7 +6,7 @@ namespace GimGim.EventSystem {
     /// Base abstract class for game event data objects.
     /// </summary>
     public abstract class EventData : IEvent {
-        private object Sender { get; set; }
+        public object Sender { get; set; }
         public HashSet<int> TypeHashes { get; set; }
 
         public EventData(object sender) {

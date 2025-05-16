@@ -37,9 +37,6 @@ namespace GimGim.EventSystem {
             TypeHash = TypeRegistry.GetTypeHashes(typeof(T)).FirstOrDefault();
         }
 
-        public EventSubscription(Action<T> action, int priority = 0) : this(action, false, priority) {
-        }
-
         /// <summary>
         /// Invokes the subscription's action with the provided event data.
         /// </summary>

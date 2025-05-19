@@ -68,6 +68,10 @@ namespace GimGim.EventSystem {
         public static void PostEvent<T>(T eventData) where T : EventData {
             Instance.AddEventToQueue(eventData);
         }
+        
+        public static void PostEventInstantly<T>(T eventData) where T : EventData {
+            Instance.DispatchEvent(eventData);
+        }
 
         private void AddEventToQueue<T>(T eventData) where T : EventData {
             _queue.Enqueue(eventData);

@@ -4,6 +4,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 using GimGim.AspectContainer;
+using GimGim.Utility.Logger;
 using NUnit.Framework.Internal;
 
 public class AspectContainerTest

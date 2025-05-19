@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using GimGim.EventSystem;
 using GimGim.ActionSystem;
+using GimGim.Utility.Logger;
 using UnityEditor;
 using UnityEngine;
 
@@ -79,7 +80,7 @@ namespace GimGim.Utility {
             EditorApplication.playModeStateChanged += state => {
                 if (state == PlayModeStateChange.ExitingPlayMode) {
                     TypeHashCache.Clear();
-                    Debug.Log("Cleared events!");
+                    GameLogger.InfoWithFormat("Cleared type hash cache.");
                 }
             };
         }
@@ -105,7 +106,7 @@ namespace GimGim.Utility {
             foreach (Type typeToLoad in types) {
                 GetTypeHashes(typeToLoad);
             }
-            Debug.Log($"Preloaded {types.Count} event data types.");
+            GameLogger.InfoWithFormat("Preloaded {0} event data types.", types.Count);
         }
     }
 }

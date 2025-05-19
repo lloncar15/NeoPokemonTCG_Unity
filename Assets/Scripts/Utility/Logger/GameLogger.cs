@@ -26,15 +26,15 @@ namespace GimGim.Utility.Logger {
         
         private static readonly string LogFilePath = Path.Combine(Application.persistentDataPath, "game-log.txt");
 
-        public static GameLogger Create(string tag, Color color) {
-            return new GameLogger() { _tag = tag, Color = color };
+        public static GameLogger Create(string tag, Color color, bool isEnabled = true) {
+            return new GameLogger() { _tag = tag, Color = color, Enabled = isEnabled };
         }
 
-        public static GameLogger Create<T>(Color color) {
-            return new GameLogger() { _tag = typeof(T).Name, Color = color };
+        public static GameLogger Create<T>(Color color, bool isEnabled = true) {
+            return new GameLogger() { _tag = typeof(T).Name, Color = color, Enabled = isEnabled };
         }
 
-// ReSharper disable Unity.PerformanceAnalysis
+        // ReSharper disable Unity.PerformanceAnalysis
         public void LogVerbose(string format, params object[] args) {
             if (Enabled && CurrentLogLevel <= LogLevel.Verbose) {
                 string finalFormat = GetFormat(format);
@@ -44,7 +44,7 @@ namespace GimGim.Utility.Logger {
             }
         }
 
-
+        // ReSharper disable Unity.PerformanceAnalysis
         public void LogInfo(string format, params object[] args) {
             if (Enabled && CurrentLogLevel <= LogLevel.Info) {
                 string finalFormat = GetFormat(format);
@@ -54,6 +54,7 @@ namespace GimGim.Utility.Logger {
             }
         }
         
+        // ReSharper disable Unity.PerformanceAnalysis
         public void LogWarning(string format, params object[] args) {
             if (Enabled && CurrentLogLevel <= LogLevel.Warning) {
                 string finalFormat = GetFormat(format);
@@ -63,6 +64,7 @@ namespace GimGim.Utility.Logger {
             }
         }
         
+        // ReSharper disable Unity.PerformanceAnalysis
         public void LogError(string format, params object[] args) {
             if (Enabled && CurrentLogLevel <= LogLevel.Error) {
                 string finalFormat = GetFormat(format);
@@ -72,6 +74,7 @@ namespace GimGim.Utility.Logger {
             }
         }
         
+        // ReSharper disable Unity.PerformanceAnalysis
         public void LogAssert(UnityEngine.Object context, string format, params object[] args) {
             if (Enabled && CurrentLogLevel <= LogLevel.Assert) {
                 string finalFormat = GetFormat(format);
@@ -85,7 +88,8 @@ namespace GimGim.Utility.Logger {
                 LogToFile(finalFormat);
             }
         }
-
+        
+        // ReSharper disable Unity.PerformanceAnalysis
         public void LogException(Exception exception, UnityEngine.Object context = null) {
             if (Enabled && CurrentLogLevel <= LogLevel.Exception)
             {

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using GimGim.AspectContainer;
 using GimGim.EventSystem;
 using GimGim.Utility.Counter;
+using GimGim.Utility.Logger;
+using GimGim.Utility;
 
 namespace GimGim.ActionSystem {
     /// <summary>
@@ -14,6 +16,7 @@ namespace GimGim.ActionSystem {
         private GameAction _rootAction;
         private IEnumerator _rootFlow;
         private List<GameAction> _reactionsToResolve;
+        public GameLogger Logger = GameLogger.Create<ActionSystem>(ColorPalette.Blood);
         
         public static readonly ManualCounter OrderOfPlayCounter = new ManualCounter();
         public bool IsActive => _rootFlow != null;
@@ -48,6 +51,7 @@ namespace GimGim.ActionSystem {
         public void PerformGameAction(GameAction action) {
             if (IsActive) return;
             _rootAction = action;
+            
             _rootFlow = GameActionFlow(action);
         }
 

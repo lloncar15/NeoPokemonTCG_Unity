@@ -10,17 +10,17 @@ using UnityEngine;
 using UnityEngine.TestTools;
 
 public class ActionSystemTests {
-    public class TestAction : GameAction {
+    private class TestAction : GameAction {
         public bool HasPrepared;
         public bool HasPerformed;
     }
 
-    public class TestPostResolution : PostResolutionEvent {
+    private class TestPostResolution : PostResolutionEvent {
         public TestPostResolution(object sender, bool repeats) : base(sender, repeats) {
         }
     }
-    
-    public struct TestFlags {
+
+    private struct TestFlags {
         public bool HasFlowStarted;
         public bool HasFlowCompleted;
         public bool HasPrepared;
@@ -30,17 +30,17 @@ public class ActionSystemTests {
     }
 
     private class TestSystem : Aspect {
-        public const int ROOT_ACTION_ORDER = 0;
-        public const int DEPTH_CHECK_PRIORITY = 1;
-        public const int DEPTH_REACTION_ORDER = int.MinValue;
+        public const int RootActionOrder = 0;
+        public const int DepthCheckPriority = 1;
+        public const int DepthReactionOrder = int.MinValue;
 
         public TestFlags ActionFlags = new();
         public TestFlags ReactionFlags = new();
-        public List<TestAction> Reactions = new();
+        public readonly List<TestAction> Reactions = new();
         public bool HasLoopedPostResolution;
         public bool HasSortedFiFo;
-        
-        List<IEventSubscription> _eventSubscriptions = new();
+
+        private List<IEventSubscription> _eventSubscriptions = new();
         public void OnEnable() {
             _eventSubscriptions.Add(new EventSubscription<GameActionFlowStartedEvent>(OnFlowStarted));
             _eventSubscriptions.Add(new EventSubscription<GameActionFlowCompletedEvent>(OnFlowCompleted));
@@ -60,49 +60,49 @@ public class ActionSystemTests {
             }
             _eventSubscriptions.Clear();
         }
-        
-        public void OnFlowStarted(GameActionFlowStartedEvent eventData) {
+
+        private void OnFlowStarted(GameActionFlowStartedEvent eventData) {
             IGameAction action = eventData.Action;
             
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
             flags.HasFlowStarted = true;
 
             action.GetPhase(GameActionPhaseType.Prepare).Viewer = TestViewer;
             action.GetPhase(GameActionPhaseType.Perform).Viewer = TestViewer;
         }
         
-        public void OnFlowCompleted(GameActionFlowCompletedEvent eventData) {
+        private void OnFlowCompleted(GameActionFlowCompletedEvent eventData) {
             IGameAction action = eventData.Action;
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
             flags.HasFlowCompleted = true;
         }
         
         private void OnActionPrepared(GameActionPreparedEvent eventData) {
             TestAction action = eventData.Action as TestAction;
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
             flags.HasPrepared = true;
             action.HasPrepared = true;
         }
         
         private void OnActionPerformed(GameActionPerformedEvent eventData) {
             TestAction action = eventData.Action as TestAction;
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
             flags.HasPerformed = true;
             action.HasPerformed = true;
 
-            if (action.OrderOfPlay != ROOT_ACTION_ORDER) {
+            if (action.OrderOfPlay != RootActionOrder) {
                 Reactions.Add(action);
             }
             else {
                 AddReactions((IContainer)eventData.Sender);
             }
 
-            if (action.Priority == DEPTH_CHECK_PRIORITY) {
+            if (action.Priority == DepthCheckPriority) {
                 TestAction reaction = new TestAction();
-                reaction.OrderOfPlay = DEPTH_REACTION_ORDER;
+                reaction.OrderOfPlay = DepthReactionOrder;
                 ((IContainer)action.Sender).GetAspect<ActionSystem>().AddReaction(reaction);
             }
-            if (action.OrderOfPlay == DEPTH_REACTION_ORDER) {
+            if (action.OrderOfPlay == DepthReactionOrder) {
                 HasSortedFiFo = Reactions.Count == 2;
             }
         }
@@ -113,7 +113,7 @@ public class ActionSystemTests {
         
         private void OnPostResolution(TestPostResolution eventData) {
             TestAction action = eventData.Action as TestAction;
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
 
             if (flags.HasPostResolution == false) {
                 TestAction reaction = new TestAction();
@@ -141,7 +141,7 @@ public class ActionSystemTests {
         }
     }
 
-    public void SimulateUpdate(int frames = 1000) {
+    private void SimulateUpdate(int frames = 1000) {
         int frameCounter = 0;
         while (_actionSystem.IsActive && frameCounter < frames) {
             frameCounter++;
@@ -149,7 +149,7 @@ public class ActionSystemTests {
         }
     }
 
-    public void AssertFlags(TestFlags expected, TestFlags flags) {
+    private static void AssertFlags(TestFlags expected, TestFlags flags) {
         Assert.AreEqual(expected.HasFlowStarted, flags.HasFlowStarted, "FlowStarted");
         Assert.AreEqual(expected.HasFlowCompleted, flags.HasFlowCompleted, "FlowCompleted");
         Assert.AreEqual(expected.HasPrepared, flags.HasPrepared, "Prepared");

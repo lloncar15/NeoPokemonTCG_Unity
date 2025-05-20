@@ -52,13 +52,13 @@ namespace GimGim.ActionSystem {
         /// Virtual method called during the Prepare phase.
         /// </summary>
         protected virtual void OnPrepare(IContainer game) =>
-            NotificationEventSystem.PostEvent(new GameActionPreparedEvent(Sender, this));
+            NotificationEventSystem.PostEventAndFlush(new GameActionPreparedEvent(Sender, this));
 
         /// <summary>
         /// Virtual method called during the Perform phase.
         /// </summary>
         protected virtual void OnPerform(IContainer game) =>
-            NotificationEventSystem.PostEvent(new GameActionPerformedEvent(Sender, this));
+            NotificationEventSystem.PostEventAndFlush(new GameActionPerformedEvent(Sender, this));
     }
 
     public enum GameActionPhaseType {

@@ -18,7 +18,7 @@ namespace GimGim.ActionSystem {
         private List<GameAction> _reactionsToResolve;
         public GameLogger Logger = GameLogger.Create<ActionSystem>(ColorPalette.Blood);
         
-        public static readonly ManualCounter OrderOfPlayCounter = new ManualCounter();
+        public static readonly ManualCounter OrderOfPlayCounter = new();
         public bool IsActive => _rootFlow != null;
         
         private readonly IActionSystemSorter _sorter = new ActionSystemSorterFiFo();
@@ -37,7 +37,7 @@ namespace GimGim.ActionSystem {
             if (_rootFlow is null) return;
             
             if (!_rootFlow.MoveNext()) {
-                NotificationEventSystem.PostEvent(new GameActionCompletedEvent(this, _rootAction));
+                NotificationEventSystem.PostEventAndFlush(new GameActionCompletedEvent(this, _rootAction));
                 _rootAction = null;
                 _rootFlow = null;
                 _reactionsToResolve = null;
@@ -68,7 +68,7 @@ namespace GimGim.ActionSystem {
         /// The final step is to call all the post-resolution events that are registered in the action system.
         /// </summary>
         private IEnumerator GameActionFlow(GameAction action) {
-            NotificationEventSystem.PostEvent(new GameActionFlowStartedEvent(this, _rootAction));
+            NotificationEventSystem.PostEventAndFlush(new GameActionFlowStartedEvent(this, _rootAction));
 
             foreach (GameActionPhase phase in action.Phases) {
                 IEnumerator actionFlow = GameActionPhaseFlow(phase);
@@ -82,7 +82,7 @@ namespace GimGim.ActionSystem {
                 }
             }
             
-            NotificationEventSystem.PostEvent(new GameActionFlowCompletedEvent(this, _rootAction));
+            NotificationEventSystem.PostEventAndFlush(new GameActionFlowCompletedEvent(this, _rootAction));
         }
 
         /// <summary>
@@ -123,7 +123,7 @@ namespace GimGim.ActionSystem {
             do {
                 reactions = _reactionsToResolve = new List<GameAction>();
                 postResolutionEvent.Action = _rootAction;
-                NotificationEventSystem.PostEvent(postResolutionEvent as PostResolutionEvent);
+                NotificationEventSystem.PostEventAndFlush(postResolutionEvent as PostResolutionEvent);
 
                 IEnumerator reactionsFlow = ReactionsFlow(reactions);
                 while (reactionsFlow.MoveNext()) yield return null;

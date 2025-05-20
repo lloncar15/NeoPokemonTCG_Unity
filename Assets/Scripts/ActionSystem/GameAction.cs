@@ -26,7 +26,6 @@ namespace GimGim.ActionSystem {
         public object Sender { get; set; }
         public bool IsCanceled { get; protected set; }
         public List<GameActionPhase> Phases { get; } = new();
-        public List<GameAction> SubActions { get; } = new();
 
         protected GameAction() {
             OrderOfPlay = ActionSystem.OrderOfPlayCounter.Next();

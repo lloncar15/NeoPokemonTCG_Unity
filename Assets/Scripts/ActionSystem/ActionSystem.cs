@@ -74,11 +74,6 @@ namespace GimGim.ActionSystem {
                 IEnumerator actionFlow = GameActionPhaseFlow(phase);
                 while (actionFlow.MoveNext()) yield return null;
             }
-            
-            foreach (GameAction subAction in action.SubActions) {
-                IEnumerator subActionFlow = GameActionFlow(subAction);
-                while (subActionFlow.MoveNext()) yield return null;
-            }
 
             if (_rootAction == action) {
                 foreach (IPostResolutionEvent postResolutionEvent in _postResolutionEvents) {

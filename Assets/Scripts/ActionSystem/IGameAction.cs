@@ -10,7 +10,6 @@ namespace GimGim.ActionSystem {
         int OrderOfPlay { get; set; }
         bool IsCanceled { get; }
         List<GameActionPhase> Phases { get; }
-        List<GameAction> SubActions { get; }
 
         void Cancel();
         GameActionPhase GetPhase(GameActionPhaseType phaseType);

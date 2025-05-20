@@ -4,5 +4,7 @@ namespace GimGim.Utility.Counter {
         /// Returns a strictly increasing sequential number on each call.
         /// </summary>
         int Next();
+
+        void Reset();
     }
 }

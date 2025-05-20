@@ -1,19 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using GimGim.ActionSystem;
 using GimGim.AspectContainer;
 using GimGim.EventSystem;
-using GimGim.Utility.Logger;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
-using UnityEngine;
-using UnityEngine.TestTools;
 
 public class ActionSystemTests {
     private class TestAction : GameAction {
         public bool HasPrepared;
         public bool HasPerformed;
+        public int ReactionDepth;
     }
 
     private class TestPostResolutionEvent : PostResolutionEvent {
@@ -31,19 +29,32 @@ public class ActionSystemTests {
     }
 
     private class TestSystem : Aspect {
-        public const int RootActionOrder = 0;
-        public const int DepthCheckPriority = 1;
-        public const int DepthReactionOrder = int.MinValue;
-
-        public TestFlags ActionFlags = new();
-        public TestFlags ReactionFlags = new();
-        public readonly List<TestAction> Reactions = new();
-        public bool HasLoopedPostResolution;
-        public bool HasSortedFiFo;
-
+        // Constants for action ordering and priorities
+        private const int ROOT_ACTION_ORDER = 0;
+        private const int HIGH_PRIORITY = 10;
+        private const int LOW_PRIORITY = -10;
+        private const int NORMAL_PRIORITY = 0;
+        private const int SLOW_VIEWER_FRAMES = 3;
+        
+        // Test configuration flags
         public bool UseViewer = true;
+        public bool UseSlowViewer;
+        public bool TriggerReactionChain;
+        public int ReactionChainDepth;
+        public bool AddPriorityReactions;
+        public bool AddSamePriorityReactions;
+        public bool SkipPostResolutionReactions;
 
-        private List<IEventSubscription> _eventSubscriptions = new();
+        // Test state tracking
+        public TestFlags ActionFlags = new();
+        public readonly TestFlags ReactionFlags = new();
+        public readonly List<TestAction> Reactions = new();
+        public int MaxReactionDepth;
+        public bool HasLoopedPostResolution;
+        public bool PostResolutionReactionCreated;
+        
+        private int _currentSlowViewerFrame;
+        private readonly List<IEventSubscription> _eventSubscriptions = new();
         public void OnEnable() {
             _eventSubscriptions.Add(new EventSubscription<GameActionFlowStartedEvent>(OnFlowStarted));
             _eventSubscriptions.Add(new EventSubscription<GameActionFlowCompletedEvent>(OnFlowCompleted));
@@ -67,7 +78,7 @@ public class ActionSystemTests {
         private void OnFlowStarted(GameActionFlowStartedEvent eventData) {
             IGameAction action = eventData.Action;
             
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
             flags.HasFlowStarted = true;
 
             if (!UseViewer) return;
@@ -79,14 +90,14 @@ public class ActionSystemTests {
         private void OnFlowCompleted(GameActionFlowCompletedEvent eventData) {
             IGameAction action = eventData.Action;
             
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
             flags.HasFlowCompleted = true;
         }
         
         private void OnActionPrepared(GameActionPreparedEvent eventData) {
             if (eventData.Action is not TestAction action) return;
             
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
             flags.HasPrepared = true;
             action.HasPrepared = true;
         }
@@ -94,24 +105,24 @@ public class ActionSystemTests {
         private void OnActionPerformed(GameActionPerformedEvent eventData) {
             if (eventData.Action is not TestAction action) return;
             
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
             flags.HasPerformed = true;
             action.HasPerformed = true;
 
-            if (action.OrderOfPlay != RootActionOrder) {
+            if (action.OrderOfPlay != ROOT_ACTION_ORDER) {
                 Reactions.Add(action);
+                MaxReactionDepth = Math.Max(MaxReactionDepth, action.ReactionDepth);
+                
+                if (TriggerReactionChain && action.ReactionDepth < ReactionChainDepth) {
+                    TestAction reaction = new() {
+                        Sender = action.Sender,
+                        ReactionDepth = action.ReactionDepth + 1,
+                    };
+                    ((IContainer)action.Sender).GetAspect<ActionSystem>().AddReaction(reaction);
+                }
             }
             else {
                 AddReactions((IContainer)eventData.Sender);
-            }
-
-            if (action.Priority == DepthCheckPriority) {
-                TestAction reaction = new TestAction();
-                reaction.OrderOfPlay = DepthReactionOrder;
-                ((IContainer)action.Sender).GetAspect<ActionSystem>().AddReaction(reaction);
-            }
-            if (action.OrderOfPlay == DepthReactionOrder) {
-                HasSortedFiFo = Reactions.Count == 2;
             }
         }
         
@@ -122,13 +133,14 @@ public class ActionSystemTests {
         private void OnPostResolutionEvent(TestPostResolutionEvent eventData) {
             if (eventData.Action is not TestAction action) return;
 
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
 
-            if (flags.HasPostResolution == false) {
-                TestAction reaction = new TestAction {
-                    OrderOfPlay = int.MaxValue
+            if (!flags.HasPostResolution && !SkipPostResolutionReactions) {
+                TestAction reaction = new() {
+                    Sender = action.Sender
                 };
                 ((IContainer)action.Sender).GetAspect<ActionSystem>().AddReaction(reaction);
+                PostResolutionReactionCreated = true;
             }
             else {
                 HasLoopedPostResolution = true;
@@ -138,15 +150,40 @@ public class ActionSystemTests {
         }
 
         IEnumerator TestViewer(IContainer game, GameAction action) {
-            yield return null;
-            yield return true;
-            yield return null;
+            if (UseSlowViewer) {
+                _currentSlowViewerFrame = 0;
+                while (_currentSlowViewerFrame < SLOW_VIEWER_FRAMES) {
+                    _currentSlowViewerFrame++;
+                    yield return null;
+                }
+                yield return true;
+            }
+            else {
+                yield return null;
+                yield return true;
+                yield return null;
+            }
         }
 
         void AddReactions(IContainer game) {
-            for (int i = 0; i < 5; ++i) {
-                TestAction reaction = new TestAction();
-                game.GetAspect<ActionSystem>().AddReaction(reaction);
+            if (AddPriorityReactions) {
+                // Add reactions with different priorities
+                int[] priorities = { NORMAL_PRIORITY, HIGH_PRIORITY, LOW_PRIORITY, NORMAL_PRIORITY, HIGH_PRIORITY };
+                foreach (int prio in priorities) {
+                    TestAction reaction = new() {
+                        Sender = game,
+                        Priority = prio
+                    };
+                    game.GetAspect<ActionSystem>().AddReaction(reaction);
+                }
+            }
+            else {
+                for (int i = 0; i < 5; ++i) {
+                    TestAction reaction = new() {
+                        Sender = game
+                    };
+                    game.GetAspect<ActionSystem>().AddReaction(reaction);
+                }
             }
         }
     }
@@ -184,7 +221,6 @@ public class ActionSystemTests {
         _testSystem.OnEnable();
         
         ActionSystem.OrderOfPlayCounter.Reset();
-        _actionSystem.RegisterPostResolutionEvent(new TestPostResolutionEvent(this, true));
     }
     
     [TearDown]
@@ -194,7 +230,11 @@ public class ActionSystemTests {
 
     [Test]
     public void TestActionSystemTracksActiveState() {
-        _actionSystem.PerformGameAction(new TestAction());
+        TestAction action = new() {
+            Sender = _game
+        };
+        
+        _actionSystem.PerformGameAction(action);
         Assert.IsTrue(_actionSystem.IsActive);
         SimulateUpdate();
         Assert.IsFalse(_actionSystem.IsActive);
@@ -205,6 +245,9 @@ public class ActionSystemTests {
         TestAction action = new() {
             Sender = _game
         };
+        
+        TestPostResolutionEvent postResEvent = new(_game, false);
+        _actionSystem.RegisterPostResolutionEvent(postResEvent);
 
         _testSystem.UseViewer = false;
         
@@ -228,6 +271,9 @@ public class ActionSystemTests {
         TestAction action = new() {
             Sender = _game
         };
+        
+        TestPostResolutionEvent postResEvent = new(_game, false);
+        _actionSystem.RegisterPostResolutionEvent(postResEvent);
 
         _actionSystem.PerformGameAction(action);
         SimulateUpdate();
@@ -242,5 +288,116 @@ public class ActionSystemTests {
             HasPostResolution = true
         };
         AssertFlags(expectedFlags,flags);
+    }
+
+    [Test]
+    public void TestReactionChain() {
+        TestAction action = new() {
+            Sender = _game
+        };
+
+        _testSystem.TriggerReactionChain = true;
+        _testSystem.ReactionChainDepth = 3;
+        _testSystem.UseViewer = false;
+        
+        _actionSystem.PerformGameAction(action);
+        SimulateUpdate();
+        
+        // Verify the reaction chain
+        Assert.AreEqual(3, _testSystem.MaxReactionDepth, "Should have 3 levels of reaction depth");
+        Assert.IsTrue(_testSystem.ReactionFlags.HasPrepared, "Reactions should have prepared");
+        Assert.IsTrue(_testSystem.ReactionFlags.HasPerformed, "Reactions should have performed");
+    
+        // Verify reaction order - the deepest reaction should be the last one processed
+        Assert.AreEqual(3, _testSystem.Reactions.Last().ReactionDepth, 
+            "The last reaction processed should be the deepest one");
+    }
+
+    [Test]
+    public void TestPriorityOrder() {
+        TestAction action = new() {
+            Sender = _game
+        };
+        
+        _testSystem.AddPriorityReactions = true;
+        _testSystem.UseViewer = false;
+        _testSystem.SkipPostResolutionReactions = true;
+        
+        _actionSystem.PerformGameAction(action);
+        SimulateUpdate();
+        
+        List<int> priorities = _testSystem.Reactions.Select(r => r.Priority).ToList();
+        
+        // Verify that the priorities are in descending order
+        for (int i = 0; i < priorities.Count - 1; i++) {
+            Assert.IsTrue(priorities[i] >= priorities[i+1], 
+                $"Reaction at index {i} with priority {priorities[i]} should be processed before " +
+                $"reaction at index {i+1} with priority {priorities[i+1]}");
+        }
+    }
+
+    [Test]
+    public void TestPostResolutionEvents() {
+        TestAction action = new() {
+            Sender = _game
+        };
+        
+        TestPostResolutionEvent postResEvent = new(_game, false);
+        _actionSystem.RegisterPostResolutionEvent(postResEvent);
+        
+        _actionSystem.PerformGameAction(action);
+        SimulateUpdate();
+        
+        // Verify post-resolution was triggered and created a reaction
+        Assert.IsTrue(_testSystem.ActionFlags.HasPostResolution, "Post-resolution should have been triggered");
+        Assert.IsTrue(_testSystem.PostResolutionReactionCreated, "Post-resolution should have created a reaction");
+    }
+
+    [Test]
+    public void TestRepeatingPostResolutionEvents() {
+        TestAction action = new() {
+            Sender = _game
+        };
+        
+        TestPostResolutionEvent postResEvent = new(_game, true);
+        _actionSystem.RegisterPostResolutionEvent(postResEvent);
+        
+        _actionSystem.PerformGameAction(action);
+        SimulateUpdate();
+        
+        Assert.IsTrue(_testSystem.HasLoopedPostResolution, "Post-resolution should have looped");
+    }
+    
+    [Test]
+    public void TestMultipleActionsInSequence() {
+        // Create first test action
+        TestAction action1 = new() {
+            Sender = _game
+        };
+
+        // Perform first action
+        _actionSystem.PerformGameAction(action1);
+        SimulateUpdate();
+    
+        // Verify the first action completed
+        Assert.IsTrue(action1.HasPerformed, "First action should have performed");
+        Assert.IsTrue(_testSystem.ActionFlags.HasCompleted, "First action should be completed");
+        Assert.IsFalse(_actionSystem.IsActive, "Action system should not be active after completion");
+    
+        // Reset flags
+        _testSystem.ActionFlags = new TestFlags();
+    
+        // Create second test action
+        TestAction action2 = new() {
+            Sender = _game
+        };
+
+        // Perform second action
+        _actionSystem.PerformGameAction(action2);
+        SimulateUpdate();
+    
+        // Verify the second action completed
+        Assert.IsTrue(action2.HasPerformed, "Second action should have performed");
+        Assert.IsTrue(_testSystem.ActionFlags.HasCompleted, "Second action should be completed");
     }
 }

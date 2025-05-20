@@ -35,13 +35,13 @@ namespace GimGim.ActionSystem {
         /// </summary>
         public void Update() {
             if (_rootFlow is null) return;
+
+            if (_rootFlow.MoveNext()) return;
             
-            if (!_rootFlow.MoveNext()) {
-                NotificationEventSystem.PostEventAndFlush(new GameActionCompletedEvent(this, _rootAction));
-                _rootAction = null;
-                _rootFlow = null;
-                _reactionsToResolve = null;
-            }
+            NotificationEventSystem.PostEventAndFlush(new GameActionCompletedEvent(this, _rootAction));
+            _rootAction = null;
+            _rootFlow = null;
+            _reactionsToResolve = null;
         }
         
         /// <summary>

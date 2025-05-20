@@ -4,6 +4,7 @@ using System.Linq;
 using GimGim.ActionSystem;
 using GimGim.AspectContainer;
 using GimGim.EventSystem;
+using GimGim.Utility.Logger;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 using UnityEngine;
@@ -15,18 +16,18 @@ public class ActionSystemTests {
         public bool HasPerformed;
     }
 
-    private class TestPostResolution : PostResolutionEvent {
-        public TestPostResolution(object sender, bool repeats) : base(sender, repeats) {
+    private class TestPostResolutionEvent : PostResolutionEvent {
+        public TestPostResolutionEvent(object sender, bool repeats) : base(sender, repeats) {
         }
     }
 
-    private struct TestFlags {
+    private class TestFlags {
         public bool HasFlowStarted;
-        public bool HasFlowCompleted;
         public bool HasPrepared;
         public bool HasPerformed;
-        public bool HasCompleted;
         public bool HasPostResolution;
+        public bool HasFlowCompleted;
+        public bool HasCompleted;
     }
 
     private class TestSystem : Aspect {
@@ -40,6 +41,8 @@ public class ActionSystemTests {
         public bool HasLoopedPostResolution;
         public bool HasSortedFiFo;
 
+        public bool UseViewer = true;
+
         private List<IEventSubscription> _eventSubscriptions = new();
         public void OnEnable() {
             _eventSubscriptions.Add(new EventSubscription<GameActionFlowStartedEvent>(OnFlowStarted));
@@ -47,7 +50,7 @@ public class ActionSystemTests {
             _eventSubscriptions.Add(new EventSubscription<GameActionPreparedEvent>(OnActionPrepared));
             _eventSubscriptions.Add(new EventSubscription<GameActionPerformedEvent>(OnActionPerformed));
             _eventSubscriptions.Add(new EventSubscription<GameActionCompletedEvent>(OnGameActionCompleted));
-            _eventSubscriptions.Add(new EventSubscription<TestPostResolution>(OnPostResolution));
+            _eventSubscriptions.Add(new EventSubscription<TestPostResolutionEvent>(OnPostResolutionEvent));
             
             foreach (IEventSubscription subscription in _eventSubscriptions) {
                 NotificationEventSystem.Subscribe(subscription);
@@ -64,29 +67,34 @@ public class ActionSystemTests {
         private void OnFlowStarted(GameActionFlowStartedEvent eventData) {
             IGameAction action = eventData.Action;
             
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
             flags.HasFlowStarted = true;
 
+            if (!UseViewer) return;
+            
             action.GetPhase(GameActionPhaseType.Prepare).Viewer = TestViewer;
             action.GetPhase(GameActionPhaseType.Perform).Viewer = TestViewer;
         }
         
         private void OnFlowCompleted(GameActionFlowCompletedEvent eventData) {
             IGameAction action = eventData.Action;
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
+            
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
             flags.HasFlowCompleted = true;
         }
         
         private void OnActionPrepared(GameActionPreparedEvent eventData) {
-            TestAction action = eventData.Action as TestAction;
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
+            if (eventData.Action is not TestAction action) return;
+            
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
             flags.HasPrepared = true;
             action.HasPrepared = true;
         }
         
         private void OnActionPerformed(GameActionPerformedEvent eventData) {
-            TestAction action = eventData.Action as TestAction;
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
+            if (eventData.Action is not TestAction action) return;
+            
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
             flags.HasPerformed = true;
             action.HasPerformed = true;
 
@@ -111,13 +119,15 @@ public class ActionSystemTests {
             ActionFlags.HasCompleted = true;
         }
         
-        private void OnPostResolution(TestPostResolution eventData) {
-            TestAction action = eventData.Action as TestAction;
-            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ActionFlags : ReactionFlags;
+        private void OnPostResolutionEvent(TestPostResolutionEvent eventData) {
+            if (eventData.Action is not TestAction action) return;
+
+            TestFlags flags = action.OrderOfPlay == RootActionOrder ? ref ActionFlags : ref ReactionFlags;
 
             if (flags.HasPostResolution == false) {
-                TestAction reaction = new TestAction();
-                reaction.OrderOfPlay = int.MaxValue;
+                TestAction reaction = new TestAction {
+                    OrderOfPlay = int.MaxValue
+                };
                 ((IContainer)action.Sender).GetAspect<ActionSystem>().AddReaction(reaction);
             }
             else {
@@ -172,6 +182,9 @@ public class ActionSystemTests {
         _actionSystem = _game.AddAspect<ActionSystem>();
         _testSystem = _game.AddAspect<TestSystem>();
         _testSystem.OnEnable();
+        
+        ActionSystem.OrderOfPlayCounter.Reset();
+        _actionSystem.RegisterPostResolutionEvent(new TestPostResolutionEvent(this, true));
     }
     
     [TearDown]
@@ -189,7 +202,11 @@ public class ActionSystemTests {
 
     [Test]
     public void TestActionNotifications() {
-        _actionSystem.PerformGameAction(new TestAction());
+        TestAction action = new() {
+            Sender = _game
+        };
+
+        _actionSystem.PerformGameAction(action);
         SimulateUpdate();
         TestFlags flags = _testSystem.ActionFlags;
 

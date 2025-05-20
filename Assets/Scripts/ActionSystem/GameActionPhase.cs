@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using GimGim.AspectContainer;
+using GimGim.Utility.Logger;
 
 namespace GimGim.ActionSystem {
     /// <summary>
@@ -26,7 +27,8 @@ namespace GimGim.ActionSystem {
         /// </summary>
         public IEnumerator Flow(IContainer game) {
             if (Viewer is not null) {
-                yield return ViewerControllerFlow(game);
+                IEnumerator viwerControlledFlow = ViewerControllerFlow(game);
+                while (viwerControlledFlow.MoveNext()) yield return null;
             }
             else {
                 _handler(game);
@@ -38,9 +40,9 @@ namespace GimGim.ActionSystem {
         /// the viewer signals or after the viewer completes.
         /// </summary>
         private IEnumerator ViewerControllerFlow(IContainer game) {
-            IEnumerator sequence = Viewer(game, Owner);
             bool hasTriggeredHandler = false;
-
+            
+            IEnumerator sequence = Viewer(game, Owner);
             while (sequence.MoveNext()) {
                 if (sequence.Current is bool and true) {
                     hasTriggeredHandler = true;

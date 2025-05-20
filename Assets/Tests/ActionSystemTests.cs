@@ -201,6 +201,29 @@ public class ActionSystemTests {
     }
 
     [Test]
+    public void TestActionNotificationsWithoutViewers() {
+        TestAction action = new() {
+            Sender = _game
+        };
+
+        _testSystem.UseViewer = false;
+        
+        _actionSystem.PerformGameAction(action);
+        SimulateUpdate();
+        TestFlags flags = _testSystem.ActionFlags;
+
+        TestFlags expectedFlags = new TestFlags {
+            HasFlowStarted = true,
+            HasFlowCompleted = true,
+            HasPrepared = true,
+            HasPerformed = true,
+            HasCompleted = true,
+            HasPostResolution = true
+        };
+        AssertFlags(expectedFlags,flags);
+    }
+
+    [Test]
     public void TestActionNotifications() {
         TestAction action = new() {
             Sender = _game

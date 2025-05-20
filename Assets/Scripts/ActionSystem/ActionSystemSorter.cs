@@ -8,7 +8,7 @@ namespace GimGim.ActionSystem {
     public class ActionSystemSorterFiFo : IActionSystemSorter {
         public int Compare(GameAction first, GameAction second) {
             Debug.Assert(first != null && second != null, "GameAction cannot be null");
-            return first.Priority != second.Priority ? first.Priority.CompareTo(second.Priority) : first.OrderOfPlay.CompareTo(second.OrderOfPlay);
+            return first.Priority != second.Priority ? second.Priority.CompareTo(first.Priority) : first.OrderOfPlay.CompareTo(second.OrderOfPlay);
         }
     }
     
@@ -18,7 +18,7 @@ namespace GimGim.ActionSystem {
     public class ActionSystemSorterLiFo : IActionSystemSorter {
         public int Compare(GameAction first, GameAction second) {
             Debug.Assert(first != null && second != null, "GameAction cannot be null");
-            return first.Priority != second.Priority ? first.Priority.CompareTo(second.Priority) : second.OrderOfPlay.CompareTo(first.OrderOfPlay);
+            return first.Priority != second.Priority ? second.Priority.CompareTo(first.Priority) : second.OrderOfPlay.CompareTo(first.OrderOfPlay);
         }
     }
 

@@ -70,12 +70,12 @@ namespace GimGim.EventSystem {
         }
         
         /// <summary>
-        /// Posts an event and immediately flushes the queue to dispatch all events.
+        /// Posts an event and immediately executes it.
         /// Use this for events that need synchronous processing without waiting for the next frame.
         /// </summary>
         /// <typeparam name="T">The type of event to post.</typeparam>
         /// <param name="eventData">The event data to post.</param>
-        public static void PostEventAndFlush<T>(T eventData) where T : EventData {
+        public static void PostEventAndExecute<T>(T eventData) where T : EventData {
             Instance.DispatchEvent(eventData);
         }
         

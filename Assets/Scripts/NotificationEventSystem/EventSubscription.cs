@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using GimGim.Utility;
 
 namespace GimGim.EventSystem {
     /// <summary>
@@ -33,10 +34,7 @@ namespace GimGim.EventSystem {
             _action = action;
             UsedOnce = usedOnce;
             Priority = priority;
-            TypeHash = EventTypeRegistry.GetTypeHashes(typeof(T)).FirstOrDefault();
-        }
-
-        public EventSubscription(Action<T> action, int priority = 0) : this(action, false, priority) {
+            TypeHash = TypeRegistry.GetTypeHashes(typeof(T)).FirstOrDefault();
         }
 
         /// <summary>

@@ -68,15 +68,39 @@ namespace GimGim.EventSystem {
         public static void PostEvent<T>(T eventData) where T : EventData {
             Instance.AddEventToQueue(eventData);
         }
+        
+        /// <summary>
+        /// Posts an event and immediately executes it.
+        /// Use this for events that need synchronous processing without waiting for the next frame.
+        /// </summary>
+        /// <typeparam name="T">The type of event to post.</typeparam>
+        /// <param name="eventData">The event data to post.</param>
+        public static void PostEventAndExecute<T>(T eventData) where T : EventData {
+            Instance.DispatchEvent(eventData);
+        }
+        
+        /// <summary>
+        /// Posts an event and immediately dispatches only that specific event.
+        /// Use this when you need immediate processing of just this event without flushing the entire queue.
+        /// </summary>
+        /// <typeparam name="T">The type of event to post.</typeparam>
+        /// <param name="eventData">The event data to post.</param>
+        public static void PostEventInstantly<T>(T eventData) where T : EventData {
+            Instance.DispatchEvent(eventData);
+        }
 
         private void AddEventToQueue<T>(T eventData) where T : EventData {
             _queue.Enqueue(eventData);
+        }
+
+        public static void Flush() {
+            Instance.DispatchEvents();
         }
         
         /// <summary>
         /// Dispatches all events in the queue to their respective subscribers.
         /// </summary>
-        public void Flush() {
+        public void DispatchEvents() {
             while (_queue.Count > 0) {
                 DispatchEvent(_queue.Dequeue());
             }

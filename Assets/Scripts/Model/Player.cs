@@ -1,43 +1,41 @@
 using System.Collections.Generic;
-using GimGim.Data;
 using GimGim.Enums;
+using GimGim.Serialization;
 
 namespace GimGim.Model {
-    public class Player {
-        private List<CardProfile> _hand = new List<CardProfile>();
-        private List<CardProfile> _deck = new List<CardProfile>();
-        private List<CardProfile> _discardPile = new List<CardProfile>();
-        private List<CardProfile> _prizes = new List<CardProfile>();
-        private List<CardProfile> _bench = new List<CardProfile>();
-        private List<CardProfile> _activePokemon = new List<CardProfile>(1);
-        private List<CardProfile> _stadium = new List<CardProfile>(1);
+    public class Player : ISerializable {
+        private Dictionary<Zone, object> _zones = new();
         
-        public readonly int PlayerIndex;
+        public int PlayerIndex;
+        
+        private const int MAX_BENCH_SIZE = 5;
+        private const int MAX_ACTIVE_POKEMON_SIZE = 1;
+        private const int MAX_STADIUM_SIZE = 1;
+        private const int MAX_DECK_SIZE = 60;
+        private const int MAX_PRIZES_SIZE = 6;
         public Player(int i) {
-            this.PlayerIndex = i;
+            PlayerIndex = i;
+            _zones[Zone.Hand] = new Zone<Card>(Zone.Hand);
+            _zones[Zone.Deck] = new Zone<Card>(Zone.Deck, MAX_DECK_SIZE);
+            _zones[Zone.DiscardPile] = new Zone<Card>(Zone.DiscardPile);
+            _zones[Zone.Prizes] = new Zone<Card>(Zone.Prizes, MAX_PRIZES_SIZE);
+            _zones[Zone.Bench] = new Zone<PokemonCard>(Zone.Bench, MAX_BENCH_SIZE);
+            _zones[Zone.ActivePokemon] = new Zone<PokemonCard>(Zone.ActivePokemon, MAX_ACTIVE_POKEMON_SIZE);
+            _zones[Zone.Stadium] = new Zone<TrainerCard>(Zone.Stadium, MAX_STADIUM_SIZE);
         }
 
-        public List<CardProfile> this[Zone zone] {
-            get {
-                switch (zone) {
-                    case Zone.Hand:
-                        return _hand;
-                    case Zone.Deck:
-                        return _deck;
-                    case Zone.DiscardPile:
-                        return _discardPile;
-                    case Zone.Prizes:
-                        return _prizes;
-                    case Zone.Bench:
-                        return _bench;
-                    case Zone.ActivePokemon:
-                        return _activePokemon;
-                    case Zone.Stadium:
-                        return _stadium;
-                    default:
-                        return new List<CardProfile>();
-                }
-            }
+        public Zone<T> GetZone<T>(Zone zone) where T : Card => (Zone<T>)_zones[zone];
+        
+        public void Encode(IEncoder coder) {
+            coder.Add("playerIndex", PlayerIndex);
+            coder.Add("zones", _zones);
+        }
+
+        public bool Decode(IDecoder coder) {
+            bool success = true;
+            success &= coder.Get("playerIndex", ref PlayerIndex);
+            success &= coder.Get("zones", ref _zones);
+            return success;
         }
     }
 }

@@ -1,19 +1,26 @@
 using System;
 using System.Collections.Generic;
-using GimGim.Utility;
+using GimGim.EventSystem;
+using GimGim.ActionSystem;
+using GimGim.Utility.Logger;
 using UnityEditor;
 using UnityEngine;
 
-namespace GimGim.EventSystem {
+namespace GimGim.Utility {
     /// <summary>
     /// A static utility class responsible for managing and caching type hashes for event data types.
     /// This is used to efficiently identify and process event types in the event system.
     /// </summary>
-    public static class EventTypeRegistry {
+    public static class TypeRegistry {
         /// <summary>
         /// A cache that stores precomputed type hashes for each type.
         /// </summary>
         private static readonly Dictionary<Type, HashSet<int>> TypeHashCache = new();
+        
+        private static readonly List<Type> TypesToLoad = new List<Type>() {
+            typeof(EventData),
+            typeof(GameAction)
+        };
 
         /// <summary>
         /// Retrieves the set of type hashes for a given type. If the hashes are not already cached,
@@ -73,25 +80,33 @@ namespace GimGim.EventSystem {
             EditorApplication.playModeStateChanged += state => {
                 if (state == PlayModeStateChange.ExitingPlayMode) {
                     TypeHashCache.Clear();
-                    Debug.Log("Cleared events!");
+                    GameLogger.InfoWithFormat("Cleared type hash cache.");
                 }
             };
         }
         #endif
 
         /// <summary>
-        /// Preloads all event data types and their hashes at runtime before the scene loads.
-        /// This ensures that all event types are registered and ready for use.
+        /// Preloads all types defined in TypesToLoad and their hashes at runtime before the scene loads.
+        /// This ensures that the necessary types are registered and ready for use.
         /// </summary>
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
-        private static void PreloadEventDataTypes() {
-            Type eventDataType = typeof(Event);
-            List<Type> types = PredefinedAssemblyUtility.GetTypes(eventDataType);
-
-            foreach (Type type in types) {
-                GetTypeHashes(type);
+        private static void PreloadTypes() {
+            foreach (Type type in TypesToLoad) {
+                PreloadType(type);
             }
-            Debug.Log($"Preloaded {types.Count} event data types.");
+        }
+
+        /// <summary>
+        /// Preloads the chosen type.
+        /// </summary>
+        private static void PreloadType(Type type) {
+            List<Type> types = PredefinedAssemblyUtility.GetTypes(type);
+
+            foreach (Type typeToLoad in types) {
+                GetTypeHashes(typeToLoad);
+            }
+            GameLogger.InfoWithFormat("Preloaded {0} event data types.", types.Count);
         }
     }
 }

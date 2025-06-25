@@ -138,4 +138,22 @@ namespace GimGim.ActionSystem {
             _postResolutionEvents.Add(postResolutionEvent);
         }
     }
+    
+    public static class ActionSystemExtensions {
+        /// <summary>
+        /// Helper method to perform a game action using the action system.
+        /// </summary>
+        public static void PerformGameAction(this IContainer game, GameAction action) {
+            ActionSystem actionSystem = game.GetAspect<ActionSystem>();
+            actionSystem.PerformGameAction(action);
+        }
+        
+        /// <summary>
+        /// Helper method to add a reaction to the action system.
+        /// </summary>
+        public static void AddReaction(this IContainer game, GameAction reaction) {
+            ActionSystem actionSystem = game.GetAspect<ActionSystem>();
+            actionSystem.AddReaction(reaction);
+        }
+    }
 }

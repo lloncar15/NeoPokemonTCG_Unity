@@ -9,8 +9,13 @@ namespace GimGim.EventSystem {
         public object Sender { get; set; }
         public HashSet<int> TypeHashes { get; set; }
 
-        public EventData(object sender) {
+        protected EventData(object sender) {
             Sender = sender;
+            TypeHashes = TypeRegistry.GetTypeHashes(GetType());
+        }
+
+        protected EventData() {
+            Sender = null;
             TypeHashes = TypeRegistry.GetTypeHashes(GetType());
         }
 

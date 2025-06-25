@@ -11,12 +11,6 @@ namespace GimGim.AspectContainer {
 
     public class Container : IContainer {
         private readonly Dictionary<string, IAspect> _aspects = new Dictionary<string, IAspect>();
-
-        /*public T AddAspect<T>() where T : IAspect, new() {
-            T aspect = new T();
-            _aspects.Add(string.Empty, aspect);
-            return aspect;
-        }*/
         
         public T AddAspect<T>(string key = null) where T : IAspect, new() {
             return AddAspect<T>(new T (), key);

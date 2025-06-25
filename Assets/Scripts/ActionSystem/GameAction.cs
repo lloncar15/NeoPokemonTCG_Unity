@@ -14,7 +14,7 @@ namespace GimGim.ActionSystem {
     /// of phases (Prepare and Perform) that are executed in order. After each phase,
     /// the action system checks for and processes any reactions to that phase.
     /// </summary>
-    public abstract class GameAction : IGameAction {
+    public abstract class GameAction : EventData, IGameAction {
         /// <summary>
         /// The priority of the action. Used to determine action resolution order.
         /// </summary>
@@ -23,11 +23,16 @@ namespace GimGim.ActionSystem {
         /// The order in which the action was added to the system. Used for sorting actions with the same priority.
         /// </summary>
         public int OrderOfPlay { get; set; }
-        public object Sender { get; set; }
         public bool IsCanceled { get; protected set; }
         public List<GameActionPhase> Phases { get; } = new();
 
         protected GameAction() {
+            OrderOfPlay = ActionSystem.OrderOfPlayCounter.Next();
+            AddPhase(new GameActionPhase(this, OnPrepare, GameActionPhaseType.Prepare));
+            AddPhase(new GameActionPhase(this, OnPerform, GameActionPhaseType.Perform));
+        }
+
+        protected GameAction(object sender) : base(sender) {
             OrderOfPlay = ActionSystem.OrderOfPlayCounter.Next();
             AddPhase(new GameActionPhase(this, OnPrepare, GameActionPhaseType.Prepare));
             AddPhase(new GameActionPhase(this, OnPerform, GameActionPhaseType.Perform));

@@ -18,6 +18,11 @@ namespace GimGim.Model {
             }
         }
         
+        public int CurrentPlayerIndex {
+            get => _currentPlayerIndex;
+            set => _currentPlayerIndex = value;
+        }
+
         public Player CurrentPlayer => _playerList[_currentPlayerIndex];
 
         public Player OpponentPlayer => _playerList[1 - _currentPlayerIndex];

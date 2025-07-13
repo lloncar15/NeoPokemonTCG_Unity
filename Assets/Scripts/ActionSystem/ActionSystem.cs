@@ -38,7 +38,7 @@ namespace GimGim.ActionSystem {
 
             if (_rootFlow.MoveNext()) return;
             
-            NotificationEventSystem.PostEventAndExecute(new GameActionCompletedEvent(this, _rootAction));
+            _rootAction.PostCompleted(this);
             _rootAction = null;
             _rootFlow = null;
             _reactionsToResolve = null;
@@ -68,7 +68,7 @@ namespace GimGim.ActionSystem {
         /// The final step is to call all the post-resolution events that are registered in the action system.
         /// </summary>
         private IEnumerator GameActionFlow(GameAction action) {
-            NotificationEventSystem.PostEventAndExecute(new GameActionFlowStartedEvent(this, _rootAction));
+            action.PostFlowStarted(this);
 
             foreach (GameActionPhase phase in action.Phases) {
                 IEnumerator actionFlow = GameActionPhaseFlow(phase);
@@ -82,7 +82,7 @@ namespace GimGim.ActionSystem {
                 }
             }
             
-            NotificationEventSystem.PostEventAndExecute(new GameActionFlowCompletedEvent(this, _rootAction));
+            action.PostFlowCompleted(this);
         }
 
         /// <summary>

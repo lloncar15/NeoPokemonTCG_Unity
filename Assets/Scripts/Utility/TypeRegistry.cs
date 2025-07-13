@@ -104,7 +104,9 @@ namespace GimGim.Utility {
             List<Type> types = PredefinedAssemblyUtility.GetTypes(type);
 
             foreach (Type typeToLoad in types) {
-                GetTypeHashes(typeToLoad);
+                if (!typeToLoad.IsAbstract) {
+                    GetTypeHashes(typeToLoad);
+                }
             }
             GameLogger.InfoWithFormat("Preloaded {0} event data types.", types.Count);
         }

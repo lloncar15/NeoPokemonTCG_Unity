@@ -120,6 +120,7 @@ namespace GimGim.ActionSystem {
     #region Post-Resolution Events
 
     public interface IPostResolutionEvent {
+        public IGameAction Action { get; set; }
         public bool Repeats { get; }
     }
     

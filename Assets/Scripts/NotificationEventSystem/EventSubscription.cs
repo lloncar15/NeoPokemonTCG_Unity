@@ -42,7 +42,9 @@ namespace GimGim.EventSystem {
         /// </summary>
         /// <param name="eventData">The event data to pass to the action.</param>
         public void Invoke(IEvent eventData) {
-            _action?.Invoke((T)eventData);
+            if (eventData is T typedEvent) {
+                _action.Invoke(typedEvent);
+            }
         }
         
         /// <summary>

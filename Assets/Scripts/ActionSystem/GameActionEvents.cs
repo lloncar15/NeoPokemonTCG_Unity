@@ -1,74 +1,126 @@
+using System;
 using GimGim.EventSystem;
 
 namespace GimGim.ActionSystem {
+    #region Game Event Interfaces
+
     /// <summary>
-    /// Raised when a game action's Prepare phase is completed.
+    /// Interface for all prepare events
     /// </summary>
-    public class GameActionPreparedEvent : EventData {
-        public IGameAction Action { get; }
-        public GameActionPreparedEvent(object sender, IGameAction action)
-            : base(sender) {
-            Action = action;
-        }
+    public interface IGameActionPreparedEvent : IEvent {
+        IGameAction Action { get; }
+        Type ActionType { get; }
     }
 
     /// <summary>
-    /// Raised when a game action's Perform phase is completed.
+    /// Interface for all perform events
     /// </summary>
-    public class GameActionPerformedEvent : EventData {
-        public IGameAction Action { get; }
+    public interface IGameActionPerformedEvent : IEvent {
+        IGameAction Action { get; }
+        Type ActionType { get; }
+    }
 
-        public GameActionPerformedEvent(object sender, IGameAction action) : base(sender) {
+    /// <summary>
+    /// Interface for all canceled events - allows subscribing to any canceled event
+    /// </summary>
+    public interface IGameActionCanceledEvent : IEvent {
+        IGameAction Action { get; }
+        Type ActionType { get; }
+    }
+
+    /// <summary>
+    /// Interface for all completed events
+    /// </summary>
+    public interface IGameActionCompletedEvent : IEvent {
+        IGameAction Action { get; }
+        Type ActionType { get; }
+    }
+
+    /// <summary>
+    /// Interface for all flow started events
+    /// </summary>
+    public interface IGameActionFlowStartedEvent : IEvent {
+        IGameAction Action { get; }
+        Type ActionType { get; }
+    }
+
+    /// <summary>
+    /// Interface for all flow completed events
+    /// </summary>
+    public interface IGameActionFlowCompletedEvent : IEvent {
+        IGameAction Action { get; }
+        Type ActionType { get; }
+    }
+    
+    #endregion
+    
+    #region Core Generic Events
+    /// <summary>
+    /// Base class for all game action events that includes the action type information.
+    /// </summary>
+    public abstract class GameActionEvent<TAction> : EventData where TAction : IGameAction {
+        public TAction Action { get; }
+        public Type ActionType { get; }
+
+        protected GameActionEvent(object sender, TAction action) : base(sender) {
             Action = action;
+            ActionType = action.GetType();
         }
     }
     
     /// <summary>
-    /// Raised when a game action is canceled.
+    /// Generic prepare event that can be used with any GameAction type
     /// </summary>
-    public class GameActionCanceledEvent : EventData {
-        public IGameAction Action { get; }
-
-        public GameActionCanceledEvent(object sender, IGameAction action) : base(sender) {
-            Action = action;
-        }
+    public class GameActionPrepared<TAction> : GameActionEvent<TAction>, IGameActionPreparedEvent where TAction : IGameAction {
+        IGameAction IGameActionPreparedEvent.Action => Action;
+        public GameActionPrepared(object sender, TAction action) : base(sender, action) { }
     }
-
+    
     /// <summary>
-    /// Raised when a game action and all its sub-actions are completed.
+    /// Generic perform event that can be used with any GameAction type
     /// </summary>
-    public class GameActionCompletedEvent : EventData {
-        public IGameAction Action { get; }
-        public GameActionCompletedEvent(object sender, IGameAction action) : base(sender) {
-            Action = action;
-        }
+    public class GameActionPerformed<TAction> : GameActionEvent<TAction>, IGameActionPerformedEvent where TAction : IGameAction {
+        IGameAction IGameActionPerformedEvent.Action => Action;
+        public GameActionPerformed(object sender, TAction action) : base(sender, action) { }
     }
-
+    
     /// <summary>
-    /// Raised when the main flow for a game action starts.
+    /// Generic canceled event that can be used with any GameAction type
     /// </summary>
-    public class GameActionFlowStartedEvent : EventData {
-        public IGameAction Action { get; }
-
-        public GameActionFlowStartedEvent(object sender, IGameAction action) : base(sender) {
-            Action = action;
-        }
+    public class GameActionCanceled<TAction> : GameActionEvent<TAction>, IGameActionCanceledEvent where TAction : IGameAction {
+        IGameAction IGameActionCanceledEvent.Action => Action;
+        public GameActionCanceled(object sender, TAction action) : base(sender, action) { }
     }
-
+    
     /// <summary>
-    /// Raised when the main flow for a game action ends.
-    /// </summary>
-    public class GameActionFlowCompletedEvent : EventData {
-        public IGameAction Action { get; }
-
-        public GameActionFlowCompletedEvent(object sender, IGameAction action) : base(sender) {
-            Action = action;
-        }
+    /// Generic completed event that can be used with any GameAction type
+    /// </summary
+    public class GameActionCompleted<TAction> : GameActionEvent<TAction>, IGameActionCompletedEvent where TAction : IGameAction {
+        IGameAction IGameActionCompletedEvent.Action => Action;
+        public GameActionCompleted(object sender, TAction action) : base(sender, action) { }
     }
+    
+    /// <summary>
+    /// Generic flow started event that can be used with any GameAction type
+    /// </summary
+    public class GameActionFlowStarted<TAction> : GameActionEvent<TAction>, IGameActionFlowStartedEvent where TAction : IGameAction {
+        IGameAction IGameActionFlowStartedEvent.Action => Action;
+        public GameActionFlowStarted(object sender, TAction action) : base(sender, action) { }
+    }
+    
+    /// <summary>
+    /// Generic flow completed event that can be used with any GameAction type
+    /// </summary
+    public class GameActionFlowCompleted<TAction> : GameActionEvent<TAction>, IGameActionFlowCompletedEvent where TAction : IGameAction {
+        IGameAction IGameActionFlowCompletedEvent.Action => Action;
+        public GameActionFlowCompleted(object sender, TAction action) : base(sender, action) { }
+    }
+    #endregion
+
+    #region Post-Resolution Events
 
     public interface IPostResolutionEvent {
         public bool Repeats { get; }
-        public IGameAction Action { get; set; }
     }
     
     /// <summary>
@@ -83,4 +135,6 @@ namespace GimGim.ActionSystem {
             Repeats = repeats;
         }
     }
+
+    #endregion
 }

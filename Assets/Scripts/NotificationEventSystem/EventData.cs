@@ -3,7 +3,7 @@ using GimGim.Utility;
 
 namespace GimGim.EventSystem {
     /// <summary>
-    /// Base abstract class for game event data objects.
+    /// Base abstract class for game event data objects that are sent through the NotificationEventSystem.
     /// </summary>
     public abstract class EventData : IEvent {
         public object Sender { get; set; }

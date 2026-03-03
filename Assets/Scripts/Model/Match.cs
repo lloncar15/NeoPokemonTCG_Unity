@@ -3,12 +3,19 @@ using GimGim.Serialization;
 
 namespace GimGim.Model {
     /// <summary>
-    /// Match class representing a match in the game which
+    /// Match class representing a match in the game.
     /// </summary>
     public class Match : ISerializable {
         private int _currentPlayerIndex = 0;
+        public int CurrentPlayerIndex => _currentPlayerIndex;
         private int _currentTurn = 0;
-        private List<Player> _playerList = new List<Player>(PLAYER_COUNT);
+        private List<Player> _playerList = new(PLAYER_COUNT);
+        
+        public void SetCurrentPlayerIndex(int index) {
+            if (index is >= 0 and < PLAYER_COUNT) {
+                _currentPlayerIndex = index;
+            }
+        }
         
         private const int PLAYER_COUNT = 2;
         
@@ -18,12 +25,12 @@ namespace GimGim.Model {
             }
         }
         
-        public Player CurrentPlayer => _playerList[_currentPlayerIndex];
+        public Player CurrentPlayer => _playerList[CurrentPlayerIndex];
 
-        public Player OpponentPlayer => _playerList[1 - _currentPlayerIndex];
+        public Player OpponentPlayer => _playerList[1 - CurrentPlayerIndex];
         
         public void Encode(IEncoder coder) {
-            coder.Add("currentPlayerIndex", _currentPlayerIndex);
+            coder.Add("currentPlayerIndex", CurrentPlayerIndex);
             coder.Add("currentTurn", _currentTurn);
             coder.Add("playerList", _playerList);
         }

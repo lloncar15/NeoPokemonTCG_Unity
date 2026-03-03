@@ -138,4 +138,10 @@ namespace GimGim.ActionSystem {
             _postResolutionEvents.Add(postResolutionEvent);
         }
     }
+
+    public static class ActionSystemExtensions {
+        public static void Perform(this IContainer game, GameAction action) {
+            game.GetAspect<ActionSystem>().PerformGameAction(action);
+        }
+    }
 }

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using GimGim.Utility;
 using GimGim.Utility.Logger;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace GimGim.ActionSystem {

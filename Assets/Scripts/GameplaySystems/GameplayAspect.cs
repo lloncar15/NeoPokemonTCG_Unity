@@ -22,6 +22,7 @@ namespace GimGim.GameplaySystems {
 
         public void Unsubscribe(IEventSubscription subscription) {
             _subscriptions.Remove(subscription);
+            NotificationEventSystem.Unsubscribe(subscription);
         }
 
         public void SubscribeAll() {

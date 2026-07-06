@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using GimGim.Utility;
 
 namespace GimGim.EventSystem {
@@ -34,7 +33,7 @@ namespace GimGim.EventSystem {
             _action = action;
             UsedOnce = usedOnce;
             Priority = priority;
-            TypeHash = TypeRegistry.GetTypeHashes(typeof(T)).FirstOrDefault();
+            TypeHash = HashUtility.GenerateSha1Hash(typeof(T).FullName);
         }
 
         /// <summary>

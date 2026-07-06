@@ -1,6 +1,8 @@
 # NeoPokemonTCG_Unity
 Recreating the Pokemon TCG engine in Unity up until the eCard sets (excluding them).
 
+Architecture and system documentation lives in [docs/](docs/architecture-overview.md); known issues and the improvement roadmap are in [docs/findings-and-improvements.md](docs/findings-and-improvements.md).
+
 
 > ℹ️ Disclaimer: This is a non-commercial, fan-made project created solely for educational and personal use.
 >

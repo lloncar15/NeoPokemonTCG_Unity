@@ -41,7 +41,7 @@ namespace GimGim.Data {
                     try {
                         Profile profile = PokemonProfileFactory.CreateSetProfile();
                         if (decoder.Get(i, ref profile)) {
-                            setProfiles.Add(i, profile);
+                            setProfiles.Add(profile.Id, profile);
                         }
                     }
                     catch (Exception e) {
@@ -65,7 +65,7 @@ namespace GimGim.Data {
                     try {
                         DeckProfile profile = PokemonProfileFactory.CreateDeckProfile();
                         if (decoder.Get(i, ref profile)) {
-                            deckProfiles.Add(i, profile);
+                            deckProfiles.Add(profile.Id, profile);
                             // Add the deck profile id to the corresponding set profile
                             profilesForTypes.TryGetValue(typeof(SetProfile), out var setProfiles);
                             SetProfile setProfile = setProfiles?.GetValueOrDefault(profile.SetId) as SetProfile;
@@ -94,7 +94,7 @@ namespace GimGim.Data {
                         string superType = decoderCurrentNode[i]["supertype"];
                         CardProfile profile = PokemonProfileFactory.CreateCardProfile(superType);
                         if (decoder.Get(i, ref profile)) {
-                            cardProfiles.Add(i, profile);
+                            cardProfiles.Add(profile.Id, profile);
                             // Add the card profile id to the corresponding set profile
                             profilesForTypes.TryGetValue(typeof(SetProfile), out var setProfiles);
                             SetProfile setProfile = setProfiles?.GetValueOrDefault(profile.SetId) as SetProfile;

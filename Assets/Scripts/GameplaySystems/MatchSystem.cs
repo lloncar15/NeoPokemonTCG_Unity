@@ -10,7 +10,7 @@ namespace GimGim.GameplaySystems {
     /// </summary>
     public class MatchSystem : GameplaySystem {
         public override void Awake() {
-            Subscribe(new EventSubscription<ChangeTurnAction>(OnChangeTurnPerformed));
+            Subscribe(GameActionEventSubscriptionFactory.SubscribeToPerform<ChangeTurnAction>(OnChangeTurnPerformed));
         }
 
         public override void Destroy() {
@@ -28,9 +28,9 @@ namespace GimGim.GameplaySystems {
             Container.PerformGameAction(action);
         }
         
-        void OnChangeTurnPerformed(ChangeTurnAction action) {
+        void OnChangeTurnPerformed(GameActionPerformed<ChangeTurnAction> eventData) {
             Match match = Container.GetMatch();
-            match.CurrentPlayerIndex = action.TargetPlayerIndex;
+            match.CurrentPlayerIndex = eventData.Action.TargetPlayerIndex;
         }
     }
 }

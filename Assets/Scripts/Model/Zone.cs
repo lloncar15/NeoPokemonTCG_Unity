@@ -10,23 +10,38 @@ namespace GimGim.Model {
     public class Zone<T> : ISerializable where T : Card {
         private List<T> _cards = new List<T>();
         private Zone _zoneType;
-        
+        private readonly int _maxSize;
+
         public Zone ZoneType => _zoneType;
+        /// <summary>
+        /// Maximum number of cards this zone can hold. Zero means unlimited.
+        /// </summary>
+        public int MaxSize => _maxSize;
+        public int Count => _cards.Count;
+        public bool IsFull => _maxSize > 0 && _cards.Count >= _maxSize;
 
-        public Zone(Zone zoneType, int capacity = 0) {
-            if (capacity < 0) {
-                throw new System.ArgumentOutOfRangeException(nameof(capacity), "Capacity cannot be negative.");
+        public Zone(Zone zoneType, int maxSize = 0) {
+            if (maxSize < 0) {
+                throw new System.ArgumentOutOfRangeException(nameof(maxSize), "Max size cannot be negative.");
             }
 
-            if (capacity > 0) {
-                _cards.Capacity = capacity;
+            if (maxSize > 0) {
+                _cards.Capacity = maxSize;
             }
-            
+
+            _maxSize = maxSize;
             _zoneType = zoneType;
         }
-        
-        public void AddCard(T card) => _cards.Add(card);
-        public void RemoveCard(T card) => _cards.Remove(card);
+
+        /// <summary>
+        /// Adds a card to the zone. Returns false if the zone is at its maximum size.
+        /// </summary>
+        public bool AddCard(T card) {
+            if (IsFull) return false;
+            _cards.Add(card);
+            return true;
+        }
+        public bool RemoveCard(T card) => _cards.Remove(card);
         public List<T> GetCards() => new List<T>(_cards);
         
         public void Encode(IEncoder coder) {

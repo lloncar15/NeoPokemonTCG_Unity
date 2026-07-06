@@ -56,11 +56,11 @@ public class ActionSystemTests {
         private int _currentSlowViewerFrame;
         private readonly List<IEventSubscription> _eventSubscriptions = new();
         public void OnEnable() {
-            _eventSubscriptions.Add(new EventSubscription<GameActionFlowStartedEvent>(OnFlowStarted));
-            _eventSubscriptions.Add(new EventSubscription<GameActionFlowCompletedEvent>(OnFlowCompleted));
-            _eventSubscriptions.Add(new EventSubscription<GameActionPreparedEvent>(OnActionPrepared));
-            _eventSubscriptions.Add(new EventSubscription<GameActionPerformedEvent>(OnActionPerformed));
-            _eventSubscriptions.Add(new EventSubscription<GameActionCompletedEvent>(OnGameActionCompleted));
+            _eventSubscriptions.Add(new EventSubscription<GameActionFlowStarted<TestAction>>(OnFlowStarted));
+            _eventSubscriptions.Add(new EventSubscription<GameActionFlowCompleted<TestAction>>(OnFlowCompleted));
+            _eventSubscriptions.Add(new EventSubscription<GameActionPrepared<TestAction>>(OnActionPrepared));
+            _eventSubscriptions.Add(new EventSubscription<GameActionPerformed<TestAction>>(OnActionPerformed));
+            _eventSubscriptions.Add(new EventSubscription<GameActionCompleted<TestAction>>(OnGameActionCompleted));
             _eventSubscriptions.Add(new EventSubscription<TestPostResolutionEvent>(OnPostResolutionEvent));
             
             foreach (IEventSubscription subscription in _eventSubscriptions) {
@@ -75,37 +75,37 @@ public class ActionSystemTests {
             _eventSubscriptions.Clear();
         }
 
-        private void OnFlowStarted(GameActionFlowStartedEvent eventData) {
-            IGameAction action = eventData.Action;
-            
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
+        private void OnFlowStarted(GameActionFlowStarted<TestAction> eventData) {
+            TestAction action = eventData.Action;
+
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
             flags.HasFlowStarted = true;
 
             if (!UseViewer) return;
-            
+
             action.GetPhase(GameActionPhaseType.Prepare).Viewer = TestViewer;
             action.GetPhase(GameActionPhaseType.Perform).Viewer = TestViewer;
         }
-        
-        private void OnFlowCompleted(GameActionFlowCompletedEvent eventData) {
-            IGameAction action = eventData.Action;
-            
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
+
+        private void OnFlowCompleted(GameActionFlowCompleted<TestAction> eventData) {
+            TestAction action = eventData.Action;
+
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
             flags.HasFlowCompleted = true;
         }
-        
-        private void OnActionPrepared(GameActionPreparedEvent eventData) {
-            if (eventData.Action is not TestAction action) return;
-            
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
+
+        private void OnActionPrepared(GameActionPrepared<TestAction> eventData) {
+            TestAction action = eventData.Action;
+
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
             flags.HasPrepared = true;
             action.HasPrepared = true;
         }
-        
-        private void OnActionPerformed(GameActionPerformedEvent eventData) {
-            if (eventData.Action is not TestAction action) return;
-            
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
+
+        private void OnActionPerformed(GameActionPerformed<TestAction> eventData) {
+            TestAction action = eventData.Action;
+
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
             flags.HasPerformed = true;
             action.HasPerformed = true;
 
@@ -126,14 +126,14 @@ public class ActionSystemTests {
             }
         }
         
-        private void OnGameActionCompleted(GameActionCompletedEvent eventData) {
+        private void OnGameActionCompleted(GameActionCompleted<TestAction> eventData) {
             ActionFlags.HasCompleted = true;
         }
-        
+
         private void OnPostResolutionEvent(TestPostResolutionEvent eventData) {
             if (eventData.Action is not TestAction action) return;
 
-            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ref ActionFlags : ref ReactionFlags;
+            TestFlags flags = action.OrderOfPlay == ROOT_ACTION_ORDER ? ActionFlags : ReactionFlags;
 
             if (!flags.HasPostResolution && !SkipPostResolutionReactions) {
                 TestAction reaction = new() {
